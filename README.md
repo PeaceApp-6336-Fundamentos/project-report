@@ -383,7 +383,7 @@ Ocupación:
 
 ### 2.3.1. User Personas
 
-![UserPersona](assets/UserPersona.jpg)
+![UserPersona](assets/AdrianaGutierrez.png)
 
 ### 2.3.2. User Task Matrix
 
