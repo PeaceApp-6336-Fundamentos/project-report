@@ -201,10 +201,13 @@ soluciones de software.</td>
 <td><img src="assets/Santiago.jpg"/></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nombre:</strong> Bryan Ronald Espejo Gamarra (U202213278)</p>
-<p><strong> </strong></p></td>
-<td><img src="assets/alumno.jpg"/></td>
+  <td>
+    <p><strong>Nombre:</strong> Bryan Ronald Espejo Gamarra (U202213278)</p>
+    <p>Mi nombre es Bryan Espejo, tengo 22 años. Soy una persona que aprende rápido y me apasiona el desarrollo de software. Domino lenguajes como C++, Python, Java, C#, HTML, CSS y Javascript, además de frameworks como Vue y Angular. Lo último que aprendí fue Flutter y Kotlin, reforzando mis habilidades tanto en desarrollo móvil como en frontend.</p>
+  </td>
+  <td><img src="assets/bryan.jpg"/></td>
 </tr>
+
 </table>
 
 ## 1.2. Solution Profile
