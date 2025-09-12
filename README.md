@@ -268,15 +268,11 @@ Enlace del repositorio: https://github.com/PeaceApp-UPC-4438/PeaceApp-Report.git
 
 # Student Outcome
 
-**Criterio:** La capacidad de reconocer responsabilidades éticas y
-profesionales en  
-situaciones de ingeniería y hacer juicios informados, que deben
-considerar el  
-impacto de las soluciones de ingeniería en contextos globales,
-económicos,  
-ambientales y sociales.
-
-ABET -- EAC - Student Outcome 4
+**Criterio:**  Cada participante del equipo debe colaborar a fin de que se redacte como grupo los sustentos y 
+evidencias de las actividades realizadas en el trabajo final han ayudado a desarrollar las 
+competencias del curso. Por ello en esta sección debe quedar descrito por escrito la relación entre las 
+competencias, sus dimensiones y el trabajo que han realizado. Esto se complementa con lo reflejado 
+en los testimonios expuestos que forman parte del video About The Team
 
 <table>
 <colgroup>
