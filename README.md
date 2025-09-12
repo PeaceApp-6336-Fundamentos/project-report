@@ -193,8 +193,7 @@ soluciones de software.</td>
 <td><p><strong>Nombre:</strong> Anatoly Andrey Noriega Suschenko
 (U202211813)</p>
 <p><strong>Mi nombre es Anatoly Andrey Noriega Suschenko y soy muy apasionado a los videojuegos y a la programación en general. Actualmente tengo 21 años y estoy cursando el séptimo ciclo de mi carrera. Tengo cierto conocimiento y habilidad con los frameworks de Angular, Kotlin y Vue. Domino lenguajes como C++, Python, Java, C#, HTML, CSS, GML, Javascript, entre otros.</p></td>
-<td><img src="assets/Anatoly.png"
-style="width:1.56917in;height:1.574in" /></td>
+<td><img src="assets/Anatoly.png"/></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre:</strong> Santiago Alonso Gordillo Ramos (U202215160)</p>
