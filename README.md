@@ -197,8 +197,8 @@ soluciones de software.</td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre:</strong> Santiago Alonso Gordillo Ramos (U202215160)</p>
-<p><strong> </strong></p></td>
-<td><img src="assets/alumno.jpg"/></td>
+<p><strong> Mi nombre es Santiago Gordillo, me gusta la programación, en específico el lado frontend y me gustaría especializarme en ciberseguridad. tengo 21 años, domino frameworks como vue, angular,etc y lenguajes como C++ , Python, Javascript.</strong></p></td>
+<td><img src="assets/Santiago.jpg"/></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre:</strong> Bryan Ronald Espejo Gamarra (U202213278)</p>
@@ -409,9 +409,35 @@ Ocupación:
 
 ### 2.3.1. User Personas
 
-![UserPersona](assets/UserPersona.jpg)
+En esta sección se presenta el User Persona que representa el segmento del proyecto. Este perfil permite comprender en profundidad las necesidades, motivaciones, frustraciones y comportamientos del usuario potencial del sistema, el cual busca mejorar la seguridad en la vía pública del país.
+
+![UserPersona](assets/AdrianaGutierrez.png)
 
 ### 2.3.2. User Task Matrix
+
+**Ciudadanos preocupados por su seguridad en espacios públicos**  
+
+| **Tarea** | **Frecuencia / Importancia** |
+|-----------|-------------------------------|
+| Consultar a familiares o amigos sobre la seguridad de una zona antes de visitarla | Siempre / Alta |
+| Buscar en Internet o en redes sociales noticias sobre incidentes en su área | A veces / Media |
+| Evitar salir en horarios o lugares que son conocidos como peligrosos | Siempre / Alta |
+| Llamar a la policía o a servicios de emergencia en caso de sentirse en peligro | Casi nunca / Alta |
+| Organizarse con vecinos para mejorar la seguridad en la comunidad | Nunca / Media |
+| Usar aplicaciones de mapas para evitar zonas peligrosas conocidas | Nunca / Media |
+| Llevar consigo objetos de autodefensa personal | Nunca / Media |
+
+---
+
+## Análisis  
+
+Adriana centra sus actividades en **mantenerse informada y protegida en espacios públicos**.  
+La consulta constante con familiares, redes sociales e Internet, así como la decisión de evitar salir en horarios peligrosos, son sus **acciones prioritarias**, ya que le permiten anticipar riesgos y tomar decisiones seguras.  
+
+Aunque **llamar a la policía o servicios de emergencia** es una acción poco frecuente, tiene una **alta importancia** por su carácter crítico en situaciones de peligro real.  
+ 
+En resumen, la experiencia de Adriana está fuertemente orientada hacia la **prevención informada y la anticipación de riesgos**, lo que evidencia la necesidad de soluciones que le brinden **alertas confiables, comunicación ágil y herramientas tecnológicas de protección personal**.
+
 
 ### 2.3.3. Empathy Mapping
 
