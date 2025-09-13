@@ -73,7 +73,7 @@
             - [1.2.3.3. Lean UX Hypothesis Statements](#1233-lean-ux-hypothesis-statements)
             - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
     - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [Capítulo II: Requirements & Analysis](#capítulo-ii-requirements--analysis)
     - [2.1. Competidores](#21-competidores)
         - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
         - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -84,8 +84,8 @@
     - [2.3. Needfinding](#23-needfinding)
         - [2.3.1. User Personas](#231-user-personas)
         - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. Empathy Mapping](#234-empathy-mapping)
-        - [2.3.4. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+        - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+        - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-be Scenario Mapping](#31-to-be-scenario-mapping)
     - [3.2. User Stories](#32-user-stories)
@@ -129,7 +129,7 @@ software.</td>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong> <br>
             TB1 <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
-            TB1 <br><br>
+            TB1 <br>Durante el desarrollo del proyecto, actualicé mis conocimientos aplicados al diseño de preguntas para las entrevistas, así como en el uso de herramientas de análisis como empathy mapping, as is scenario mapping y to be scenario mapping. Esta actualización me permitió comprender mejor las necesidades del segmento objetivo y orientar el proyecto hacia soluciones de software alineadas con la realidad de los usuarios.<br>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
             TB1 <br><br>
             <strong>Espejo Gamarra, Bryan Ronald</strong> <br>
@@ -153,7 +153,7 @@ soluciones de software.</td>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong> <br>
             TB1 <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
-            TB1 <br><br>
+            TB1 <br>Reconozco la importancia del aprendizaje continuo para mi crecimiento profesional, lo cual apliqué al conducir entrevistas con el segmento objetivo y al analizar sus resultados mediante herramientas de diseño centrado en el usuario. Estas experiencias reforzaron la necesidad de mantenerme en constante actualización para desarrollar proyectos de software que respondan a contextos dinámicos y necesidades reales.<br>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
             TB1 <br><br>
             <strong>Espejo Gamarra, Bryan Ronald</strong> <br>
