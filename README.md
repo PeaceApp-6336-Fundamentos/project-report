@@ -133,7 +133,7 @@ software.</td>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
             TB1 <br> Me aseguré de tomar decisiones éticas, responsables y profesionales, reconociendo la importancia de aplicar buenas técnicas al momento de completar la información para garantizar la calidad del software. <br>
             <strong>Espejo Gamarra, Bryan Ronald</strong> <br>
-            TB1 <br><br>
+            TB1 <br>Me aseguré de tomar decisiones profesionales responsables, aplicando enfoques éticos a lo largo de todo el proceso, desde la recopilación de datos hasta la entrega final, para garantizar que el software desarrollado fuera íntegro y de alta calidad.<br>
 </td>
 <td>
 <em><strong>TB1</strong></em>
@@ -157,7 +157,7 @@ soluciones de software.</td>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
             TB1 <br> Con el desarrollo del software y el proyecto investigué nuevas tecnologías y buenas prácticas de programación que me permitieron ampliar mi conocimiento y mi profesionalismo al momento de realizar el trabajo <br>
             <strong>Espejo Gamarra, Bryan Ronald</strong> <br>
-            TB1 <br><br>
+            TB1 <br>Durante las entrevistas y evaluaciones, tuve en cuenta las consecuencias a nivel global, económico y social de las soluciones propuestas, buscando alternativas que fueran viables a largo plazo y que generaran beneficios tangibles para la comunidad en la que se implementaran. <br>
 </td>
 <td>
 <em><strong>TB1</strong></em>
