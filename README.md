@@ -750,7 +750,7 @@ Objetivo: Identificar los requisitos esenciales para que la aplicación sea adop
 
 ### 2.2.2. Registro de entrevistas
 
-**URL de todas las entrevistas:** <>
+**URL de todas las entrevistas:** <https://youtu.be/q6cGVX8_OZo>
 
 **Entrevista N°1:**
 
