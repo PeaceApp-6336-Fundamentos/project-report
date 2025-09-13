@@ -131,7 +131,7 @@ software.</td>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br>Durante el desarrollo del proyecto, actualicé mis conocimientos aplicados al diseño de preguntas para las entrevistas, así como en el uso de herramientas de análisis como empathy mapping, as is scenario mapping y to be scenario mapping. Esta actualización me permitió comprender mejor las necesidades del segmento objetivo y orientar el proyecto hacia soluciones de software alineadas con la realidad de los usuarios.<br>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
-            TB1 <br><br>
+            TB1 <br> Me aseguré de tomar decisiones éticas, responsables y profesionales, reconociendo la importancia de aplicar buenas técnicas al momento de completar la información para garantizar la calidad del software. <br>
             <strong>Espejo Gamarra, Bryan Ronald</strong> <br>
             TB1 <br><br>
 </td>
@@ -155,7 +155,7 @@ soluciones de software.</td>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br>Reconozco la importancia del aprendizaje continuo para mi crecimiento profesional, lo cual apliqué al conducir entrevistas con el segmento objetivo y al analizar sus resultados mediante herramientas de diseño centrado en el usuario. Estas experiencias reforzaron la necesidad de mantenerme en constante actualización para desarrollar proyectos de software que respondan a contextos dinámicos y necesidades reales.<br>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
-            TB1 <br><br>
+            TB1 <br> Con el desarrollo del software y el proyecto investigué nuevas tecnologías y buenas prácticas de programación que me permitieron ampliar mi conocimiento y mi profesionalismo al momento de realizar el trabajo <br>
             <strong>Espejo Gamarra, Bryan Ronald</strong> <br>
             TB1 <br><br>
 </td>
