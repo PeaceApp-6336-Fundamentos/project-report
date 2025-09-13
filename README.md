@@ -127,7 +127,7 @@ software.</td>
             TB1 <br> Me comprometí a tomar decisiones éticas y profesionales, entendiendo la relevancia de seguir buenas prácticas en                todas las etapas del proyecto, desde las entrevistas hasta las revisiones, para asegurar la calidad y la transparencia del               software creado. 
             <br><br>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong> <br>
-            TB1 <br><br>
+            TB1 <br>En mi rol, me enfoqué en aplicar y actualizar mis conocimientos para asegurar la alineación estratégica del proyecto. Evalué y perfeccioné las User Stories y el Impact Mapping, asegurándome de que cada elemento encajara con la visión de la aplicación. Además, participé activamente en la elaboración del Product Backlog, priorizando las funcionalidades para crear una hoja de ruta clara y eficiente. Estas responsabilidades me permitieron fortalecer mis habilidades en la planificación ágil y la gestión de requisitos de software, demostrando mi capacidad para convertir la visión del producto en pasos de desarrollo concretos y estratégicos.<br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br>Durante el desarrollo del proyecto, actualicé mis conocimientos aplicados al diseño de preguntas para las entrevistas, así como en el uso de herramientas de análisis como empathy mapping, as is scenario mapping y to be scenario mapping. Esta actualización me permitió comprender mejor las necesidades del segmento objetivo y orientar el proyecto hacia soluciones de software alineadas con la realidad de los usuarios.<br>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
@@ -151,7 +151,7 @@ soluciones de software.</td>
             TB1 <br> Al llevar a cabo entrevistas y revisiones, siempre consideré los efectos a nivel global, económico y social de las               soluciones planteadas, buscando opciones sostenibles que pudieran tener un impacto positivo en el entorno donde se                       aplicarían. 
             <br><br>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong> <br>
-            TB1 <br><br>
+            TB1 <br>Demostrando mi compromiso con el aprendizaje continuo, investigué el contexto de mercado de nuestra aplicación para validar su viabilidad y proyección a futuro. Apliqué buenas prácticas de desarrollo al colaborar activamente en la creación y ejecución de entrevistas, lo que nos permitió obtener información valiosa de los usuarios. También participé en la elaboración de las user stories y el product backlog, contribuyendo a una planificación sólida y a una gestión eficiente de los requisitos del proyecto. Este proceso me permitió reforzar la importancia de la actualización constante de conocimientos para el éxito en el desarrollo de soluciones de software.<br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br>Reconozco la importancia del aprendizaje continuo para mi crecimiento profesional, lo cual apliqué al conducir entrevistas con el segmento objetivo y al analizar sus resultados mediante herramientas de diseño centrado en el usuario. Estas experiencias reforzaron la necesidad de mantenerme en constante actualización para desarrollar proyectos de software que respondan a contextos dinámicos y necesidades reales.<br>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
