@@ -124,7 +124,8 @@ para su proyecto en soluciones de
 software.</td>
 <td>
             <strong>Pilares Pocohuanca, Maria</strong> <br>
-            TB1 <br><br>
+            TB1 <br> Me comprometí a tomar decisiones éticas y profesionales, entendiendo la relevancia de seguir buenas prácticas en                todas las etapas del proyecto, desde las entrevistas hasta las revisiones, para asegurar la calidad y la transparencia del               software creado. 
+            <br><br>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong> <br>
             TB1 <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
@@ -147,7 +148,8 @@ desarrollo de proyectos en
 soluciones de software.</td>
 <td>
             <strong>Pilares Pocohuanca, Maria</strong> <br>
-            TB1 <br><br>
+            TB1 <br> Al llevar a cabo entrevistas y revisiones, siempre consideré los efectos a nivel global, económico y social de las               soluciones planteadas, buscando opciones sostenibles que pudieran tener un impacto positivo en el entorno donde se                       aplicarían. 
+            <br><br>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong> <br>
             TB1 <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
