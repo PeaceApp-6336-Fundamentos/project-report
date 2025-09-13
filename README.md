@@ -809,15 +809,15 @@ La entrevistada no se siente segura en lugares donde no hay mucha iluminación y
 
 **Timing:**
 
-**Nombre**:
+**Nombre**: Fernanda Peña
 
-**Edad:**
+**Edad:** 21 años
 
-**Pasatiempos:**
+**Pasatiempos:** Salir a pasear con su mascota
 
-**Ocupación:**
+**Ocupación:** Estudiante universitaria
 
-
+La entrevistada expresa que no se siente completamente tranquila en áreas mal iluminadas, ya que, según comenta, cerca de su hogar había una zona oscura que solía ser un foco de robos. A pesar de no haber sido víctima de ningún incidente hasta el momento, en caso de enfrentar una situación peligrosa, señala que ayudaría a la persona afectada, ofreciéndole su teléfono para hacer una llamada de emergencia o para bloquear su dispositivo si es que le roban algo. Se siente cómoda recibiendo alertas en su celular y menciona que, con frecuencia, revisa notificaciones de situaciones como las alertas de tráfico o accidentes de Google Maps. Aunque nunca ha utilizado aplicaciones de seguridad previamente, está dispuesta a probar una que le brinde mayor sensación de protección mientras se desplaza por la ciudad. Valora especialmente las características de alertas y la posibilidad de compartir su ubicación en tiempo real con sus padres.
 
 **Entrevista N° 5:**
 
