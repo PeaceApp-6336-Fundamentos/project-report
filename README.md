@@ -355,6 +355,72 @@ Enlace al esquema hecho en Miro: <https://tinyurl.com/ymmmjj7t>
 
 ## 1.3. Segmentos Objetivo
 
+
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 77%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th rowspan="2"><strong>Variables</strong></th>
+<th><strong>Segmento</strong></th>
+</tr>
+<tr class="odd">
+<th>Ciudadanos preocupados por su seguridad en espacios públicos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Geográfica</strong></td>
+<td><ul>
+<li><p>Ubicación: Lima Metropolitana, con especial enfoque en zonas con
+altos índices de delincuencia y tráfico peatonal.</p></li>
+<li><p>Alcance: Barrios y distritos urbanos dentro de Lima
+Metropolitana.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Demográfica</strong></td>
+<td><ul>
+<li><p>Edad: Adultos jóvenes y mayores (18-65 años).</p></li>
+<li><p>Género: Hombres y mujeres.</p></li>
+<li><p>Nivel socioeconómico: C1, C2 y C3, quienes suelen transitar por
+las calles de Lima para trabajo, estudio o actividades
+personales.</p></li>
+<li><p>Ocupación: Estudiantes, profesionales, trabajadores informales, y
+amas de casa.</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><strong>Psicológica</strong></td>
+<td><ul>
+<li><p>Actitudes y valores: Personas preocupadas por su seguridad
+personal y la de sus seres queridos, con alta sensibilidad a temas de
+delincuencia y seguridad.</p></li>
+<li><p>Motivaciones: Buscan tranquilidad al transitar por la ciudad,
+desean estar informados sobre situaciones de riesgo y prefieren tomar
+decisiones basadas en información confiable.</p></li>
+<li><p>Estilo de vida: Ciudadanos activos que suelen desplazarse
+frecuentemente por la ciudad.</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><strong>Función de comportamiento</strong></td>
+<td><ul>
+<li><p>Necesidades: Acceso a información en tiempo real sobre la
+seguridad en su entorno inmediato.</p></li>
+<li><p>Comportamiento de compra/uso: Uso frecuente de aplicaciones
+móviles para obtener información y comunicación, propensos a adoptar
+nuevas tecnologías que mejoren su seguridad.</p></li>
+<li><p>Lealtad: Usuarios que buscan plataformas confiables y
+colaborativas que les permitan contribuir a la seguridad
+comunitaria.</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
 # Capítulo II: Requirements & Analysis
 
 ## 2.1. Competidores
