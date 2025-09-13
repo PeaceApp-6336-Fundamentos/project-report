@@ -373,6 +373,209 @@ Enlace al esquema hecho en Miro: <https://tinyurl.com/ymmmjj7t>
 
 ### 2.1.1. Análisis Competitivo
 
+<!--EDITANDO -->
+
+
+<table>
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 11%" />
+<col style="width: 21%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th colspan="6"><strong>Competitive Analysis Landscape</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td colspan="6"><em>¿Por qué llevar al cabo este análisis</em>? Para conocer a nuestros competidores, conocer sus estrategias y poder aprender de estos.</td>
+</tr>
+<tr class="even">
+<td colspan="2">Empresas (Aplicación)</td>
+<td><p>SafeCity</p>
+</td>
+<td><p>Nextdoor</p>
+</td>
+<td><p>Waze</p>
+</td>
+<td>PeaceApp</td>
+</tr>
+<tr class="odd">
+<td rowspan="2"><strong>Perfil</strong></td>
+<td>Overview</td>
+<td>SafeCity es una aplicación que permite a los usuarios reportar
+incidentes de acoso y violencia en tiempo real, principalmente enfocada en la seguridad de las mujeres. La plataforma utiliza estos reportes para crear mapas de calor que visualizan las áreas más peligrosas, ayudando a otros usuarios a evitar esas zonas.</td>
+<td>Nextdoor es una red social privada para vecindarios, que conecta a los residentes de una misma comunidad para discutir temas locales, compartir recomendaciones, organizar eventos y mantenerse informados sobre lo que ocurre en su entorno.</td>
+<td>Waze es una aplicación de navegación que utiliza la información proporcionada por los usuarios para ofrecer rutas en tiempo real, evitando tráfico, accidentes y otros obstáculos en la carretera.</td>
+<td>PeaceApp es una aplicación móvil enfocada en mejorar la seguridad ciudadana en Lima Metropolitana, proporcionando información en tiempo real sobre incidentes y riesgos en las calles.</td>
+</tr>
+<tr class="even">
+<td>¿Qué valor ofrece los clientes?</td>
+<td><p>Seguridad y prevención: Proporciona a los usuarios una herramienta para identificar y evitar áreas peligrosas basadas en reportes en tiempo real.</p>
+<p>Empoderamiento: Empodera a las mujeres y a otras víctimas al darles una plataforma para denunciar incidentes de acoso.</p>
+<p>Comunicación anónima: Permite reportes anónimos, lo que ayuda a aumentar la cantidad de reportes sin temor a represalias.</p></td>
+<td><p>Conexión comunitaria: Facilita la interacción entre vecinos, fortaleciendo la sensación de comunidad.</p>
+<p>Seguridad y vigilancia vecinal: Permite a los usuarios reportar y discutir incidentes de seguridad, fomentando una red de vigilancia vecinal.</p>
+<p>Recursos locales: Ofrece una plataforma para que los usuarios compartan recomendaciones de servicios y negocios locales, creando un entorno de apoyo mutuo.</p></td>
+<td><p>Eficiencia en desplazamientos: Proporciona rutas optimizadas en tiempo real, ahorrando tiempo y evitando atascos.</p>
+<p>Seguridad en la conducción: Informa sobre peligros en la carretera, como accidentes y obstáculos, ayudando a los conductores a tomar decisiones informadas.</p>
+<p>Comunidad activa: Los usuarios contribuyen activamente con información sobre el tráfico, lo que enriquece la precisión y utilidad de la aplicación.</p></td>
+<td><p>Seguridad en tiempo real: Los usuarios reciben alertas sobre situaciones de riesgo en su entorno.</p>
+<p>Colaboración ciudadana: Facilita la comunicación entre ciudadanos y autoridades para reportar incidentes.</p>
+<p>Empoderamiento: Permite a los usuarios contribuir activamente a la seguridad de su comunidad.</p>
+<p>Accesibilidad: Interfaz fácil de usar para personas de todas las edades.</p>
+<p>Prevención de riesgos: Ayuda a los usuarios a evitar áreas peligrosas y mejorar su seguridad personal.</p></td>
+</tr>
+<tr class="odd">
+<td rowspan="2"><strong>Perfil de Marketing</strong></td>
+<td>Mercado objetivo</td>
+<td><p>Demográfico: Principalmente mujeres de todas las edades, especialmente en áreas urbanas donde el acoso y la violencia de género son más prevalentes.</p>
+<p>Geográfico: Focalizado en ciudades con altos índices de violencia y acoso, especialmente en India y otros países donde la inseguridad para las mujeres es una preocupación significativa.</p>
+<p>Psicológico: Individuos conscientes de la seguridad y que buscan activamente herramientas para protegerse y empoderarse frente a situaciones de acoso.</p>
+<p>Comportamiento: Usuarios que valoran la seguridad personal y están dispuestos a contribuir a una comunidad compartiendo incidentes para prevenir futuros ataques.</p></td>
+<td><p>Demográfico: Adultos de todas las edades, propietarios de viviendas y residentes de vecindarios interesados en conectarse con sus vecinos.</p>
+<p>Geográfico: Vecindarios en áreas urbanas y suburbanas en Estados Unidos, Reino Unido, y otros países donde la vida comunitaria es fuerte.</p>
+<p>Psicológico: Personas que valoran la interacción comunitaria, la seguridad en el vecindario y el acceso a recursos locales.</p>
+<p>Comportamiento: Usuarios que buscan construir relaciones más estrechas con sus vecinos y mantenerse informados sobre lo que ocurre en su comunidad.</p></td>
+<td><p>Demográfico: Conductores de todas las edades, especialmente aquellos que conducen diariamente en áreas urbanas congestionadas.</p>
+<p>Geográfico: Principalmente en ciudades grandes con problemas de tráfico significativos a nivel mundial.</p>
+<p>Psicológico: Conductores que valoran la eficiencia en sus desplazamientos y están dispuestos a utilizar la tecnología para evitar el tráfico.</p>
+<p>Comportamiento: Usuarios que buscan optimizar sus rutas y minimizar el tiempo de viaje mediante la navegación en tiempo real.</p></td>
+<td><p>Demográfico: Ciudadanos de todas las edades, en su mayoría residentes urbanos, que están preocupados por la seguridad personal y buscan soluciones para prevenir situaciones de riesgo.</p>
+<p>Geográfico: Enfocado en Lima Metropolitana, una ciudad con desafíos de seguridad que requiere atención y recursos adicionales para mejorar la seguridad ciudadana.</p>
+<p>Psicológico: Individuos que valoran su seguridad y buscan herramientas efectivas para mantenerse informados y protegidos en su entorno. Personas proactivas que quieren colaborar con la comunidad para mejorar la seguridad.</p>
+<p>Comportamiento: Usuarios que frecuentemente se enfrentan a situaciones de inseguridad y están dispuestos a participar activamente reportando incidentes y compartiendo información para mantener la comunidad segura.</p></td>
+</tr>
+<tr class="even">
+<td>Estrategias de Marketing</td>
+<td><p>Campañas de concienciación: Colaboraciones con ONG y movimientos feministas para sensibilizar sobre la seguridad de las mujeres y promover el uso de la aplicación.</p>
+<p>Publicidad digital: Anuncios segmentados en redes sociales y plataformas digitales que lleguen a mujeres en áreas urbanas.</p>
+<p>Marketing comunitario: Promoción de la aplicación en comunidades locales y eventos relacionados con la seguridad de las mujeres.</p>
+<p>Relaciones públicas: Historias de éxito de la aplicación difundidas en medios de comunicación para destacar su impacto positivo.</p></td>
+<td><p>Publicidad en redes sociales: Campañas dirigidas a residentes de vecindarios específicos para fomentar la conexión entre vecinos.</p>
+<p>Marketing de boca en boca: Incentivar a los usuarios actuales para que inviten a sus vecinos a unirse a la plataforma.</p>
+<p>Colaboraciones con asociaciones vecinales: Trabajar con asociaciones de vecinos para promover el uso de la aplicación como herramienta de comunicación comunitaria.</p>
+<p>Email marketing: Enviar correos electrónicos personalizados con contenido relevante para diferentes vecindarios.</p></td>
+<td><p>Marketing de alianzas: Colaboraciones con empresas automotrices y servicios de transporte para integrar Waze en sus sistemas.</p>
+<p>Publicidad geolocalizada: Anuncios dirigidos a conductores en áreas específicas durante sus desplazamientos.</p>
+<p>Eventos en carretera: Patrocinio de eventos relacionados con el transporte y la seguridad vial para aumentar la visibilidad de la aplicación.</p>
+<p>Programas de incentivos: Ofrecer recompensas o beneficios a los usuarios que contribuyen activamente con información sobre el tráfico y peligros en la carretera.</p></td>
+<td><p>Campañas de concienciación: Colaborar con entidades locales y organizaciones comunitarias para sensibilizar sobre la importancia de la seguridad personal y promover PeaceApp como una herramienta esencial.</p>
+<p>Publicidad digital: Implementar campañas en redes sociales y plataformas digitales dirigidas a residentes de Lima Metropolitana, destacando las funcionalidades de la app y cómo contribuye a la seguridad.</p>
+<p>Marketing comunitario: Promover la aplicación en eventos locales relacionados con la seguridad y fomentar el uso entre grupos comunitarios que se preocupan por la seguridad pública.</p>
+<p>Relaciones públicas: Publicar historias de éxito y casos de uso en medios locales para demostrar el impacto positivo de PeaceApp en la mejora de la seguridad y la colaboración ciudadana.</p></td>
+</tr>
+<tr class="odd">
+<td rowspan="3"><strong>Perfil del producto</strong></td>
+<td>Producto &amp; Servicios</td>
+<td><p>Aplicación móvil: SafeCity permite a los usuarios reportar incidentes de acoso y violencia en tiempo real, creando un mapa de puntos críticos de seguridad en ciudades. También ofrece alertas de seguridad basadas en la ubicación y consejos preventivos.</p>
+<p>Plataforma de datos: Ofrece un acceso a datos agregados para ONGs, gobiernos y organizaciones comunitarias para analizar y abordar problemas de seguridad.</p>
+<p>Comunidad: Fomenta la creación de una comunidad de apoyo y concienciación, donde los usuarios pueden compartir experiencias y obtener apoyo.</p></td>
+<td><p>Red social vecinal: Nextdoor conecta a los vecinos para discutir temas locales, compartir recomendaciones, organizar eventos, y vender o comprar artículos.</p>
+<p>Servicios de anuncios locales: Ofrece a las pequeñas empresas y servicios locales la posibilidad de anunciarse directamente en su comunidad.</p>
+<p>Alerta de seguridad: Funcionalidad para alertar a los vecinos sobre situaciones de seguridad y eventos importantes en el vecindario.</p></td>
+<td><p>Aplicación de navegación: Waze ofrece navegación GPS en tiempo real con información sobre el tráfico, accidentes, y rutas alternativas, basada en la colaboración de los usuarios.</p>
+<p>Alertas de tráfico: Los usuarios pueden reportar incidentes, cámaras de velocidad, y otros peligros en la carretera.</p>
+<p>Integración con otros servicios: Waze se integra con servicios de música, mapas y otras aplicaciones, ofreciendo una experiencia de conducción más rica.</p></td>
+<td><p>Aplicación móvil: PeaceApp permite a los usuarios acceder a información en tiempo real sobre la seguridad en las calles de Lima Metropolitana. Los usuarios pueden reportar incidentes y situaciones de riesgo, contribuyendo a un mapa colaborativo que muestra las áreas más peligrosas. También proporciona alertas basadas en la ubicación y recomendaciones de seguridad personal.</p>
+<p>Plataforma de datos: Ofrece datos agregados para autoridades locales y organizaciones de seguridad que les permiten analizar patrones de criminalidad y planificar intervenciones más efectivas.</p>
+<p>Comunidad: Fomenta la colaboración entre ciudadanos y autoridades, creando una comunidad comprometida con la mejora de la seguridad pública. Los usuarios pueden compartir experiencias y obtener consejos útiles sobre cómo evitar situaciones peligrosas.</p></td>
+</tr>
+<tr class="even">
+<td>Precios &amp; Costos</td>
+<td><p>Modelo freemium: La aplicación es gratuita para usuarios individuales, mientras que las organizaciones pueden acceder a servicios premium, como análisis de datos detallados y reportes personalizados, mediante suscripciones.</p>
+<p>Costos: Incluyen desarrollo y mantenimiento de la aplicación, hosting de la plataforma de datos, y costos operativos asociados con campañas de concienciación y relaciones comunitarias.</p></td>
+<td><p>Gratuito para usuarios: No hay costo para los usuarios que se inscriben y utilizan la plataforma.</p>
+<p>Publicidad pagada: Las empresas locales y los proveedores de servicios pueden pagar por anuncios dirigidos en su vecindario, lo que constituye la principal fuente de ingresos.</p>
+<p>Costos: Desarrollo y mantenimiento de la plataforma, moderación de contenido, soporte al cliente y costos de marketing.</p></td>
+<td><p>Gratuito: La aplicación es gratuita para todos los usuarios. Los ingresos se generan principalmente a través de publicidad geolocalizada.</p>
+<p>Publicidad geolocalizada: Waze ofrece a las empresas la posibilidad de mostrar anuncios en la aplicación basados en la ubicación del usuario.</p>
+<p>Costos: Incluyen el desarrollo y mantenimiento de la aplicación, costos de servidores para manejar grandes volúmenes de datos, y la gestión de asociaciones con empresas de publicidad y automotrices.</p></td>
+<td><p>Modelo freemium: La aplicación es gratuita para los usuarios individuales. Sin embargo, se ofrece un servicio premium para empresas y organizaciones, que incluye acceso a análisis avanzados de datos, reportes personalizados y funciones adicionales de seguridad, disponibles a través de suscripciones mensuales o anuales.</p>
+<p>Costos: Los costos principales incluyen el desarrollo y mantenimiento de la aplicación móvil, el hosting de la plataforma de datos, gastos en campañas de marketing, y costos operativos para la colaboración con autoridades locales y la gestión de la comunidad de usuarios.</p></td>
+</tr>
+<tr class="odd">
+<td>Canales de distribución (Web &amp;/o Móvil)</td>
+<td><p>Móvil: Disponible como aplicación móvil en Android y iOS.</p>
+<p>Web: Una plataforma web complementaria permite el acceso a mapas de seguridad y la participación en foros comunitarios.</p></td>
+<td><p>Móvil: Disponible como aplicación móvil en Android y iOS.</p>
+<p>Web: La plataforma también está accesible vía navegador web, permitiendo una experiencia completa en escritorio.</p></td>
+<td><p>Móvil: Disponible como aplicación móvil en Android y iOS.</p>
+<p>Web: Aunque la experiencia principal es móvil, Waze también ofrece una plataforma web para la planificación de rutas.</p></td>
+<td><p>Móvil: PeaceApp está disponible como una aplicación móvil tanto en Android como en iOS, ofreciendo a los usuarios acceso en cualquier momento y lugar.</p>
+<p>Web: Una plataforma web complementaria permite a los usuarios acceder a mapas interactivos de seguridad, reportar incidentes desde sus computadoras, y participar en foros comunitarios para compartir información y consejos de seguridad.</p></td>
+</tr>
+<tr class="even">
+<td rowspan="4"><strong>Análisis SWOT</strong></td>
+<td>Fortalezas</td>
+<td><p>Enfoque en la seguridad personal: SafeCity se especializa en la seguridad de los usuarios, permitiéndoles reportar incidentes de manera anónima y acceder a mapas de seguridad en tiempo real.</p>
+<p>Impacto social positivo: Fomenta la conciencia y la acción comunitaria sobre temas de seguridad, lo que puede aumentar la confianza y lealtad de los usuarios.</p>
+<p>Colaboraciones con ONGs y gobiernos: La plataforma ofrece datos valiosos que pueden ser utilizados por organizaciones para tomar decisiones informadas en temas de seguridad.</p></td>
+<td><p>Red social hiperlocal: Nextdoor se enfoca en conectar a los vecinos, lo que crea una comunidad cercana y de apoyo mutuo.</p>
+<p>Diversidad de funcionalidades: Ofrece una amplia gama de servicios, desde discusiones locales hasta venta de artículos, lo que aumenta la retención de usuarios.</p>
+<p>Gran base de usuarios: Al estar presente en muchos países, cuenta con una amplia comunidad y reconocimiento de marca.</p></td>
+<td><p>Navegación en tiempo real: Ofrece actualizaciones en vivo sobre tráfico y rutas alternativas, lo que es altamente valorado por los usuarios.</p>
+<p>Colaboración de la comunidad: Los usuarios pueden reportar incidentes en tiempo real, mejorando la precisión y utilidad de la información.</p>
+<p>Integración con otros servicios: Waze se integra con aplicaciones de música y otros servicios, ofreciendo una experiencia de conducción completa.</p></td>
+<td><p>Enfoque en la seguridad urbana: PeaceApp está diseñada específicamente para mejorar la seguridad en las calles de Lima Metropolitana, ofreciendo a los usuarios la capacidad de reportar incidentes y acceder a información de seguridad en tiempo real.</p>
+<p>Colaboración ciudadana: La aplicación promueve la colaboración entre los ciudadanos y las autoridades, lo que refuerza la confianza en la comunidad y aumenta la eficacia en la prevención del crimen.</p></td>
+</tr>
+<tr class="odd">
+<td>Debilidades</td>
+<td><p>Alcance limitado: Aunque es fuerte en áreas urbanas, su impacto puede ser limitado en zonas rurales o en regiones con baja penetración de smartphones.</p>
+<p>Dependencia del usuario: La eficacia de la aplicación depende de la cantidad y calidad de los reportes generados por los usuarios.</p>
+<p>Modelo freemium restringido: Las opciones premium pueden no ser atractivas para todas las organizaciones, limitando su base de ingresos.</p></td>
+<td><p>Problemas de privacidad: Ha enfrentado críticas sobre la privacidad y la gestión de datos personales, lo que puede afectar la confianza de los usuarios.</p>
+<p>Moderación de contenido: Mantener la calidad del contenido y evitar el mal uso de la plataforma puede ser un desafío constante.</p>
+<p>Alto nivel de competencia: Compite con otras plataformas sociales y aplicaciones de comunicación local, lo que puede diluir su propuesta de valor.</p></td>
+<td><p>Dependencia de la comunidad: La calidad de la información depende de la participación activa de los usuarios.</p>
+<p>Consumo de datos y batería: La aplicación puede consumir mucha batería y datos móviles, lo que puede ser una limitación para algunos usuarios.</p>
+<p>Monetización limitada: Aunque tiene publicidad, el modelo de ingresos puede no ser suficiente a largo plazo sin diversificación.</p></td>
+<td><p>Penetración limitada fuera de Lima: La efectividad de PeaceApp está inicialmente limitada a Lima Metropolitana, lo que podría restringir su impacto en otras ciudades o áreas rurales.</p>
+<p>Dependencia de la participación del usuario: La calidad y utilidad de la información en la aplicación dependen en gran medida de la cantidad y precisión de los reportes generados por los usuarios.</p>
+<p>Costos operativos: Mantener la plataforma actualizada y funcional requiere una inversión constante en tecnología y operaciones, lo que podría ser un desafío a largo plazo.</p></td>
+</tr>
+<tr class="even">
+<td>Oportunidades</td>
+<td><p>Expansión geográfica: Ampliar su presencia a más ciudades y países puede aumentar su impacto y base de usuarios.</p>
+<p>Integración con otras plataformas: Colaboraciones con aplicaciones de transporte o redes sociales pueden mejorar la visibilidad y funcionalidad de SafeCity.</p>
+<p>Aumento en la demanda de seguridad: Con el incremento de preocupaciones de seguridad, hay una creciente necesidad de soluciones tecnológicas como SafeCity.</p></td>
+<td><p>Expansión de servicios: Puede integrar nuevas funcionalidades, como marketplaces locales más robustos o herramientas para la organización de eventos comunitarios.</p>
+<p>Alianzas con negocios locales: Colaborar con pequeños negocios para ofrecer promociones exclusivas podría fortalecer su propuesta de valor.</p>
+<p>Creciente demanda de comunidades: La necesidad de conexión a nivel local está en aumento, lo que puede aumentar la adopción de la plataforma.</p></td>
+<td><p>Expansión a nuevas funciones: Integración con servicios de emergencia o mayor personalización de rutas puede atraer a más usuarios.</p>
+<p>Colaboración con gobiernos locales: Waze podría colaborar con gobiernos para mejorar la gestión del tráfico en tiempo real.</p>
+<p>Crecimiento en el uso de automóviles: A medida que más personas optan por conducir en lugar de utilizar transporte público, la base de usuarios puede crecer.</p></td>
+<td><p>Expansión a otras ciudades: Existe una gran oportunidad de expandir PeaceApp a otras ciudades peruanas y latinoamericanas que también enfrentan problemas de inseguridad.</p>
+<p>Alianzas estratégicas: Colaborar con gobiernos locales, ONGs y empresas de tecnología podría mejorar la visibilidad y efectividad de PeaceApp.</p>
+<p>Creciente preocupación por la seguridad: Con el aumento de la delincuencia, existe una demanda creciente por aplicaciones como PeaceApp que ofrezcan soluciones tecnológicas para mejorar la seguridad.</p></td>
+</tr>
+<tr class="odd">
+<td>Amenazas</td>
+<td><p>Competencia creciente: Nuevas aplicaciones de seguridad y herramientas similares pueden reducir la cuota de mercado de SafeCity.</p>
+<p>Regulaciones sobre datos: Cambios en la legislación sobre privacidad y seguridad de datos pueden impactar la operación de la aplicación.</p>
+<p>Dependencia tecnológica: Problemas técnicos o de conectividad pueden afectar la confiabilidad de los datos y la confianza de los usuarios.</p></td>
+<td><p>Cambios en la privacidad de datos: Las nuevas regulaciones podrían afectar su modelo de negocio basado en publicidad.</p>
+<p>Competencia de grandes plataformas: Redes sociales más grandes pueden replicar sus características y capturar su mercado.</p>
+<p>Saturación del mercado: La aparición de nuevas aplicaciones hiperlocales podría fragmentar la audiencia.</p></td>
+<td><p>Competencia de servicios de mapas: Competidores como Google Maps (que pertenece a la misma empresa matriz) y Apple Maps están mejorando sus capacidades, lo que podría reducir la relevancia de Waze.</p>
+<p>Problemas de privacidad: El manejo de datos de localización puede ser un tema sensible y puede generar desconfianza si no se gestiona adecuadamente.</p>
+<p>Cambio en hábitos de movilidad: Un cambio hacia transporte público o movilidad compartida podría disminuir el uso de la aplicación.</p></td>
+<td><p>Competencia en el mercado: La presencia de otras aplicaciones de seguridad podría limitar el crecimiento de PeaceApp, especialmente si estas ofrecen funcionalidades similares o más avanzadas.</p>
+<p>Cambios regulatorios: La evolución de las normativas sobre privacidad de datos podría afectar la forma en que PeaceApp maneja y utiliza la información de los usuarios.</p>
+<p>Riesgos tecnológicos: Fallos en la plataforma o problemas de conectividad podrían comprometer la confianza de los usuarios en la aplicación y su capacidad para proporcionar información precisa.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+
+<!--EDITANDO -->
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
