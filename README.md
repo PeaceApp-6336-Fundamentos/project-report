@@ -823,7 +823,7 @@ La entrevistada expresa que no se siente completamente tranquila en áreas mal i
 
 ![Entrevista5.png](assets/Entrevista5.png)
 
-**Timing:** 4:37
+**Timing:** 33:27
 
 **Nombre:** Jefferson Castro
 
@@ -837,6 +837,18 @@ El entrevistado se muestra muy consciente de la inseguridad ciudadana en su comu
 
 
 ### 2.2.3. Análisis de entrevistas
+
+Los entrevistados manifiestan una preocupación constante por la inseguridad en sus entornos cotidianos, particularmente en espacios con deficiente iluminación, zonas congestionadas o áreas cercanas a sus residencias y universidades. Aunque algunos no han sido víctimas directas de delitos, la experiencia de haber presenciado robos o conocer la peligrosidad de ciertos lugares genera en ellos una percepción de vulnerabilidad. La falta de vigilancia y la poca confianza en el entorno refuerzan la necesidad de contar con herramientas tecnológicas que aumenten su sensación de seguridad y les brinden respaldo ante posibles incidentes.
+
+**Intereses y Requerimientos Principales:**
+
+**1. Alertas de Seguridad y Zonas de Riesgo:** Los entrevistados valoran altamente recibir notificaciones sobre incidentes, robos o zonas peligrosas. Este tipo de alertas es visto como un mecanismo preventivo que permite anticiparse a situaciones de riesgo, tal como sucede con las notificaciones de tráfico o accidentes en aplicaciones ya conocidas.
+
+**2. Compartir Ubicación en Tiempo Real:** Existe un interés marcado en poder compartir la ubicación en tiempo real, especialmente con familiares cercanos. Esta función es percibida como una medida de protección adicional en contextos de riesgo, aunque se resalta la importancia de que la aplicación garantice la seguridad de los datos personales y brinde confianza en su uso.
+
+**3. Reportes en Tiempo Real:** Se destaca la necesidad de contar con la posibilidad de reportar situaciones de riesgo o incidentes de manera inmediata. Esta función es vista como un recurso clave para alertar a otros usuarios, generar información colaborativa y facilitar la intervención de las autoridades en el menor tiempo posible.
+
+**4. Confianza y Protección de Datos:** Más allá de las funciones, los usuarios valoran que la aplicación sea confiable en el manejo de información. La privacidad, la actualización constante de reportes y la veracidad de los datos compartidos son factores determinantes para que la perciban como una herramienta útil y segura.
 
 ## 2.3. Needfinding
 
