@@ -821,18 +821,19 @@ La entrevistada expresa que no se siente completamente tranquila en áreas mal i
 
 **Entrevista N° 5:**
 
-![Entrevista5](Entrevista5.png)
+![Entrevista5.png](assets/Entrevista5.png)
 
-**Timing:** 33:27
+**Timing:** 4:37
 
-Nombre:
+**Nombre:** Jefferson Castro
 
-Edad:
+**Edad:** 22
 
-Pasatiempos:
+**Pasatiempos:** Leer
 
-Ocupación:
+**Ocupación:** Estudiante (Ingeniería de Software) y trabajador
 
+El entrevistado se muestra muy consciente de la inseguridad ciudadana en su comunidad, una situación que le afecta especialmente por no tener movilidad propia. Para evitar riesgos, ha adoptado medidas como no usar sus dispositivos en la calle y transitar por zonas concurridas. En caso de presenciar un delito, su reacción sería pedir ayuda; sin embargo, si él fuera la víctima, optaría por entregar sus pertenencias, pues su salud es más importante que cualquier objeto material. Él considera que la inseguridad es un problema cada vez más grave y ve la necesidad de contar con herramientas que ayuden a combatirla. Aunque no ha usado ninguna aplicación con este fin, está muy interesado en probar una que sea intuitiva y que pueda alertar a los usuarios sobre posibles riesgos.
 
 
 ### 2.2.3. Análisis de entrevistas
