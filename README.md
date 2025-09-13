@@ -644,6 +644,57 @@ incidentes de acoso y violencia en tiempo real, principalmente enfocada en la se
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+<!--EDITANDO -->
+
+**1. Diferenciación por Especialización Local:**
+
+> Estrategia: Focalizar a PeaceApp en Lima Metropolitana, destacándose por su
+> comprensión detallada de los retos de seguridad específicos de la ciudad y
+> estableciendo relaciones sólidas con autoridades locales y comunidades.
+>
+> Táctica: Desarrollar campañas de comunicación que resalten la experiencia de
+> PeaceApp y su dedicación exclusiva a la seguridad de Lima, diferenciándola de
+> otras aplicaciones más generales como Waze y Nextdoor.
+
+**2. Fomento de la Participación Ciudadana:**
+
+> Estrategia: Fomentar la interacción activa de los usuarios en la plataforma,
+> incentivando que reporten incidentes y colaboren en la seguridad de su entorno.
+>
+> Táctica: Crear un sistema de recompensas que premie a los usuarios más
+> comprometidos, ofreciendo incentivos o beneficios dentro de la aplicación a
+> quienes participen con mayor frecuencia.
+
+**3. Alianzas Estratégicas:**
+
+> Estrategia: Construir relaciones con organizaciones locales, ONGs y autoridades
+> del orden público para reforzar la autoridad y efectividad de PeaceApp.
+>
+> Táctica: Establecer acuerdos con estas instituciones para integrar PeaceApp en
+> sus iniciativas de seguridad ciudadana, asegurando un flujo continuo de datos y
+> colaboración mutua.
+
+**4. Expansión Geográfica Controlada:**
+
+> Estrategia: Después de lograr consolidarse en Lima, expandir gradualmente la
+> presencia de PeaceApp a otras ciudades peruanas con altos índices de
+> criminalidad, replicando el modelo de seguridad implementado en la capital.
+>
+> Táctica: Realizar análisis de mercado para seleccionar las ciudades más adecuadas
+> para la expansión, adaptando las estrategias de comunicación y marketing a las
+> características particulares de cada región.
+
+**5. Innovación en Funcionalidades:**
+
+> Estrategia: Introducir características innovadoras que no estén disponibles en las
+> aplicaciones competidoras, mejorando la propuesta de valor que PeaceApp
+> ofrece a sus usuarios.
+>
+> Táctica: Desarrollar herramientas como alertas personalizadas, integración con
+> sistemas de transporte y un botón de emergencia que permita a los usuarios
+> contactar directamente con las autoridades locales.
+
+
 ## 2.2. Entrevistas
 
 El objetivo realizar las entrevistas es para poder comprender las preocupaciones, necesidades y expectativas de nuestro segmento objetivo, en este caso los ciudadanos preocupados por su seguridad en espacios públicos, en relación con su seguridad en espacios públicos. La información recolectada guiará el desarrollo de funcionalidades clave en la aplicación móvil, buscando mejorar la seguridad y tranquilidad de los usuarios en su entorno.
