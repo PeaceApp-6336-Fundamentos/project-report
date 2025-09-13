@@ -756,7 +756,7 @@ Objetivo: Identificar los requisitos esenciales para que la aplicación sea adop
 
 ![Entrevista1](assets/Entrevista1.png)
 
-**Timing:** 
+**Timing:**  00:00
 
 **Nombre:** Mauricio Rojas
 
@@ -773,7 +773,7 @@ entorno. La falta de iluminación y vigilancia en las calles aumenta su sensaci�
 
 ![Entrevista2](assets/Entrevista2.png)
 
-**Timing:**
+**Timing:** 09:49
 
 Nombre: Edson Sanchez
 
@@ -790,7 +790,7 @@ El entrevistado se siente inseguro en espacios públicos, especialmente cerca de
 
 ![Entrevista3](assets/Entrevista3.png)
 
-**Timing:**
+**Timing:** 19:27
 
 **Nombre**: Marcia Mascco  
 
@@ -807,7 +807,7 @@ La entrevistada no se siente segura en lugares donde no hay mucha iluminación y
 
 ![Entrevista_4](assets/Entrevista4.png)
 
-**Timing:**
+**Timing:** 27:27
 
 **Nombre**: Fernanda Peña
 
@@ -823,7 +823,7 @@ La entrevistada expresa que no se siente completamente tranquila en áreas mal i
 
 ![Entrevista5](Entrevista5.png)
 
-**Timing:**
+**Timing:** 33:27
 
 Nombre:
 
@@ -975,6 +975,8 @@ relevante.
 # Recomendaciones
 
 # Bibliografia
+
+- Instituto Nacional de Estadística e Informática (INEI). (2024). *Perú: Encuesta Nacional de Seguridad Ciudadana 2024*. Instituto Nacional de Estadística e Informática. [https://www.inei.gob.pe](https://www.inei.gob.pe)
 
 # Anexos
 
