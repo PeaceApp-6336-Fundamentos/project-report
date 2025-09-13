@@ -198,8 +198,8 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 </tr>
 <tr class="even">
 <td><p><strong>Nombre:</strong> Kenyi Efrain Ramirez Cabrera (U202220138)</p>
-<p><strong> </strong></p></td>
-<td><img src="assets/alumno.jpg"/></td>
+<p><strong>Soy Kenyi Ramirez, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida y trabajadora. Poseo un nivel intermedio en los lenguajes C++, C#, Python, Java y HTML, además de algunos frameworks como Angular, Node.js y Vue, los cuales aplico para garantizar resultados efectivos en mis proyectos. </strong></p></td>
+<td><img src="assets/KenyiRamirez.jpeg"/></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre:</strong> Anatoly Andrey Noriega Suschenko
