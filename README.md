@@ -137,7 +137,7 @@ software.</td>
 </td>
 <td>
 <em><strong>TB1</strong></em>
-<br><br>
+<br>En conjunto, los estudiantes demostraron haber actualizado y aplicado sus conocimientos de manera estratégica durante el desarrollo del proyecto. Desde la planificación ágil con user stories e impact mapping, hasta el diseño y validación mediante entrevistas, empathy mapping y escenarios as is / to be, cada integrante reforzó sus competencias técnicas y éticas. Esto permitió orientar las soluciones de software hacia la calidad, la transparencia y la alineación con las necesidades reales de los usuarios, consolidando su capacidad para transformar la visión del producto en acciones concretas y efectivas.<br>
 </td>
 </tr>
 <tr class="even">
@@ -161,7 +161,7 @@ soluciones de software.</td>
 </td>
 <td>
 <em><strong>TB1</strong></em>
-<br><br>
+<br>Los testimonios reflejan un compromiso común con el aprendizaje continuo como eje de crecimiento profesional. Al investigar nuevos contextos de mercado, incorporar buenas prácticas, conducir entrevistas y aplicar metodologías de diseño centrado en el usuario, los estudiantes reconocieron que la actualización constante es indispensable para responder a entornos dinámicos. Este enfoque no solo favoreció la planificación y viabilidad del proyecto, sino que también reafirmó la importancia de integrar sostenibilidad, impacto social y accesibilidad en el desarrollo de soluciones tecnológicas.<br>
 </td>
 </tr>
 </tbody>
