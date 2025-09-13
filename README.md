@@ -193,7 +193,7 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 <thead>
 <tr class="even">
 <td><p><strong>Nombre:</strong> Maria Pilares Pocohuanca (U202215528)</p>
-<p><strong> </strong></p></td>
+<p><strong> Mi nombre es Maria Pilares tengo 22 años y estudio la carrera de ingeniería de software en la UPC. Desde niña tuve mucho interés por las matemáticas y la tecnología, motivo por el cual estudio una ingeniería enfocada más a la programación. Me considero una persona perseverante aunque algo impaciente. Sin embargo, como miembro del equipo me comprometo a colaborar con mis compañeros y realizar todas las indicaciones que se dicten, todo con el fin de presentar un buen proyecto. </strong></p></td>
 <td><img src="assets/alumno.jpg"/></td>
 </tr>
 <tr class="even">
