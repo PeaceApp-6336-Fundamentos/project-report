@@ -265,62 +265,70 @@ La entrevistada no se siente segura en lugares donde no hay mucha iluminación y
 
 La entrevistada no se siente segura en lugares donde no hay mucha iluminación ya que, como menciona, habia una zona por su residencia que estaba totalmente oscura y era zona donde robaban mucho. Afortunadamente, no ha sido victima de algún robo o alguna situación peligrosa, pero ante situaciones peligrosas ella indica que auxiliaria al afectado, dando su celular para llamar o bloquear dependiendo de lo que le hayan robado. Ella se siente cómoda y segura recibiendo alertas en su celuar, argumenta que revisa cada tanto algunas situaciones con alertas como, por ejemplo, google maps que manda alertas de tráfico o accidentes en alguna carretera. No ha usado apps de seguridad antes pero esta abierta a recibir una que le permita sentirse más segura en la vía pública y valora mucho las funcionalidades de alertas y de compartir ubicación en tiempo real.
 
-
 **Entrevista N° 4:**
 
 ![Entrevista_4](assets/Entrevista4.png)
 
-**Timing:**
+**Timing:** 27:27
 
-**Nombre**:
+**Nombre**: Fernanda Peña
 
-**Edad:**
+**Edad:** 21 años
 
-**Pasatiempos:**
+**Pasatiempos:** Salir a pasear con su mascota
 
-**Ocupación:**
+**Ocupación:** Estudiante universitaria
 
-
+La entrevistada expresa que no se siente completamente tranquila en áreas mal iluminadas, ya que, según comenta, cerca de su hogar había una zona oscura que solía ser un foco de robos. A pesar de no haber sido víctima de ningún incidente hasta el momento, en caso de enfrentar una situación peligrosa, señala que ayudaría a la persona afectada, ofreciéndole su teléfono para hacer una llamada de emergencia o para bloquear su dispositivo si es que le roban algo. Se siente cómoda recibiendo alertas en su celular y menciona que, con frecuencia, revisa notificaciones de situaciones como las alertas de tráfico o accidentes de Google Maps. Aunque nunca ha utilizado aplicaciones de seguridad previamente, está dispuesta a probar una que le brinde mayor sensación de protección mientras se desplaza por la ciudad. Valora especialmente las características de alertas y la posibilidad de compartir su ubicación en tiempo real con sus padres.
 
 **Entrevista N° 5:**
 
-![Entrevista5](Entrevista5.png)
+![Entrevista5.png](assets/Entrevista5.png)
 
-**Timing:**
+**Timing:** 33:27
 
-Nombre:
+**Nombre:** Jefferson Castro
 
-Edad:
+**Edad:** 22
 
-Pasatiempos:
+**Pasatiempos:** Leer
 
-Ocupación:
+**Ocupación:** Estudiante (Ingeniería de Software) y trabajador
+
+El entrevistado se muestra muy consciente de la inseguridad ciudadana en su comunidad, una situación que le afecta especialmente por no tener movilidad propia. Para evitar riesgos, ha adoptado medidas como no usar sus dispositivos en la calle y transitar por zonas concurridas. En caso de presenciar un delito, su reacción sería pedir ayuda; sin embargo, si él fuera la víctima, optaría por entregar sus pertenencias, pues su salud es más importante que cualquier objeto material. Él considera que la inseguridad es un problema cada vez más grave y ve la necesidad de contar con herramientas que ayuden a combatirla. Aunque no ha usado ninguna aplicación con este fin, está muy interesado en probar una que sea intuitiva y que pueda alertar a los usuarios sobre posibles riesgos.
+
 
 
 
 ### 2.2.3. Análisis de entrevistas
 
-En base a las tres entrevistas realizadas (N=3), se identificaron características objetivas y subjetivas comunes en los segmentos analizados. El perfil principal corresponde a **estudiantes universitarios jóvenes (20-22 años)** residentes en zonas urbanas de Lima Metropolitana, con intereses recreativos diversos y experiencias directas o indirectas de inseguridad ciudadana.
+En base a las cinco entrevistas realizadas (N=5), se identificaron características objetivas y subjetivas comunes en los segmentos analizados. El perfil principal corresponde a **estudiantes universitarios jóvenes (20-22 años)** de Lima Metropolitana, con experiencias directas o indirectas de inseguridad ciudadana y alta disposición a usar tecnología para mejorar su seguridad.
 
 #### Características Objetivas
-- **Edad:** El 100% de los entrevistados tiene entre 20 y 22 años.  
-- **Ocupación:** El 100% son estudiantes universitarios (Ingeniería, Psicología, Administración y Marketing).  
-- **Pasatiempos:** El 67% mencionó actividades recreativas con amigos (salidas, videojuegos, deporte). El 33% destacó actividades con mascotas.  
+- **Edad:** El 100% tiene entre 20 y 22 años.  
+- **Ocupación:** El 100% son estudiantes universitarios; el 20% combina estudios con trabajo formal.  
+- **Pasatiempos:** El 80% disfruta actividades recreativas como salir con amigos, jugar videojuegos, practicar deporte o pasear con mascotas. El 20% mencionó la lectura como actividad principal.  
 
 #### Características Subjetivas
-- **Percepción de inseguridad:** El 100% manifestó sentirse inseguro en zonas con poca iluminación o escasa vigilancia.  
-- **Experiencias relacionadas:** El 67% ha presenciado robos o situaciones de riesgo (Mauricio y Marcia), mientras que el 33% no ha sido víctima ni testigo directo (Edson), aunque igual reporta sensación de miedo en contextos nocturnos.  
-- **Reacciones ante incidentes:** El 67% indicó que actuaría de alguna forma (auxilio, grabar, prestar celular). El 33% prefiere evitar problemas y priorizar su seguridad personal.  
-- **Uso de tecnología y disposición a apps:** El 100% no ha usado antes aplicaciones de seguridad ciudadana, pero el 100% estaría dispuesto a utilizarlas.  
+- **Percepción de inseguridad:** El 100% manifestó sentirse inseguro en zonas con poca iluminación o sin vigilancia.  
+- **Experiencias relacionadas:**  
+  - 60% ha presenciado robos o situaciones de riesgo (Mauricio, Marcia, Fernanda).  
+  - 40% no ha sido víctima ni testigo directo, pero perciben alto riesgo en su entorno (Edson, Jefferson).  
+- **Reacciones ante incidentes:**  
+  - 60% ayudaría a la víctima (auxilio, prestar celular, bloquear dispositivos).  
+  - 20% grabaría o difundiría el hecho.  
+  - 20% evitaría involucrarse y priorizaría su seguridad.  
+- **Uso de tecnología y disposición a apps:** El 100% no ha usado aplicaciones de seguridad ciudadana, pero el 100% estaría dispuesto a utilizarlas si son intuitivas y confiables.  
 - **Funcionalidades valoradas:**  
-  - 100% valora recibir alertas sobre zonas peligrosas.  
-  - 100% considera útil la opción de **compartir ubicación en tiempo real**.  
-  - 67% aprecia la inclusión de **foros o espacios comunitarios** para compartir experiencias.  
-  - 67% menciona la importancia de un **botón de emergencia o contacto con autoridades**.  
-- **Confianza y datos:** El 100% resaltó que la aplicación debe ser confiable en la **protección de datos personales** y contar con información actualizada.  
+  - 100% valora recibir **alertas sobre zonas peligrosas**.  
+  - 100% considera útil **compartir ubicación en tiempo real**.  
+  - 60% destacó la importancia de un **botón de emergencia o contacto directo con autoridades**.  
+  - 40% valoró la inclusión de **foros o espacios comunitarios**.  
+- **Confianza y datos:** El 100% enfatizó la necesidad de protección de datos personales y actualización constante de la información.  
 
 #### Conclusión
-El segmento entrevistado muestra un patrón homogéneo: **jóvenes universitarios urbanos, conscientes de la inseguridad en espacios públicos poco iluminados, con alta disposición tecnológica y expectativas claras de funcionalidades (alertas, ubicación en tiempo real, comunicación comunitaria y botón de emergencia)**. Estas características son esenciales para construir los arquetipos de usuario de PeaceApp y orientar las decisiones de diseño y marketing.
+El segmento entrevistado muestra un patrón homogéneo: **jóvenes universitarios urbanos, conscientes de la inseguridad en espacios públicos, especialmente en zonas mal iluminadas, con experiencias cercanas de riesgo y una clara disposición a usar soluciones tecnológicas**. Para ellos, PeaceApp debe priorizar **alertas en tiempo real, ubicación compartida, contacto con autoridades y seguridad en el manejo de datos**. Estas características son la base para construir arquetipos de usuario sólidos y orientar las decisiones de diseño, usabilidad y marketing de la aplicación.
+
 
 ## 2.3. Needfinding
 
