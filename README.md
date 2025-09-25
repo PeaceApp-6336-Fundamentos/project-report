@@ -1,11 +1,148 @@
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
+En esta sección se identifican los principales competidores, tanto directos como indirectos, con modelos de negocio digitales similares o parcialmente comparables. Se han seleccionado tres referentes relevantes en el ámbito de aplicaciones de seguridad ciudadana y participación comunitaria.
+
+| **Competidor** | **Modelo y características principales** | **Diferencias con PeaceApp** | **Limitaciones** |
+|----------------|------------------------------------------|-------------------------------|-------------------|
+| ![SafeCity](assets/safecity.png) <br> **SafeCity** | Plataforma digital enfocada en reportes anónimos de acoso. Usa los datos para generar mapas de seguridad e impulsa campañas con ONG. | Especialización en acoso; análisis de datos más profundo para educación y políticas públicas. | Enfoque específico que reduce utilidad general; cobertura restringida a pocas ciudades. |
+| ![Nextdoor](assets/Nextdoor.webp) <br> **Nextdoor** | Red social de vecindarios con foros comunitarios, alertas de seguridad y grupos privados por ubicación. | Mayor enfoque en interacción social y comunitaria; presencia internacional amplia. | No es una app exclusiva de seguridad; riesgos de privacidad por su carácter social. |
+| ![Waze](assets/Waze.png) <br> **Waze** | Aplicación de navegación que permite reportar accidentes, peligros y tráfico en tiempo real. Gran base de usuarios. | Orientada a conductores y movilidad; no diseñada para prevención del delito ni seguridad personal. | Reportes poco detallados para seguridad ciudadana; no cubre incidentes fuera de la vía pública. |
 
 ### 2.1.1. Análisis Competitivo
 
-### 2.1.2. Estrategias y tácticas frente a competidores
 
+<table>
+<thead>
+<tr>
+<th colspan="6"><strong>Competitive Analysis Landscape</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="6"><em>¿Por qué llevar a cabo este análisis?</em> Para conocer a nuestros competidores, sus estrategias y aprender de ellos para fortalecer la propuesta de PeaceApp.</td>
+</tr>
+<tr>
+<td colspan="2">Empresas (Aplicación)</td>
+<td><img src="assets/safecity.png" alt="SafeCity" width="60"><br><strong>SafeCity</strong></td>
+<td><img src="assets/nextdoor.webp" alt="Nextdoor" width="60"><br><strong>Nextdoor</strong></td>
+<td><img src="assets/waze.png" alt="Waze" width="60"><br><strong>Waze</strong></td>
+<td><img src="assets/peaceapp.jpg" alt="PeaceApp" width="60"><br><strong>PeaceApp</strong></td>
+</tr>
+
+<!-- PERFIL -->
+<tr>
+<td rowspan="2"><strong>Perfil</strong></td>
+<td>Overview</td>
+<td>Aplicación para reportar incidentes de acoso y violencia. Genera mapas de calor y colabora con ONG para concienciación.</td>
+<td>Red social privada de vecindarios. Permite discutir temas locales, reportar incidentes y organizar eventos.</td>
+<td>Aplicación de navegación GPS con reportes en tiempo real de tráfico, accidentes y peligros.</td>
+<td>Aplicación móvil enfocada en la seguridad ciudadana en Lima Metropolitana, con reportes en tiempo real de incidentes.</td>
+</tr>
+<tr>
+<td>Ventaja competitiva / ¿Qué valor ofrece?</td>
+<td>Reportes anónimos, seguridad y prevención. Empodera a víctimas al darles una voz en un entorno seguro.</td>
+<td>Conexión comunitaria y recursos locales. Refuerza la interacción vecinal.</td>
+<td>Eficiencia en desplazamientos y seguridad al conducir. Comunidad activa de conductores.</td>
+<td>Seguridad en tiempo real, colaboración ciudadana, accesibilidad y empoderamiento comunitario.</td>
+</tr>
+
+<!-- PERFIL DE MARKETING -->
+<tr>
+<td rowspan="2"><strong>Perfil de Marketing</strong></td>
+<td>Mercado objetivo</td>
+<td>Mujeres en áreas urbanas donde el acoso es más prevalente.</td>
+<td>Adultos propietarios y residentes de vecindarios urbanos/suburbanos.</td>
+<td>Conductores en ciudades grandes con problemas de tráfico.</td>
+<td>Ciudadanos de Lima Metropolitana preocupados por su seguridad personal.</td>
+</tr>
+<tr>
+<td>Estrategias de marketing</td>
+<td>Campañas de concienciación con ONG y publicidad digital.</td>
+<td>Publicidad en redes sociales y colaboraciones con asociaciones vecinales.</td>
+<td>Alianzas con empresas automotrices y publicidad geolocalizada.</td>
+<td>Campañas de sensibilización, publicidad digital y colaboración con comunidades locales.</td>
+</tr>
+
+<!-- PERFIL DE PRODUCTO -->
+<tr>
+<td rowspan="3"><strong>Perfil de Producto</strong></td>
+<td>Productos & Servicios</td>
+<td>App móvil de reportes de acoso + plataforma de datos para ONG y gobiernos.</td>
+<td>Red social vecinal con foros, anuncios y alertas de seguridad.</td>
+<td>App GPS con navegación, reportes de tráfico y alertas de carretera.</td>
+<td>App móvil y web con reportes ciudadanos, alertas de seguridad y mapas interactivos.</td>
+</tr>
+<tr>
+<td>Precios & Costos</td>
+<td>Modelo freemium. Gratis para usuarios; servicios premium para ONG/gobiernos.</td>
+<td>Gratuito para usuarios. Ingresos por publicidad de negocios locales.</td>
+<td>Gratis para usuarios. Ingresos por publicidad geolocalizada.</td>
+<td>Modelo freemium: gratis para usuarios; premium con análisis avanzados y reportes para organizaciones.</td>
+</tr>
+<tr>
+<td>Canales de distribución</td>
+<td>App móvil (iOS/Android) + plataforma web.</td>
+<td>App móvil (iOS/Android) + web.</td>
+<td>App móvil (iOS/Android) + web.</td>
+<td>App móvil (iOS/Android) + web con mapas interactivos.</td>
+</tr>
+
+<!-- SWOT -->
+<tr>
+<td rowspan="4"><strong>Análisis SWOT</strong></td>
+<td>Fortalezas</td>
+<td>Reportes anónimos, impacto social y alianzas con ONG.</td>
+<td>Red social hiperlocal, gran base de usuarios y diversidad de servicios.</td>
+<td>Navegación en tiempo real, comunidad activa e integración con servicios externos.</td>
+<td>Enfoque en seguridad urbana de Lima, colaboración ciudadana y facilidad de uso.</td>
+</tr>
+<tr>
+<td>Debilidades</td>
+<td>Dependencia del usuario y cobertura limitada.</td>
+<td>Problemas de privacidad y alto nivel de competencia con otras apps.</td>
+<td>Dependencia de usuarios, consumo alto de datos y monetización limitada.</td>
+<td>Cobertura inicial solo en Lima y dependencia de participación ciudadana.</td>
+</tr>
+<tr>
+<td>Oportunidades</td>
+<td>Expansión geográfica y mayor integración con otras plataformas.</td>
+<td>Creciente demanda de comunidades locales y alianzas con negocios.</td>
+<td>Integración con gobiernos y mayor personalización de rutas.</td>
+<td>Expansión a otras ciudades, alianzas con gobiernos y ONGs, creciente demanda de apps de seguridad.</td>
+</tr>
+<tr>
+<td>Amenazas</td>
+<td>Competencia creciente y cambios en regulaciones de datos.</td>
+<td>Cambios en privacidad y saturación de mercado.</td>
+<td>Competencia de Google Maps/Apple Maps y problemas de privacidad.</td>
+<td>Competencia de apps similares y cambios regulatorios en datos.</td>
+</tr>
+</tbody>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+En base al análisis competitivo (SWOT) realizado, se definen las siguientes estrategias y tácticas que permitirán a PeaceApp diferenciarse, aprovechar las oportunidades del mercado y enfrentar las amenazas de la competencia:
+
+1. **Diferenciación por Especialización Local**  
+   - **Estrategia:** Aprovechar la debilidad de SafeCity y Nextdoor en cuanto a cobertura geográfica y focalizar a PeaceApp en Lima Metropolitana, ofreciendo un conocimiento profundo de la dinámica local de seguridad.  
+   - **Táctica:** Desarrollar campañas de comunicación que resalten el enfoque exclusivo en Lima y establecer alianzas con autoridades municipales y juntas vecinales.  
+
+2. **Fomento de la Participación Ciudadana**  
+   - **Estrategia:** Contrarrestar la dependencia de competidores como Waze y SafeCity en el volumen de usuarios, incentivando la participación activa en la plataforma.  
+   - **Táctica:** Implementar un sistema de recompensas (insignias digitales, beneficios o reconocimientos) para usuarios frecuentes que reporten incidentes o validen información.  
+
+3. **Alianzas Estratégicas para Credibilidad**  
+   - **Estrategia:** Responder a las fortalezas de SafeCity (ONGs) y Nextdoor (comunidad) estableciendo convenios con ONGs, organizaciones locales y fuerzas del orden que refuercen la confianza en la app.  
+   - **Táctica:** Integrar PeaceApp en programas de seguridad ciudadana y firmar acuerdos que garanticen flujo de datos bidireccional con autoridades y comunidades.  
+
+4. **Expansión Geográfica Controlada**  
+   - **Estrategia:** Frente a la amenaza de apps internacionales (Waze, Nextdoor), planificar una expansión progresiva hacia ciudades peruanas con mayor incidencia delictiva, consolidando primero el éxito en Lima.  
+   - **Táctica:** Realizar estudios de mercado por ciudad, priorizando aquellas con altos índices de criminalidad, y adaptar la estrategia de marketing a su realidad local.  
+
+5. **Innovación en Funcionalidades Diferenciadas**  
+   - **Estrategia:** Superar la falta de enfoque en seguridad de Waze y Nextdoor incorporando funciones exclusivas que aumenten el valor para los usuarios.  
+   - **Táctica:** Desarrollar características como alertas personalizadas, integración con transporte público, mapas predictivos de riesgo y un botón de pánico conectado directamente con las autoridades.  
 ## 2.2. Entrevistas
 
 El objetivo realizar las entrevistas es para poder comprender las preocupaciones, necesidades y expectativas de nuestro segmento objetivo, en este caso los ciudadanos preocupados por su seguridad en espacios públicos, en relación con su seguridad en espacios públicos. La información recolectada guiará el desarrollo de funcionalidades clave en la aplicación móvil, buscando mejorar la seguridad y tranquilidad de los usuarios en su entorno.
