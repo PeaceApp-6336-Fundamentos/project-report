@@ -249,6 +249,21 @@ El entrevistado se siente inseguro en espacios públicos, especialmente cerca de
 **Ocupación:** Estudiante de la carrera de Administración y Marketing
 
 La entrevistada no se siente segura en lugares donde no hay mucha iluminación ya que, como menciona, habia una zona por su residencia que estaba totalmente oscura y era zona donde robaban mucho. Afortunadamente, no ha sido victima de algún robo o alguna situación peligrosa, pero ante situaciones peligrosas ella indica que auxiliaria al afectado, dando su celular para llamar o bloquear dependiendo de lo que le hayan robado. Ella se siente cómoda y segura recibiendo alertas en su celuar, argumenta que revisa cada tanto algunas situaciones con alertas como, por ejemplo, google maps que manda alertas de tráfico o accidentes en alguna carretera. No ha usado apps de seguridad antes pero esta abierta a recibir una que le permita sentirse más segura en la vía pública y valora mucho las funcionalidades de alertas y de compartir ubicación en tiempo real.
+**Entrevista N°3:**
+
+![Entrevista3](assets/Entrevista3.png)
+
+**Timing:**
+
+**Nombre**: Marcia Mascco  
+
+**Edad:** 21 años
+
+**Pasatiempos:** Jugar videojuegos con su enamorado o amigos
+
+**Ocupación:** Estudiante de la carrera de Administración y Marketing
+
+La entrevistada no se siente segura en lugares donde no hay mucha iluminación ya que, como menciona, habia una zona por su residencia que estaba totalmente oscura y era zona donde robaban mucho. Afortunadamente, no ha sido victima de algún robo o alguna situación peligrosa, pero ante situaciones peligrosas ella indica que auxiliaria al afectado, dando su celular para llamar o bloquear dependiendo de lo que le hayan robado. Ella se siente cómoda y segura recibiendo alertas en su celuar, argumenta que revisa cada tanto algunas situaciones con alertas como, por ejemplo, google maps que manda alertas de tráfico o accidentes en alguna carretera. No ha usado apps de seguridad antes pero esta abierta a recibir una que le permita sentirse más segura en la vía pública y valora mucho las funcionalidades de alertas y de compartir ubicación en tiempo real.
 
 
 **Entrevista N° 4:**
@@ -284,6 +299,28 @@ Ocupación:
 
 
 ### 2.2.3. Análisis de entrevistas
+
+En base a las tres entrevistas realizadas (N=3), se identificaron características objetivas y subjetivas comunes en los segmentos analizados. El perfil principal corresponde a **estudiantes universitarios jóvenes (20-22 años)** residentes en zonas urbanas de Lima Metropolitana, con intereses recreativos diversos y experiencias directas o indirectas de inseguridad ciudadana.
+
+#### Características Objetivas
+- **Edad:** El 100% de los entrevistados tiene entre 20 y 22 años.  
+- **Ocupación:** El 100% son estudiantes universitarios (Ingeniería, Psicología, Administración y Marketing).  
+- **Pasatiempos:** El 67% mencionó actividades recreativas con amigos (salidas, videojuegos, deporte). El 33% destacó actividades con mascotas.  
+
+#### Características Subjetivas
+- **Percepción de inseguridad:** El 100% manifestó sentirse inseguro en zonas con poca iluminación o escasa vigilancia.  
+- **Experiencias relacionadas:** El 67% ha presenciado robos o situaciones de riesgo (Mauricio y Marcia), mientras que el 33% no ha sido víctima ni testigo directo (Edson), aunque igual reporta sensación de miedo en contextos nocturnos.  
+- **Reacciones ante incidentes:** El 67% indicó que actuaría de alguna forma (auxilio, grabar, prestar celular). El 33% prefiere evitar problemas y priorizar su seguridad personal.  
+- **Uso de tecnología y disposición a apps:** El 100% no ha usado antes aplicaciones de seguridad ciudadana, pero el 100% estaría dispuesto a utilizarlas.  
+- **Funcionalidades valoradas:**  
+  - 100% valora recibir alertas sobre zonas peligrosas.  
+  - 100% considera útil la opción de **compartir ubicación en tiempo real**.  
+  - 67% aprecia la inclusión de **foros o espacios comunitarios** para compartir experiencias.  
+  - 67% menciona la importancia de un **botón de emergencia o contacto con autoridades**.  
+- **Confianza y datos:** El 100% resaltó que la aplicación debe ser confiable en la **protección de datos personales** y contar con información actualizada.  
+
+#### Conclusión
+El segmento entrevistado muestra un patrón homogéneo: **jóvenes universitarios urbanos, conscientes de la inseguridad en espacios públicos poco iluminados, con alta disposición tecnológica y expectativas claras de funcionalidades (alertas, ubicación en tiempo real, comunicación comunitaria y botón de emergencia)**. Estas características son esenciales para construir los arquetipos de usuario de PeaceApp y orientar las decisiones de diseño y marketing.
 
 ## 2.3. Needfinding
 
