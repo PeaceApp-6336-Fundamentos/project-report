@@ -25,8 +25,8 @@ En esta sección se identifican los principales competidores, tanto directos com
 <tr>
 <td colspan="2">Empresas (Aplicación)</td>
 <td><img src="assets/safecity.png" alt="SafeCity" width="60"><br><strong>SafeCity</strong></td>
-<td><img src="assets/nextdoor.webp" alt="Nextdoor" width="60"><br><strong>Nextdoor</strong></td>
-<td><img src="assets/waze.png" alt="Waze" width="60"><br><strong>Waze</strong></td>
+<td><img src="assets/Nextdoor.webp" alt="Nextdoor" width="60"><br><strong>Nextdoor</strong></td>
+<td><img src="assets/Waze.png" alt="Waze" width="60"><br><strong>Waze</strong></td>
 <td><img src="assets/peaceapp.jpg" alt="PeaceApp" width="60"><br><strong>PeaceApp</strong></td>
 </tr>
 
