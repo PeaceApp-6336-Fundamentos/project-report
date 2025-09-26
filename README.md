@@ -36,6 +36,44 @@ Se aplicarán los principios de Responsabilidad Única, Abierto-Cerrado, Segrega
 
 ### 4.1.2. Approaches Statements Architectural Styles & Patterns
 
+En esta sección describimos los enfoques fundamentales que tendremos en cuenta durante el desarrollo de PeaceApp. Estos enfoques nos brindan una base conceptual que guía nuestras decisiones frente a los retos de arquitectura y diseño que enfrentamos. Con ellos aseguramos que la aplicación evolucione de forma coherente con nuestra visión de seguridad, usabilidad y escalabilidad.
+
+#### Approaches Statements:
+
+##### Domain-Driven Design (DDD): 
+
+La complejidad del dominio de seguridad ciudadana se abordará mediante la separación clara de contextos (reportes de incidentes, geolocalización, autenticación, alertas), lo que facilitará mantener un modelo de negocio alineado con las reglas y procesos reales.
+
+##### Enfoque Centrado en el Usuario (UCD):
+
+Dado que PeaceApp busca generar confianza en situaciones de seguridad ciudadana, se prioriza la investigación con usuarios, pruebas de usabilidad y diseño de interfaces accesibles para diferentes perfiles de ciudadanos.
+
+##### Agile Software Development:
+
+Se adoptará un marco ágil con iteraciones cortas que permitan lanzar versiones funcionales tempranas, validar hipótesis con usuarios y ajustar funcionalidades en base a feedback real.
+
+##### Continuous Integration & Continuous Deployment (CI/CD):
+
+Se automatizará la construcción, pruebas y despliegue de cada iteración para asegurar calidad, confiabilidad y tiempo de respuesta rápido frente a nuevas necesidades.
+
+##### Unit Testing & Refactoring:
+
+Realizaremos validación continua de componentes, junto con prácticas de refactorización, lo que reforzará la mantenibilidad del sistema y reducirá riesgos de regresión.
+
+#### Architectural Styles & Patterns:
+
+##### Arquitectura basada en Microservicios:
+
+Cada módulo crítico (autenticación, geolocalización, gestión de reportes, notificaciones) se implementa como un servicio independiente. Esto facilita el escalamiento selectivo, mejora la resiliencia y permite desplegar nuevas funcionalidades sin afectar todo el sistema.
+
+##### Patrón Cliente-Servidor:
+
+Tanto la aplicación móvil como web actúan como cliente que interactúa con servicios backend mediante APIs RESTful seguras, asegurando separación de responsabilidades.
+
+##### Patrón Repositorio:
+
+El acceso a datos se implementará mediante este patrón para separar la lógica de negocio de la persistencia, facilitando cambios futuros en la base de datos sin afectar otros componentes del sistema.
+
 ### 4.1.3. Context Diagram
 
 ### 4.1.4. Approach driven ViewPoints Diagrams
