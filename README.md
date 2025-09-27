@@ -285,6 +285,123 @@ A continuación, se detallan las funciones esenciales (user stories) que influye
 
 ### 4.2.3. Quality Attribute Scenarios
 
+Los atributos de calidad determinados para PeaceApp son los que se detallan a continuación:
+
+**a. Disponibilidad:**
+
+Este atributo se trata de la capacidad del sistema para estar disponible y operativo cuando se necesita.
+En nuestra solución, esto significa que los usuarios podrán acceder a la aplicación en cualquier momento para reportar incidentes de seguridad o recibir alertas en tiempo real.
+La facilidad con la que se puede garantizar esta disponibilidad depende de una infraestructura confiable, redundante y con monitoreo constante.
+Una alta disponibilidad transmite confianza al ciudadano, asegurando que la plataforma siempre esté lista para su uso sin interrupciones inesperadas, especialmente en situaciones críticas.
+
+**b. Rendimiento:**
+
+Este atributo se trata de la capacidad del sistema para responder con rapidez y eficiencia bajo distintas cargas de trabajo.
+En nuestra solución, buscamos que los reportes de incidentes, el envío de alertas y las consultas de mapas se procesen en tiempo mínimo, evitando retrasos que puedan afectar la seguridad del usuario.
+La facilidad con la que se mantiene un buen rendimiento se logra mediante una arquitectura optimizada, balanceo de carga y pruebas de estrés que validen la eficiencia del sistema.
+Un alto rendimiento mejora la experiencia de los usuarios, reduciendo la frustración y asegurando que la información crítica llegue de forma oportuna.
+
+**c. Escalabilidad:**
+
+Este atributo se trata de la capacidad del sistema para crecer y adaptarse a un aumento de usuarios, datos o transacciones.
+En nuestra solución, esto significa que la aplicación puede ampliarse fácilmente para atender a más distritos o ciudades, soportando un mayor volumen de alertas y usuarios sin perder eficiencia.
+La facilidad con la que se logra esta escalabilidad proviene de una arquitectura modular y distribuida, diseñada desde el inicio para soportar crecimiento.
+Un sistema escalable asegura la continuidad del servicio y la adopción masiva sin necesidad de rediseños costosos.
+
+**d. Mantenibilidad:**
+
+Este atributo se trata de la capacidad del sistema para ser modificado fácilmente cuando se necesitan cambios o mejoras.
+En nuestra solución, el código será limpio, modular y bien documentado, lo cual facilita la detección y corrección de errores, así como la integración de nuevas funcionalidades (ejemplo: chat en tiempo real con autoridades).
+La facilidad con la que se mantiene y mejora el sistema reduce los tiempos de desarrollo, evita errores nuevos y permite adaptarse a las necesidades cambiantes de la comunidad.
+Una alta mantenibilidad asegura la evolución constante de PeaceApp con bajo riesgo y esfuerzo.
+
+**e. Usabilidad:**
+
+Este atributo se trata de la capacidad del sistema para ser entendido y utilizado con facilidad por los usuarios finales.
+En nuestra solución, nos enfocamos en una interfaz clara, intuitiva y accesible, que permita a los ciudadanos reportar incidentes o consultar alertas de manera rápida incluso en momentos de emergencia.
+La facilidad con la que un usuario interactúa con la aplicación depende de un diseño UX/UI bien estructurado, retroalimentación visual clara y soporte para accesibilidad.
+Una alta usabilidad fomenta la adopción de la plataforma, reduce la curva de aprendizaje y genera confianza en los ciudadanos para seguir utilizándola.
+
+**f. Seguridad:**
+
+Este atributo se trata de la capacidad del sistema para proteger la confidencialidad, integridad y disponibilidad de la información.
+En nuestra solución, esto implica implementar autenticación robusta, encriptación de datos y control de acceso según roles (usuario, autoridad, administrador).
+La facilidad con la que se garantiza la seguridad depende de políticas claras de protección de datos y del uso de estándares internacionales (ejemplo: OWASP).
+Una alta seguridad incrementa la confianza de los usuarios y asegura que la información sensible no sea vulnerada ni utilizada de forma indebida.
+
+**a. Disponibilidad:**
+
+| **Elemento**            | **Detalle**                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Escenario**           | Un ciudadano necesita reportar un incidente en la calle a través de la app. |
+| **Fuente de Estímulo**  | Ciudadano que usa la app                                                    |
+| **Estímulo**            | Intenta acceder a la app para reportar un incidente en la calle             |
+| **Medioambiente**       | El sistema se encuentra bajo condiciones normales de operación              |
+| **Artefacto**           | Servidor y frontend de PeaceApp                                             |
+| **Respuesta**           | El sistema responde y permite el registro del incidente sin caída del servicio |
+| **Medida de Respuesta** | Tiempo de disponibilidad ≥ 99.5% mensual                                    |
+
+**b. Rendimiento:**
+
+| **Elemento**            | **Detalle**                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Escenario**           | Un usuario envía un reporte con foto y geolocalización en horario concurrido. |
+| **Fuente de Estímulo**  | Usuario enviando un reporte                                                 |
+| **Estímulo**            | Envío de reporte de incidente con foto y geolocalización                    |
+| **Medioambiente**       | Sistema con 1000 usuarios concurrentes                                      |
+| **Artefacto**           | API de backend y base de datos                                              |
+| **Respuesta**           | Procesa y guarda el reporte en la base de datos                             |
+| **Medida de Respuesta** | Tiempo de respuesta ≤ 3 segundos                                            |
+
+**c. Escalabilidad:**
+
+| **Elemento**            | **Detalle**                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Escenario**           | El servicio se expande a nuevos distritos y la cantidad de usuarios se duplica. |
+| **Fuente de Estímulo**  | Municipalidad que amplía la cobertura                                       |
+| **Estímulo**            | Aumento de usuarios al extender el servicio a nuevos distritos              |
+| **Medioambiente**       | Sistema en crecimiento exponencial de usuarios y transacciones              |
+| **Artefacto**           | Arquitectura distribuida en la nube                                         |
+| **Respuesta**           | Se despliegan nuevas instancias y balanceadores automáticamente             |
+| **Medida de Respuesta** | El sistema soporta +10,000 usuarios sin degradación notable del rendimiento |
+
+**d. Mantenibilidad:**
+
+| **Elemento**            | **Detalle**                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Escenario**           | El equipo de desarrollo necesita agregar un módulo de comunicación con autoridades. |
+| **Fuente de Estímulo**  | Equipo de desarrollo                                                        |
+| **Estímulo**            | Necesidad de agregar un nuevo módulo de comunicación directa con autoridades |
+| **Medioambiente**       | Sistema en operación con versiones previas estables                         |
+| **Artefacto**           | Código fuente modular de PeaceApp                                           |
+| **Respuesta**           | Se implementa el nuevo módulo sin afectar funcionalidades existentes        |
+| **Medida de Respuesta** | Cambios implementados en ≤ 2 sprints sin errores críticos en producción     |
+
+**e. Usabilidad:**
+
+| **Elemento**            | **Detalle**                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Escenario**           | Un ciudadano bajo estrés necesita presionar el botón de emergencia.          |
+| **Fuente de Estímulo**  | Ciudadano que reporta un incidente                                          |
+| **Estímulo**            | Dificultad para ubicar el botón de “Emergencia”                             |
+| **Medioambiente**       | App utilizada en situación de estrés (robo, accidente, etc.)                |
+| **Artefacto**           | Interfaz gráfica del usuario (UI/UX)                                        |
+| **Respuesta**           | Se muestra un botón visible y accesible en la pantalla principal            |
+| **Medida de Respuesta** | 90% de usuarios logra reportar en ≤ 5 segundos durante pruebas de usabilidad |
+
+**f. Seguridad:**
+
+| **Elemento**            | **Detalle**                                                                 |
+|--------------------------|-----------------------------------------------------------------------------|
+| **Escenario**           | Un atacante intenta ingresar al sistema usando credenciales robadas.        |
+| **Fuente de Estímulo**  | Atacante externo                                                            |
+| **Estímulo**            | Intenta acceder a la base de datos con credenciales robadas                 |
+| **Medioambiente**       | Bajo ataque de fuerza bruta en horario crítico                              |
+| **Artefacto**           | Sistema de autenticación y base de datos                                    |
+| **Respuesta**           | Bloquea el intento, activa alertas y mantiene la integridad de los datos    |
+| **Medida de Respuesta** | 100% de accesos no autorizados bloqueados; logs generados y auditados en < 1min |
+
+
 ### 4.2.4. Constraints
 
 ### 4.2.5. Architectural Concerns
