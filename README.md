@@ -76,6 +76,10 @@ El acceso a datos se implementará mediante este patrón para separar la lógica
 
 ### 4.1.3. Context Diagram
 
+El diagrama de contexto representa a PeaceApp, una aplicación móvil y web orientada a la seguridad ciudadana que permite a los usuarios reportar incidentes, visualizar zonas de riesgo y compartir su ubicación en tiempo real. Los actores que interactúan con el sistema son el Citizen, quien utiliza la aplicación para mantenerse informado y enviar reportes, y el Admin, encargado de gestionar cuentas, reportes y alertas dentro de la plataforma. A su vez, PeaceApp consume los servicios externos del Map System, para obtener datos de geolocalización y mapas, así como del SMS Gateway y la WhatsApp API, utilizados para enviar alertas y compartir ubicaciones con contactos de confianza fuera de la aplicación.
+
+![](assets/structurizr-83580-SystemContext.png)
+
 ### 4.1.4. Approach driven ViewPoints Diagrams
 
 ### 4.1.5. Relational/Non Relational Database Diagram
