@@ -419,6 +419,18 @@ La tabla a continuación muestra las limitaciones que deben considerarse dentro 
 
 ### 4.2.5. Architectural Concerns
 
+Las consideraciones arquitectónicas importantes para nuestro proyecto que aseguran el cumplimiento de los requisitos del negocio y la satisfacción de las expectativas de los interesados son las siguientes:
+
+| **ID**   | **Architectural Concern** | **Descripción** | **Impacto en la Arquitectura** |
+|----------|----------------------------|-----------------|--------------------------------|
+| **ARC-01** | Protección de Datos Personales | Los usuarios comparten información sensible (ubicación en tiempo real, reportes de incidentes). | Requiere aplicar cifrado en tránsito y en reposo, políticas de anonimización y control de accesos estrictos. |
+| **ARC-02** | Escalabilidad en Altas Cargas | En situaciones de emergencia pueden generarse picos de tráfico por múltiples reportes simultáneos. | La arquitectura debe escalar horizontalmente (ej. balanceadores de carga, microservicios) para mantener tiempos de respuesta aceptables. |
+| **ARC-03** | Disponibilidad y Resiliencia | La aplicación debe estar disponible 24/7, incluso frente a fallas en servidores o cortes de red. | Se deben diseñar mecanismos de redundancia, replicación de datos y recuperación ante desastres (DR). |
+| **ARC-04** | Integración con Entidades Externas | PeaceApp debe interoperar con sistemas de municipalidades, serenazgo y policía. | Implica diseñar APIs seguras y estandarizadas, además de considerar latencia y confiabilidad en el intercambio de datos. |
+| **ARC-05** | Experiencia de Usuario (UX) | La interfaz debe ser clara y rápida de usar, especialmente en contextos de estrés. | Obliga a un diseño minimalista, accesible y validado con pruebas de usabilidad. |
+| **ARC-06** | Gestión de Incidentes Falsos o Maliciosos | Los usuarios podrían enviar reportes falsos que perjudiquen la confianza en la plataforma. | Se requieren mecanismos de validación (ej. reputación de usuario, moderación). |
+| **ARC-07** | Sostenibilidad y Mantenibilidad | La aplicación debe evolucionar a largo plazo sin costos excesivos de mantenimiento. | Se deben usar arquitecturas modulares, componentes desacoplados y tecnologías ampliamente soportadas. |
+
 ## 4.3. ADD Iterations
 
 ### 4.3.X. Iteration N: <Iteration Name>
