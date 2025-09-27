@@ -137,9 +137,72 @@ Cada uno de estos microservicios expone su propia API y se comunica directamente
 
 El sistema de base de datos de PeaceApp está diseñado para dar soporte a la gestión integral de reportes de seguridad, alertas, usuarios, ubicaciones y pagos dentro de la aplicación. El modelo refleja una estructura relacional clara y modular, en la que los usuarios pueden registrar incidentes, recibir alertas de zonas de riesgo, compartir su ubicación en tiempo real, gestionar rutas seguras, así como realizar pagos y almacenar sus ubicaciones favoritas. Esta organización permite garantizar trazabilidad, consistencia y seguridad en los datos, facilitando el control de toda la información crítica del sistema.
 
-![](assets/structurizr-83580-Containers.png)
+![](assets/RelationalDatabaseDiagram.png)
+
+- users: Almacena la información principal de los usuarios del sistema, incluyendo nombres, apellidos, teléfono, correo electrónico, credenciales y fechas de creación y actualización. Es la tabla central del modelo y se conecta con reportes, alertas, ubicaciones, favoritos y pagos.
+
+- accounts: Contiene datos de las cuentas de usuario y sus credenciales de autenticación (nombre de usuario, contraseña cifrada, fechas de creación/actualización). Se vincula a la tabla users para habilitar el inicio de sesión y la gestión de credenciales.
+
+- accounts_user: Representa la relación entre accounts y users, enlazando a cada usuario con su cuenta correspondiente mediante claves foráneas.
+
+- reports: Registra los incidentes reportados por los usuarios, con atributos como fecha, título, descripción, tipo de reporte y estado. Se asocia con usuarios y ubicaciones para su trazabilidad.
+
+- reports_user: Gestiona la relación entre reports y users, permitiendo identificar qué usuario creó cada reporte.
+
+- alerts: Almacena las notificaciones generadas por los reportes, incluyendo fecha, detalle y estado. Se utilizan para avisar a los usuarios cercanos a zonas de riesgo.
+
+- alerts_user: Define la relación entre alerts y users, permitiendo vincular qué usuarios reciben cada alerta generada.
+
+- locations: Contiene las coordenadas geográficas (latitud, longitud) utilizadas para mapear reportes, rutas seguras y ubicaciones compartidas.
+
+- location_reports: Tabla de relación entre reports y locations, que permite registrar la ubicación de cada reporte en el mapa.
+
+- ubications_user: Permite gestionar las ubicaciones compartidas en tiempo real entre usuarios, incluyendo la fecha de inicio de la compartición y el usuario relacionado.
+
+- favorites: Registra las ubicaciones o rutas marcadas como favoritas por los usuarios, vinculando a users y a locations para facilitar accesos rápidos.
+
+- favorites_user: Relaciona a los usuarios con sus ubicaciones o rutas favoritas mediante claves foráneas.
+
+- safe_routes: Contiene la información de rutas seguras definidas por los usuarios, asociadas a una ubicación registrada.
+
+- payments: Almacena las transacciones realizadas en la aplicación, registrando el monto, método de pago, estado de la transacción y fechas de creación/actualización.
+
+- payments_user: Relaciona las transacciones de la tabla payments con los usuarios que las realizaron, garantizando la trazabilidad de cada operación.
 
 ### 4.1.6. Design Patterns
+
+El uso de patrones de diseño en PeaceApp permitirá desarrollar una solución extensible y confiable, donde cada módulo se mantenga desacoplado y fácilmente evolucionable. Estos patrones garantizan la reutilización de código, la reducción de complejidad y la alineación de la arquitectura con los principios de seguridad, escalabilidad y usabilidad definidos previamente.
+
+#### Domain Driven Design (DDD)
+
+- **Propósito:** Modelar el dominio de seguridad ciudadana (alertas, reportes, usuarios, ubicaciones) con un lenguaje cercano al negocio, usando tácticas como **Entidades, Objetos de Valor, Agregados y Repositorios**.  
+- **Beneficio:** Permite que las entidades clave como *Usuario, Alerta, Ubicación* estén alineadas con la realidad del problema, facilitando la comunicación con stakeholders y la evolución del sistema frente a nuevos requerimientos (p. ej., integración con autoridades locales).
+
+#### Strategy
+
+- **Propósito:** Definir un conjunto de algoritmos o comportamientos intercambiables sin modificar el cliente.  
+- **Beneficio:** Facilita implementar distintos **tipos de alertas** (robo, accidente, emergencia médica) con lógicas personalizadas sin alterar el flujo central de la aplicación.
+
+#### Observer
+
+- **Propósito:** Notificar automáticamente a múltiples suscriptores cuando ocurre un evento.  
+- **Beneficio:** Cuando un usuario reporta una alerta, el sistema notifica en tiempo real a otros usuarios cercanos y, opcionalmente, a las autoridades, garantizando rapidez en la difusión de información.
+
+#### Factory Method
+
+- **Propósito:** Delegar la creación de objetos a subclases o métodos especializados para reducir el acoplamiento.  
+- **Beneficio:** Permite crear objetos dinámicamente según el tipo de alerta o nivel de usuario (básico, premium, autoridad) sin modificar la lógica central.
+
+#### Composite
+
+- **Propósito:** Tratar de manera uniforme objetos individuales y composiciones.  
+- **Beneficio:** Posibilita representar un **mapa de alertas** como una composición jerárquica (ciudad → distrito → barrio → alerta individual), simplificando la visualización y gestión de la información en distintos niveles de detalle.
+
+#### Role-Based Access Control (RBAC)
+
+- **Propósito:** Asignar permisos a roles y roles a usuarios para controlar accesos.  
+- **Beneficio:** Diferencia los privilegios entre **usuarios comunes, moderadores y autoridades**, garantizando seguridad y personalización en las funcionalidades disponibles.
+
 
 ### 4.1.7. Tactics
 
