@@ -406,8 +406,6 @@ Una alta seguridad incrementa la confianza de los usuarios y asegura que la info
 
 La tabla a continuación muestra las limitaciones que deben considerarse dentro del desarrollo de PeaceApp.
 
-### 4.2.4 Constraints
-
 | **ID**   | **Constraint** | **Restricción** | **Impacto** |
 |----------|----------------|-----------------|-------------|
 | **CON-01** | Conectividad Urbana Variable | En muchas zonas urbanas la conectividad móvil puede ser inestable o intermitente. | La aplicación debe permitir funcionamiento básico offline (ej. registro temporal de incidentes) y sincronización automática cuando haya conexión. |
