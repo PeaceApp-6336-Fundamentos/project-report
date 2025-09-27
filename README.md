@@ -206,6 +206,49 @@ El uso de patrones de diseño en PeaceApp permitirá desarrollar una solución e
 
 ### 4.1.7. Tactics
 
+En el marco del método ADD v3, los tactics representan las decisiones arquitectónicas específicas que permiten alcanzar los atributos de calidad definidos para el sistema. Mientras que los principles statements establecen lineamientos generales, los tactics se enfocan en acciones concretas que orientan el diseño técnico y la implementación de la solución. Para PeaceApp, se han definido tácticas orientadas a garantizar seguridad, disponibilidad, escalabilidad, mantenibilidad y usabilidad, respondiendo a las necesidades críticas del sistema y alineándose con la visión de negocio.
+
+#### Seguridad
+
+| Táctica | Descripción | Justificación |
+|---------|-------------|---------------|
+| Autenticación con JWT | Uso de tokens seguros para validar identidad de los usuarios. | Garantiza que solo usuarios autorizados accedan a la aplicación. |
+| Cifrado de datos en tránsito (HTTPS/TLS) | Encriptación de la comunicación entre cliente y servidor. | Protege la información sensible como reportes y ubicaciones. |
+| Control de accesos basado en roles | Definir permisos diferenciados para usuarios y autoridades. | Evita accesos indebidos y asegura un uso confiable de la plataforma. |
+
+#### Disponibilidad
+
+| Táctica | Descripción | Justificación |
+|---------|-------------|---------------|
+| Balanceo de carga | Distribuir peticiones entre múltiples servidores. | Asegura que la aplicación esté disponible incluso en picos de uso. |
+| Replicación de base de datos | Mantener copias sincronizadas en diferentes nodos. | Minimiza el impacto de fallos y mejora la resiliencia. |
+| Monitoreo proactivo | Uso de alertas y métricas en tiempo real. | Permite detectar y resolver problemas antes de que afecten a los usuarios. |
+
+#### Escalabilidad
+
+| Táctica | Descripción | Justificación |
+|---------|-------------|---------------|
+| Arquitectura basada en microservicios | Dividir el sistema en servicios independientes. | Facilita crecer por módulos sin afectar al resto de la aplicación. |
+| Auto-escalado en la nube | Ajustar dinámicamente la capacidad de servidores según demanda. | Reduce costos y soporta incrementos en la carga de usuarios. |
+| Cacheo de información | Uso de Redis u otra capa de caché. | Optimiza consultas frecuentes como reportes recientes o mapas de calor. |
+
+#### Mantenibilidad
+
+| Táctica | Descripción | Justificación |
+|---------|-------------|---------------|
+| Código modular y documentado | Separar componentes por responsabilidad. | Facilita la localización y corrección de errores. |
+| Pruebas automatizadas | Integrar pruebas unitarias y de integración. | Reduce riesgos de fallos al introducir cambios. |
+| Uso de patrones de diseño | Aplicar MVC o MVVM en la app móvil. | Mejora la organización y facilita la incorporación de nuevas funcionalidades. |
+
+#### Usabilidad
+
+| Táctica | Descripción | Justificación |
+|---------|-------------|---------------|
+| Diseño centrado en el usuario (UX) | Interfaces simples, consistentes y accesibles. | Incrementa la adopción de la aplicación y la confianza de los usuarios. |
+| Retroalimentación inmediata | Confirmaciones y notificaciones visuales/sonoras al interactuar. | Genera confianza y sensación de control en el usuario. |
+| Internacionalización y accesibilidad | Soporte multilenguaje y compatibilidad con accesibilidad móvil. | Permite llegar a un público más amplio, incluyendo personas con discapacidad. |
+
+
 ## 4.2. Architectural Drivers
 
 ### 4.2.1. Design Purpose
