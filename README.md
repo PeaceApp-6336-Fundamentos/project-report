@@ -468,9 +468,30 @@ En esta iteración, el equipo se enfocará en refinar los siguientes elementos c
 | **Módulo de Seguridad y Autenticación**           | - Implementación de autenticación robusta (OAuth 2.0, JWT).<br>- Encriptación de datos sensibles en tránsito y en reposo.<br>- Control de acceso basado en roles (usuario, autoridad, administrador). |
 
 
-#### 4.3.X.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
+### 4.3.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers
 
-#### 4.3.X.5. Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+Para satisfacer los atributos de calidad seleccionados en esta iteración (**usabilidad, rendimiento, disponibilidad y seguridad**), se han elegido los siguientes conceptos de diseño:
+
+| Decisiones | Justificación y Supuestos |
+|------------|---------------------------|
+| **Diseño de Formularios Simples e Intuitivos para Reportar Incidentes** | Se usarán los formularios de registro de incidentes (tipo, ubicación, hora) con validaciones dinámicas y feedback visual inmediato. Esto facilita el uso para cualquier ciudadano, incluso con poca experiencia tecnológica, mejorando la **usabilidad**. |
+| **Mapas Interactivos para Visualización de Calor** | Se utilizarán mapas dinámicos con filtros de incidentes y rutas seguras, optimizados para tiempos de respuesta menores a 2 segundos. Esto garantiza una experiencia fluida en la consulta de información crítica, mejorando el **rendimiento**. |
+| **Sistema de Notificaciones Push en Tiempo Real** | Se empleará un módulo de notificaciones automáticas, con entrega inmediata y confiable de alertas sobre incidentes cercanos. Esto asegura que los ciudadanos reciban información en situaciones críticas, cumpliendo con la **disponibilidad**. |
+| **Mecanismos de Autenticación y Encriptación de Datos** | Se implementará autenticación robusta (OAuth 2.0, JWT) y encriptación de datos sensibles en tránsito y en reposo. Además, se gestionará el acceso según roles (usuario, autoridad, administrador). Esto protege la información sensible y fortalece la **seguridad**. |
+
+
+### 4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+En esta iteración, se definen e instancian los siguientes elementos arquitectónicos principales, asignando responsabilidades específicas y estableciendo sus interfaces de comunicación:
+
+| Apartado                                      | Decisión                                                                 | Justificación                                                                 |
+|-----------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| **Frontend Web/Móvil (PeaceApp UI)**          | Interfaz de usuario para ciudadanos y autoridades. Maneja el registro de incidentes, visualización de mapas de calor y gestión de notificaciones. | Brinda una experiencia amigable e inclusiva, conectando directamente a los usuarios con las funcionalidades principales. |
+| **Backend API Gateway**                       | Orquesta las solicitudes de los módulos, maneja la autenticación, enrutamiento y validaciones básicas. | Permite centralizar la seguridad, simplificar la comunicación y escalar los microservicios.. |
+| **Microservicio de Reportes de Incidentes**   | CRUD de reportes (crear, editar, eliminar, listar incidentes). Validación y almacenamiento de datos. | API REST expuesta al API Gateway. Procesa la información en tiempo real. |
+| **Microservicio de Mapas Interactivos**       | Generación de mapas de calor dinámicos con filtros y rutas seguras. | API REST para consultas rápidas de incidentes. Algoritmos de agregación para visualización eficiente. |
+| **Microservicio de Notificaciones y Alertas** | Gestión y envío de notificaciones push en tiempo real. Configuración de alertas personalizadas. | Mantiene a los usuarios informados y comprometidos con las actividades. |
+| **Microservicio de Seguridad y Autenticación**| Manejo de autenticación de usuarios y cifrado de datos sensibles. Control de acceso basado en roles. | Garantiza almacenamiento seguro, integridad y disponibilidad de la información. | 
 
 #### 4.3.X.6. Sketch Views (C4 & UML) and Record Design Decisions
 
