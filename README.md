@@ -433,13 +433,40 @@ Las consideraciones arquitectónicas importantes para nuestro proyecto que asegu
 
 ## 4.3. ADD Iterations
 
-### 4.3.X. Iteration N: <Iteration Name>
+### 4.3.1 Iteration 1: Optimización de Procesos Clave para la Seguridad Ciudadana
+### 4.3.1.1 Architectural Design Backlog 1
 
-#### 4.3.X.1. Architectural Design Backlog N
+Se definen los impulsores (drivers) que conforman la primera iteración del método ADD, centrada en la optimización del proceso de reporte, visualización y comunicación de incidentes en tiempo real.
 
-#### 4.3.X.2. Establish Iteration Goal by Selecting Drivers
+| ID       | Título                             | Scenario                                                                                      | Quality Attribute | Driver                                                                                          |
+|----------|-------------------------------------|-----------------------------------------------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------|
+| E1-US201 | Reportar incidente en tiempo real   | Como ciudadano, quiero registrar un incidente de seguridad (robo, accidente, agresión) para alertar a otros. | Usabilidad        | Proporcionar una experiencia intuitiva y rápida que fomente el uso constante de la plataforma. |
+| E1-US204 | Visualizar mapa de calor interactivo | Como ciudadano, quiero consultar un mapa de calor actualizado para identificar zonas peligrosas. | Rendimiento       | Garantizar tiempos de respuesta menores a 2 segundos al cargar mapas y reportes en la aplicación. |
+| E1-US208 | Recibir notificaciones y alertas    | Como ciudadano, quiero recibir alertas inmediatas cuando ocurra un incidente cerca de mi ubicación. | Disponibilidad    | Asegurar el envío de notificaciones push en tiempo real con una tasa de entrega confiable.      |
+| E1-US210 | Autenticación y seguridad de datos  | Como usuario, quiero iniciar sesión de forma segura para proteger mi información personal y mis reportes. | Seguridad         | Implementar autenticación robusta y encriptación de datos para proteger la confidencialidad.   |
 
-#### 4.3.X.3. Choose One or More Elements of the System to Refine
+### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
+
+Se establecen las metas de iteración para cada atributo de calidad elegido.
+
+| ID       | Quality Attribute | Scenario                                                                                                                                         |
+|----------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| E1-US201 | Usabilidad        | Proporcionar a los ciudadanos una experiencia intuitiva para registrar incidentes en tiempo real. Esto permitirá la adopción masiva de la plataforma y la actualización constante de datos de seguridad. |
+| E1-US204 | Rendimiento       | Garantizar que la visualización del mapa de calor interactivo sea rápida, con tiempos de respuesta inferiores a 2 segundos, asegurando la confiabilidad de la información al momento de desplazarse. |
+| E1-US208 | Disponibilidad    | Asegurar que las notificaciones push se entreguen de forma inmediata y confiable, reduciendo riesgos al mantener a los usuarios informados en situaciones críticas. |
+| E1-US210 | Seguridad         | Implementar mecanismos de autenticación y encriptación de datos para proteger la información sensible de los usuarios, fortaleciendo la confianza en la aplicación. |
+
+### 4.3.1.3 Choose One or More Elements of the System to Refine
+
+En esta iteración, el equipo se enfocará en refinar los siguientes elementos clave del sistema, alineados a los drivers identificados (usabilidad, rendimiento, disponibilidad y seguridad):
+
+| Elemento                                           | Mejoras contempladas                                                                                                      |
+|---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| **Interfaz de Usuario – Módulo de Reportes y Mapas Interactivos** | - Inputs claros y validados para reportar incidentes (tipo, ubicación, hora).<br>- Mapas interactivos con filtros de incidentes y rutas seguras.<br>- Navegación simple y soporte de accesibilidad (colores contrastados y textos legibles). |
+| **Backend – Procesamiento de Reportes y Generación del Mapa de Calor** | - Almacenamiento estructurado de incidentes con validación automática.<br>- Algoritmos de agregación para mapas de calor dinámicos.<br>- Optimización de consultas para tiempos de respuesta menores a 2 segundos. |
+| **Módulo de Notificaciones y Alertas en Tiempo Real** | - Gestión automática de alertas en el backend.<br>- Envío de notificaciones push inmediatas y confiables.<br>- Configuración de alertas personalizadas por usuario. |
+| **Módulo de Seguridad y Autenticación**           | - Implementación de autenticación robusta (OAuth 2.0, JWT).<br>- Encriptación de datos sensibles en tránsito y en reposo.<br>- Control de acceso basado en roles (usuario, autoridad, administrador). |
+
 
 #### 4.3.X.4. Choose One or More Design Concepts That Satisfy the Selected Drivers
 
