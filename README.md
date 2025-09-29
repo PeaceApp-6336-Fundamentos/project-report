@@ -1103,6 +1103,8 @@ El diagrama de actividades de PeaceApp describe el flujo de acciones del usuario
 
 ![](assets/DiagramadeActividad.png)
 
+Figura 1: Diagrama de Actividad con LucidChart
+
 #### 4.1.4.2. Diagrama de Estado:
 
 Para el diagrama de estado, diagramamos los procesos más importantes de PeaceApp
@@ -1590,3 +1592,15 @@ El diseño actual cubre satisfactoriamente los drivers seleccionados en esta ite
 **Anexo N°1: Organización del proyecto**
 
 URL de la organización del proyecto: <https://github.com/PeaceApp-6336-Fundamentos>
+
+**Anexo N°2: Diagrama de actividades (Lucidchart)**
+
+URL del diagrama en Lucidchart: <https://lucid.app/lucidchart/3814247c-9f4e-4f31-a0c1-fc8638089825/edit?viewport_loc=-254%2C0%2C2819%2C1316%2C0_0&invitationId=inv_daf23762-6aef-4d88-bc05-1bcf804170b6>
+
+**Anexo N°3: Ciclo de vida de reporte (Lucidchart)**
+
+URL del diagrama en Lucidchart: <https://lucid.app/lucidchart/64179528-6c6c-4596-b95b-f2f16f07d47d/edit?viewport_loc=-8%2C0%2C2730%2C1274%2C0_0&invitationId=inv_945b3387-0274-4d5d-b148-b5d52e66b345>
+
+**Anexo N°4: Ciclo de vida de compartir ubicación (Lucidchart)**
+
+URL del diagrama en Lucidchart: <https://lucid.app/lucidchart/aac7a3d3-51ac-45b6-aa28-67994ba8c084/edit?viewport_loc=-74%2C23%2C2416%2C1128%2C0_0&invitationId=inv_6cac7aad-e38e-4be9-b697-77e9b1904c47>
