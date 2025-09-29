@@ -494,5 +494,15 @@ En esta iteración, se definen e instancian los siguientes elementos arquitectó
 | **Microservicio de Seguridad y Autenticación**| Manejo de autenticación de usuarios y cifrado de datos sensibles. Control de acceso basado en roles. | Garantiza almacenamiento seguro, integridad y disponibilidad de la información. | 
 
 #### 4.3.X.6. Sketch Views (C4 & UML) and Record Design Decisions
+##### Diagrama de contexto
+![](assets/diagramacontexto.png)
+##### Diagrama de contenedores
+![](assets/contenedores.png)
+##### Diagramas de Componentes
+![](assets/API.png)
+![](assets/MOBILE.png)
+![](assets/WORKER.png)
+
+
 
 #### 4.3.X.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
