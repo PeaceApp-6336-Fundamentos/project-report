@@ -49,6 +49,12 @@
     <td> Maria Pilares <br> Kenyi Ramirez <br> Anatoly Noriega <br> Santiago Gordillo <br> Bryan Espejo </td>
     <td> Realizamos los capítulos 1, 2 y 3 según la rúbrica de manera conjunta y eficiente.  </td>
   </tr>
+  <tr>
+    <td align="center">TB2</td>
+    <td>28/09/2025</td>
+    <td> Maria Pilares <br> Kenyi Ramirez <br> Anatoly Noriega <br> Santiago Gordillo <br> Bryan Espejo </td>
+    <td> Avanzamos el capítulo 4, desarrollando la arquitectura del sistema, diagramas, drivers y aplicación del método ADD. </td>
+  </tr>
 </table>
 
 ---
@@ -152,20 +158,29 @@ para su proyecto en soluciones de
 software.</td>
 <td>
             <strong>Pilares Pocohuanca, Maria</strong> <br>
-            TB1 <br> Me comprometí a tomar decisiones éticas y profesionales, entendiendo la relevancia de seguir buenas prácticas en                todas las etapas del proyecto, desde las entrevistas hasta las revisiones, para asegurar la calidad y la transparencia del               software creado. 
-            <br><br>
+            TB1 <br> Me comprometí a tomar decisiones éticas y profesionales, entendiendo la relevancia de seguir buenas prácticas en todas las etapas del proyecto, desde las entrevistas hasta las revisiones, para asegurar la calidad y la transparencia del software creado.<br>
+            TB2 <br> Reforcé mis conocimientos en principios de diseño (SOLID, modularidad, seguridad) y enfoques como DDD, UCD y microservicios. También profundicé en la definición del propósito de diseño y user stories, lo que me ayudó a conectar los principios arquitectónicos con las necesidades del sistema.<br>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong> <br>
             TB1 <br>En mi rol, me enfoqué en aplicar y actualizar mis conocimientos para asegurar la alineación estratégica del proyecto. Evalué y perfeccioné las User Stories y el Impact Mapping, asegurándome de que cada elemento encajara con la visión de la aplicación. Además, participé activamente en la elaboración del Product Backlog, priorizando las funcionalidades para crear una hoja de ruta clara y eficiente. Estas responsabilidades me permitieron fortalecer mis habilidades en la planificación ágil y la gestión de requisitos de software, demostrando mi capacidad para convertir la visión del producto en pasos de desarrollo concretos y estratégicos.<br>
+            TB2 <br> Actualicé mis conocimientos en patrones de diseño y tácticas arquitectónicas orientadas a seguridad, escalabilidad y usabilidad. Además, comprendí cómo los escenarios de atributos de calidad permiten vincular decisiones técnicas con las necesidades críticas del sistema.<br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br>Durante el desarrollo del proyecto, actualicé mis conocimientos aplicados al diseño de preguntas para las entrevistas, así como en el uso de herramientas de análisis como empathy mapping, as is scenario mapping y to be scenario mapping. Esta actualización me permitió comprender mejor las necesidades del segmento objetivo y orientar el proyecto hacia soluciones de software alineadas con la realidad de los usuarios.<br>
+            TB2 <br>Actualicé mis conocimientos en la elaboración de diagramas arquitectónicos (contexto, actividad, estado, clases, contenedores) y en el modelado de bases de datos, reforzando además el uso de C4 y UML para representar la arquitectura de forma clara y alineada a los principios de escalabilidad y seguridad.<br>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
             TB1 <br> Me aseguré de tomar decisiones éticas, responsables y profesionales, reconociendo la importancia de aplicar buenas técnicas al momento de completar la información para garantizar la calidad del software. <br>
+            TB2 <br>Fortalecí mis conocimientos en el método ADD, aprendiendo a elaborar backlog arquitectónico, seleccionar drivers, refinar elementos y definir interfaces. Esto me permitió comprender mejor cómo alinear las decisiones de diseño con atributos de calidad como usabilidad, seguridad y rendimiento.<br>
             <strong>Espejo Gamarra, Bryan Ronald</strong> <br>
             TB1 <br>Me aseguré de tomar decisiones profesionales responsables, aplicando enfoques éticos a lo largo de todo el proceso, desde la recopilación de datos hasta la entrega final, para garantizar que el software desarrollado fuera íntegro y de alta calidad.<br>
+            TB2 <br>Amplié mis conocimientos en restricciones y preocupaciones arquitectónicas (normativas, presupuesto, experiencia de usuario) y en el análisis de diseño con tableros Kanban. Esto me permitió entender cómo factores externos e internos influyen en la sostenibilidad de la arquitectura.<br>
 </td>
 <td>
 <em><strong>TB1</strong></em>
-<br>En conjunto, los estudiantes demostraron haber actualizado y aplicado sus conocimientos de manera estratégica durante el desarrollo del proyecto. Desde la planificación ágil con user stories e impact mapping, hasta el diseño y validación mediante entrevistas, empathy mapping y escenarios as is / to be, cada integrante reforzó sus competencias técnicas y éticas. Esto permitió orientar las soluciones de software hacia la calidad, la transparencia y la alineación con las necesidades reales de los usuarios, consolidando su capacidad para transformar la visión del producto en acciones concretas y efectivas.<br>
+<br>En conjunto, los estudiantes demostraron haber actualizado y aplicado sus conocimientos de manera estratégica durante el desarrollo del proyecto. Desde la planificación ágil con user stories e impact mapping, hasta el diseño y validación mediante entrevistas, empathy mapping y escenarios as is / to be, cada integrante reforzó sus competencias técnicas y éticas. Esto permitió orientar las soluciones de software hacia la calidad, la transparencia y la alineación con las necesidades reales de los usuarios, consolidando su capacidad para transformar la visión del producto en acciones concretas y efectivas.
+<br>
+
+<em><strong>TB2</strong></em>
+<br>En esta segunda etapa, los estudiantes consolidaron y ampliaron sus conocimientos en el ámbito del diseño arquitectónico de software. A través de la elaboración de diagramas (contexto, actividades, estados, clases, contenedores y bases de datos), la aplicación del método ADD y la incorporación de patrones y tácticas, lograron comprender de manera integral cómo se estructuran y evolucionan los sistemas. Asimismo, al analizar restricciones, preocupaciones y atributos de calidad, reforzaron su capacidad crítica para tomar decisiones técnicas fundamentadas y sostenibles. Esta actualización de competencias permitió orientar el proyecto hacia una arquitectura robusta, escalable y alineada con las necesidades del usuario, demostrando una evolución significativa respecto a la fase inicial.
+<br>
 </td>
 </tr>
 <tr class="even">
@@ -176,21 +191,30 @@ desarrollo de proyectos en
 soluciones de software.</td>
 <td>
             <strong>Pilares Pocohuanca, Maria</strong> <br>
-            TB1 <br> Al llevar a cabo entrevistas y revisiones, siempre consideré los efectos a nivel global, económico y social de las               soluciones planteadas, buscando opciones sostenibles que pudieran tener un impacto positivo en el entorno donde se                       aplicarían. 
-            <br><br>
+            TB1 <br> Al llevar a cabo entrevistas y revisiones, siempre consideré los efectos a nivel global, económico y social de las soluciones planteadas, buscando opciones sostenibles que pudieran tener un impacto positivo en el entorno donde se aplicarían.<br>
+            TB2 <br> Reafirmé la necesidad de mantenerme en aprendizaje permanente en principios y enfoques arquitectónicos, pues estos evolucionan y son clave para diseñar soluciones vigentes y efectivas.<br>
             <strong>Ramirez Cabrera, Kenyi Efrain</strong> <br>
             TB1 <br>Demostrando mi compromiso con el aprendizaje continuo, investigué el contexto de mercado de nuestra aplicación para validar su viabilidad y proyección a futuro. Apliqué buenas prácticas de desarrollo al colaborar activamente en la creación y ejecución de entrevistas, lo que nos permitió obtener información valiosa de los usuarios. También participé en la elaboración de las user stories y el product backlog, contribuyendo a una planificación sólida y a una gestión eficiente de los requisitos del proyecto. Este proceso me permitió reforzar la importancia de la actualización constante de conocimientos para el éxito en el desarrollo de soluciones de software.<br>
+            TB2 <br>Reconocí que el aprendizaje constante en patrones, tácticas y atributos de calidad es fundamental para aplicar soluciones robustas y adaptadas a las exigencias del entorno tecnológico.<br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br>Reconozco la importancia del aprendizaje continuo para mi crecimiento profesional, lo cual apliqué al conducir entrevistas con el segmento objetivo y al analizar sus resultados mediante herramientas de diseño centrado en el usuario. Estas experiencias reforzaron la necesidad de mantenerme en constante actualización para desarrollar proyectos de software que respondan a contextos dinámicos y necesidades reales.<br>
+            TB2 <br>Reconocí la importancia de seguir aprendiendo en el uso de diagramas arquitectónicos y modelos de bases de datos, así como en el manejo de C4 y UML, lo que refuerza mi desarrollo profesional en diseño de software.<br>
             <strong>Gordillo Ramos, Santiago Alonso</strong> <br>
             TB1 <br> Con el desarrollo del software y el proyecto investigué nuevas tecnologías y buenas prácticas de programación que me permitieron ampliar mi conocimiento y mi profesionalismo al momento de realizar el trabajo <br>
+            TB2 <br> Comprendí la necesidad de actualizarme en el método ADD y su aplicación práctica, lo que evidencia que el aprendizaje continuo es esencial para enfrentar proyectos complejos de software. <br>
             <strong>Espejo Gamarra, Bryan Ronald</strong> <br>
             TB1 <br>Durante las entrevistas y evaluaciones, tuve en cuenta las consecuencias a nivel global, económico y social de las soluciones propuestas, buscando alternativas que fueran viables a largo plazo y que generaran beneficios tangibles para la comunidad en la que se implementaran. <br>
+            TB2 <br>Valoré la importancia del aprendizaje permanente para abordar restricciones y preocupaciones arquitectónicas, así como para analizar diseños con nuevas herramientas y metodologías.<br>
 </td>
 <td>
 <em><strong>TB1</strong></em>
 <br>Los testimonios reflejan un compromiso común con el aprendizaje continuo como eje de crecimiento profesional. Al investigar nuevos contextos de mercado, incorporar buenas prácticas, conducir entrevistas y aplicar metodologías de diseño centrado en el usuario, los estudiantes reconocieron que la actualización constante es indispensable para responder a entornos dinámicos. Este enfoque no solo favoreció la planificación y viabilidad del proyecto, sino que también reafirmó la importancia de integrar sostenibilidad, impacto social y accesibilidad en el desarrollo de soluciones tecnológicas.<br>
+<br>
+<em><strong>TB2</strong></em>
+<br>El desarrollo de esta etapa reafirmó la importancia del aprendizaje permanente en la formación profesional, ya que permitió actualizar conocimientos en arquitectura, patrones, tácticas y metodologías ágiles. El trabajo colaborativo y la aplicación de buenas prácticas facilitaron la construcción de una solución más sólida, sostenible y alineada a las necesidades reales de los usuarios.<br>
+<br>
 </td>
+
 </tr>
 </tbody>
 </table>
