@@ -493,16 +493,70 @@ En esta iteración, se definen e instancian los siguientes elementos arquitectó
 | **Microservicio de Notificaciones y Alertas** | Gestión y envío de notificaciones push en tiempo real. Configuración de alertas personalizadas. | Mantiene a los usuarios informados y comprometidos con las actividades. |
 | **Microservicio de Seguridad y Autenticación**| Manejo de autenticación de usuarios y cifrado de datos sensibles. Control de acceso basado en roles. | Garantiza almacenamiento seguro, integridad y disponibilidad de la información. | 
 
-#### 4.3.X.6. Sketch Views (C4 & UML) and Record Design Decisions
-##### Diagrama de contexto
-![](assets/diagramacontexto.png)
-##### Diagrama de contenedores
-![](assets/contenedores.png)
-##### Diagramas de Componentes
-![](assets/API.png)
-![](assets/MOBILE.png)
-![](assets/WORKER.png)
+
+En esta sección se representan visualmente los componentes del sistema a través de los diagramas C4 Model (Contexto, Contenedor y Componente) y diagramas UML. El objetivo es ofrecer una visión clara y estructurada de cómo se organiza PeaceApp de nivel de arquitectura, interfaces y relaciones entre los módulos. Asimismo, se mencionan las decisiones arquitectónicas más importantes tomadas durante la iteración, detallando sus justificaciones técnicas y los supuestos considerados.
+
+##### Diagrama de Contexto
+
+![](assets/structurizr-83580-SystemContext.png)
+
+##### Diagrama de Contenedor
+
+![](assets/structurizr-83580-Containers.png)
+
+##### IAM Bounded Context
+
+![](assets/structurizr-84687-iam_bounded_context.png)
+
+##### Profile Bounded Context
+
+![](assets/structurizr-84687-profiles_bounded_context.png)
+
+##### Report Bounded Context
+
+![](assets/structurizr-84687-reports_bounded_context.png)
+
+##### Alert Bounded Context
+
+![](assets/structurizr-84687-alerts_bounded_context.png)
+
+##### Location Bounded Context
+
+![](assets/structurizr-84687-locations_bounded_context.png)
+
+##### Diagrama de Clases
+
+![](assets/ClassDiagram.png)
+
+## Design Decisions – PeaceApp
+
+| Decisión | Justificación |
+|----------|---------------|
+| **Arquitectura de Microservicios** | Permite escalar servicios críticos como IAM, Reports, Alerts, Profiles o Locations de manera independiente. Esto favorece la mantenibilidad, la resiliencia ante fallos y la evolución del sistema sin afectar a otros módulos. |
+| **API Gateway centralizado** | Gestiona la autenticación, autorización y control de tráfico. Desacopla el frontend (SPA y Mobile App) de los distintos microservicios, aplicando seguridad IAM de forma uniforme. |
+| **Uso de MySQL en todos los microservicios** | Base de datos robusta, relacional y ampliamente soportada. Garantiza consistencia transaccional para credenciales, perfiles, reportes, alertas y datos de ubicación, simplificando la administración al unificar la tecnología de persistencia. |
+| **Integración con SMS Gateway y WhatsApp API** | Garantiza la entrega oportuna de notificaciones y localizaciones a los ciudadanos a través de canales de comunicación directos y confiables. |
+| **Integración con Mapbox** | Permite enriquecer la experiencia de los usuarios mostrando mapas interactivos, geolocalización en tiempo real y visualización de zonas seguras/inseguras. |
+| **Frontend con SPA (Vue+Vite) y Mobile App (Kotlin)** | Ofrece interfaces modernas, rápidas y adaptadas tanto para administradores como para ciudadanos, asegurando accesibilidad multiplataforma. |
+| **DDD (Domain Driven Design)** | La separación en capas (Interface, Application, Domain, Infrastructure) clarifica responsabilidades y facilita la evolución del dominio en cada bounded context. |
 
 
+#### 4.3.1.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
 
-#### 4.3.X.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
+Esta sección analiza el diseño arquitectónico obtenido en relación a los drivers de calidad planteados para la iteración: usabilidad, confiabilidad, mantenibilidad y eficiencia.
+Se evalúa el grado de cumplimiento de los objetivos definidos, identificando fortalezas y posibles áreas de mejora.
+Finalmente, se presenta un Kanban Board que muestra el avance y estado de las actividades arquitectónicas priorizadas en esta fase, fomentando la transparencia y la gestión ágil del proyecto.
+
+Análisis del Diseño Actual
+
+- Usabilidad: Se garantiza mediante interfaces web y móviles intuitivas, navegación clara en el mapa de zonas de riesgo, y formularios simples para reportar incidentes.
+
+- Confiabilidad: El uso de una base de datos transaccional en MySQL y la integración con servicios externos (SMS, WhatsApp, Mapbox) aseguran la entrega oportuna de alertas críticas.
+
+- Mantenibilidad: La arquitectura basada en microservicios desacoplados (IAM, Profiles, Reports, Alerts, Location) facilita modificaciones y evolución independiente de cada módulo.
+
+- Eficiencia: El API Gateway centralizado optimiza el ruteo de peticiones, mientras que la comunicación asincrónica entre microservicios reduce la latencia y mejora la respuesta en tiempo real.
+
+El diseño actual cubre satisfactoriamente los drivers seleccionados en esta iteración, cumpliendo los objetivos propuestos.
+
+![](assets/Kanban.png)
