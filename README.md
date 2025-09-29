@@ -438,23 +438,23 @@ Las consideraciones arquitectónicas importantes para nuestro proyecto que asegu
 
 Se definen los impulsores (drivers) que conforman la primera iteración del método ADD, centrada en la optimización del proceso de reporte, visualización y comunicación de incidentes en tiempo real.
 
-| ID       | Título                             | Scenario                                                                                      | Quality Attribute | Driver                                                                                          |
-|----------|-------------------------------------|-----------------------------------------------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------|
-| E1-US201 | Reportar incidente en tiempo real   | Como ciudadano, quiero registrar un incidente de seguridad (robo, accidente, agresión) para alertar a otros. | Usabilidad        | Proporcionar una experiencia intuitiva y rápida que fomente el uso constante de la plataforma. |
-| E1-US204 | Visualizar mapa de calor interactivo | Como ciudadano, quiero consultar un mapa de calor actualizado para identificar zonas peligrosas. | Rendimiento       | Garantizar tiempos de respuesta menores a 2 segundos al cargar mapas y reportes en la aplicación. |
-| E1-US208 | Recibir notificaciones y alertas    | Como ciudadano, quiero recibir alertas inmediatas cuando ocurra un incidente cerca de mi ubicación. | Disponibilidad    | Asegurar el envío de notificaciones push en tiempo real con una tasa de entrega confiable.      |
-| E1-US210 | Autenticación y seguridad de datos  | Como usuario, quiero iniciar sesión de forma segura para proteger mi información personal y mis reportes. | Seguridad         | Implementar autenticación robusta y encriptación de datos para proteger la confidencialidad.   |
+| ID   | Título                          | Scenario                                                                                                    | Quality Attribute | Driver                                                                 |
+|------|---------------------------------|------------------------------------------------------------------------------------------------------------|-------------------|------------------------------------------------------------------------|
+| US04 | Registro de Usuarios            | Como usuario, quiero poder registrarme en la aplicación, para acceder a las funcionalidades de PeaceApp.   | Seguridad         | Garantizar registro seguro y almacenamiento cifrado de datos personales. |
+| US06 | Generar Reporte de Incidentes   | Como usuario, quiero poder generar reportes de incidentes de seguridad, para contribuir al mapa de calor.  | Usabilidad        | Ofrecer una interfaz rápida e intuitiva para reportar incidentes en tiempo real. |
+| US08 | Visualización de Reportes       | Como ciudadano, quiero poder ver los reportes de otros usuarios, para estar al tanto de los eventos.       | Rendimiento       | Asegurar tiempos de carga menores a 2 segundos para mostrar listados de reportes. |
+| US09 | Recibir Alertas de Zonas de Riesgo | Como ciudadano, quiero recibir alertas si me acerco a una zona de alto riesgo.                            | Disponibilidad    | Implementar notificaciones push en tiempo real con alta tasa de entrega. |
 
 ### 4.3.1.2 Establish Iteration Goal by Selecting Drivers
 
 Se establecen las metas de iteración para cada atributo de calidad elegido.
 
-| ID       | Quality Attribute | Scenario                                                                                                                                         |
-|----------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| E1-US201 | Usabilidad        | Proporcionar a los ciudadanos una experiencia intuitiva para registrar incidentes en tiempo real. Esto permitirá la adopción masiva de la plataforma y la actualización constante de datos de seguridad. |
-| E1-US204 | Rendimiento       | Garantizar que la visualización del mapa de calor interactivo sea rápida, con tiempos de respuesta inferiores a 2 segundos, asegurando la confiabilidad de la información al momento de desplazarse. |
-| E1-US208 | Disponibilidad    | Asegurar que las notificaciones push se entreguen de forma inmediata y confiable, reduciendo riesgos al mantener a los usuarios informados en situaciones críticas. |
-| E1-US210 | Seguridad         | Implementar mecanismos de autenticación y encriptación de datos para proteger la información sensible de los usuarios, fortaleciendo la confianza en la aplicación. |
+| ID   | Quality Attribute | Scenario                                                                                                                                     |
+|------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| US06 | Usabilidad       | Proporcionar a los ciudadanos una experiencia intuitiva para registrar incidentes en tiempo real. Esto permitirá la adopción masiva de la plataforma y la actualización constante de datos de seguridad. |
+| US08 | Rendimiento      | Garantizar que la visualización del mapa de calor interactivo sea rápida, con tiempos de respuesta inferiores a 2 segundos, asegurando la confiabilidad de la información al momento de desplazarse. |
+| US09 | Disponibilidad   | Asegurar que las notificaciones push se entreguen de forma inmediata y confiable, reduciendo riesgos al mantener a los usuarios informados en situaciones críticas. |
+| US04 | Seguridad        | Implementar mecanismos de autenticación y encriptación de datos para proteger la información sensible de los usuarios, fortaleciendo la confianza en la aplicación. |
 
 ### 4.3.1.3 Choose One or More Elements of the System to Refine
 
