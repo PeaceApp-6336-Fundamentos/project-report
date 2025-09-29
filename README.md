@@ -493,6 +493,16 @@ En esta iteración, se definen e instancian los siguientes elementos arquitectó
 | **Microservicio de Notificaciones y Alertas** | Gestión y envío de notificaciones push en tiempo real. Configuración de alertas personalizadas. | Mantiene a los usuarios informados y comprometidos con las actividades. |
 | **Microservicio de Seguridad y Autenticación**| Manejo de autenticación de usuarios y cifrado de datos sensibles. Control de acceso basado en roles. | Garantiza almacenamiento seguro, integridad y disponibilidad de la información. | 
 
-#### 4.3.X.6. Sketch Views (C4 & UML) and Record Design Decisions
+#### 4.3.1.6. Sketch Views (C4 & UML) and Record Design Decisions
+
+En esta sección se representan visualmente los componentes del sistema a través de los diagramas C4 Model (Contexto, Contenedor y Componente) y diagramas UML. El objetivo es ofrecer una visión clara y estructurada de cómo se organiza PeaceApp de nivel de arquitectura, interfaces y relaciones entre los módulos. Asimismo, se mencionan las decisiones arquitectónicas más importantes tomadas durante la iteración, detallando sus justificaciones técnicas y los supuestos considerados.
+
+##### Diagrama de Contexto
+
+![](assets/structurizr-83580-SystemContext.png)
+
+##### Diagrama de Contenedor
+
+![](assets/structurizr-83580-Containers.png)
 
 #### 4.3.X.7. Analysis of Current Design and Review Iteration Goal (Kanban Board)
