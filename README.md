@@ -1653,6 +1653,19 @@ En la siguiente sección se describe la ruta de referencia de cada uno de los pr
 ---
 
 
+### 5.2.2  Source Code Management
+
+
+Trabajamos con 3 ramas principales:
+
+**Main:** nuestra rama principal donde presentaremos nuestras publicaciones oficiales.
+
+**Development:** Es nuestra rama de desarrollo, en donde probaremos e integraremos las funcionalidades trabajadas.
+
+**Feature:** Se descompone en ramas por cada feature trabajado.
+
+
+---
 
 
 
