@@ -1636,6 +1636,21 @@ En esta sección se resume toda la información recopilada, analizando que pasos
 
 ---
 
+### 5.2.1 Software Development Environment Configuration
+
+
+En la siguiente sección se describe la ruta de referencia de cada uno de los productos de software para que cualquier miembro del equipo pueda desarrollar cada punto del trabajo:
+
+**Figma:** Herramienta colaborativa que nos permitirá desarrollar wireframes y mockups.
+
+**Vertabelo:** Plataforma colaborativa que nos permitirá crear nuestro diagrama de base de datos.
+
+**GitHub:** Repositorio colaborativo en la nube
+
+**IntelliJ:** es un entorno de desarrollo para trabajar con Java y otros lenguajes que se ejecutan en JVM, como Kotlin.
+
+
+---
 
 
 
