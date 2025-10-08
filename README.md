@@ -1667,6 +1667,18 @@ Trabajamos con 3 ramas principales:
 
 ---
 
+### 5.2.3 Source Code Style Guide & Conventions
+
+
+Para desarrollar nuestro proyecto hemos requerido de algunas nomenclaturas, referencias y lenguajes para esta solución.
+
+Tecnologías: Utilizamos algunas de estas tecnologías para el desarrollo de nuestra aplicación como: HTML5, CSS, JS, Java.
+
+Herramientas: Nos apoyamos de las tecnologías más utilizadas y recomendadas para el desarrollo de nuestra aplicación como: GitHub, Figma, IntelliJ
+
+Convenciones de idioma: Uso del idioma inglés para elaborar nuestro código
+
+---
 
 
 
