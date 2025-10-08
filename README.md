@@ -1756,6 +1756,41 @@ De este modo, nuestra landing page estará disponible utilizando Vercel y podrá
 ---
 
 
+#### 5.3.1.2     Development Evidence for Sprint Review
+
+
+#### 5.3.1.3     Testing Suite Evidence for Sprint Review
+
+
+#### 5.3.1.4     Execution Evidence for Sprint Review
+
+
+#### 5.3.1.5     Microservices Documentation Evidence for Sprint Review
+
+
+
+---
+
+
+#### 5.3.1.6     Software Deployment Evidence for Sprint Review
+
+
+En el desarrollo de la landing page se emplearon las siguientes tecnologías:
+
+- HTML: Lenguaje de marcado utilizado para estructurar el contenido de la página web, definiendo la organización de elementos como encabezados, párrafos, imágenes, entre otros.
+
+- CSS: Lenguaje de estilos que permite dar forma y diseño a la página web, controlando aspectos visuales como colores, tipografías y fondos.
+
+- Git: Sistema de control de versiones que facilito la gestion del desarrollo del software, permitiendo realizar un seguimiento de los cambios en el código y trabajar colaborativamente en equipo.
+
+- GitHub: Plataforma online utilizada para alojar repositorios Git, lo que permitió compartir código y colaborar de manera eficiente durante el desarrollo del proyecto.
+
+- GitFlow Workflow: Metodología empleada para el control de versiones, que define roles y ramas específicas para cada etapa del desarrollo, como desarrollo, pruebas y lanzamiento. Este enfoque facilito la organización del código y la colaboración entre los miembros del equipo, reduciendo el riesgo de errores.
+
+- GitHub Pages: Servicio utilizado para el despliegue de la página, que permite crear sitios web estáticos directamente desde un repositorio Git. Es una solución ideal para landing pages, portfolios y documentación, ofreciendo una integración fluida con GitHub para un flujo de trabajo sin interrupciones.
+
+
+---
 
 
 
