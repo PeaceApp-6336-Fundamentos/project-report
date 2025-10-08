@@ -1724,6 +1724,37 @@ De este modo, nuestra landing page estará disponible utilizando Vercel y podrá
 
 
 
+## 5.3 Microservices Implementation
+
+
+
+
+
+---
+
+
+### 5.3.1  Sprint 1
+
+#### 5.3.1.1     Sprint Backlog 1
+
+
+
+| Sprint \#  |                                                        | Sprint 1       |                                                        |                                                                                                                                                                  |            |             |                                           |
+|------------|--------------------------------------------------------|----------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------|-------------------------------------------|
+| User Story |                                                        | Work-Item/Task |                                                        |                                                                                                                                                                  |            |             |                                           |
+| Id         | Title                                                  | Id             | Title                                                  | Description                                                                                                                                                      | Estimation | Assigned To | Status(To-do /InProcess /To-Review /Done) |
+| TS02       | Crear nuevo usuario mediante RESTful API               | 1              | Creación de un nuevo usuario en la RESTful API         | Como desarrollador, quiero permitir la creación de nuevos usuarios para que puedan acceder al sistema.                                                           | 5          |  Maria Pilares   | Done                                      |
+| TS03       | Editar perfil de usuario mediante RESTful API          | 2              | Modificación de un perfil de usuario en la RESTful API | Como desarrollador, quiero que los usuarios puedan actualizar su información personal para mantener sus perfiles al día.                                         | 3          |  Santiago Gordillo    | Done                                      |
+| TS05       | Crear reporte de incidente mediante RESTful API        | 3              | Creación de un reporte en la RESTful API               | Como desarrollador, quiero que los usuarios puedan crear reportes de incidentes para compartir información sobre zonas peligrosas.                               | 5          |  Bryan Espejo       | Done                                      |
+| TS06       | Obtener lista de reportes mediante RESTful API         | 4              | Obtención de una lista de reportes en la RESTful API   | Como desarrollador, quiero que los usuarios puedan obtener una lista de reportes para ver incidentes recientes en su área.                                       | 3          | Maria Pilares     | Done                                      |
+| TS08       | Enviar alerta de emergencia mediante RESTful API       | 5              | Creación de una alerta en la RESTful API               | Como desarrollador, quiero que los usuarios puedan enviar alertas de emergencia para que reciban ayuda inmediata.                                                | 8          | Anatoly Noriega     | Done                                      |
+| TS09       | Obtener lista de alertas enviadas mediante RESTful API | 6              | Obtención de una lista de alertas en la RESTful API    | Como desarrollador, quiero que los usuarios puedan obtener una lista de las alertas que han enviado previamente para que puedan revisar su historial de alertas. | 3          | Anatoly Noriega     | Done                                      |
+| TS10       | Obtener reporte por ID mediante RESTful API            | 7              | Obtención de un reporte en la RESTful API              | Como desarrollador, quiero que los usuarios puedan obtener los detalles de un solo reporte para consultar información específica sobre un incidente.             | 3          |  Santiago Gordillo    | Done                                      |
+
+
+
+---
+
 
 
 
