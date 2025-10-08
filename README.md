@@ -1805,6 +1805,12 @@ La StartUp PeaceApp realizó el presente sprint utilizando Git y GitHub para el 
 ---
 
 
+#### 5.3.1.8     Kanban Board --> TP1
+
+Al concluir el sprint, se completó al 100% con las historias de usuario planificadas para el mismo, en la siguiente captura se muestra el Kanban Board de la plataforma Trello.
+
+
+<!--EDITANDO (insertar imagen) -->
 
 
 
