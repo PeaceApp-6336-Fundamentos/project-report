@@ -1629,8 +1629,12 @@ El diseño actual cubre satisfactoriamente los drivers seleccionados en esta ite
 
 ---
 
+## 5.2 Software Configuration Management
+
+En esta sección se resume toda la información recopilada, analizando que pasos que se realizaran y como se siente.
 
 
+---
 
 
 
