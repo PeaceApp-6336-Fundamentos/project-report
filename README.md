@@ -1681,8 +1681,46 @@ Convenciones de idioma: Uso del idioma inglés para elaborar nuestro código
 ---
 
 
+### 5.2.4  Software Deployment Configuration
+
+Para desplegar nuestra landing page en la plataforma de GitHub, seguimos los siguientes pasos:
+
+**Creación del Repositorio Remoto en GitHub:**
+
+- Creamos un nuevo repositorio en GitHub de nuestro proyecto, el cual se utilizará para el desarrollo y deployment.
+
+**Inicialización del Repositorio:**
+
+- Se utiliza el comando git init para inicializar el repositorio.
+
+**Subida de Archivos al Repositorio Remoto:**
+
+- Añadimos los archivos de nuestra landing page al repositorio local.
+
+- Subimos los archivos al repositorio de GitHub con el comando git push -u origin master o utilizando GitHub Desktop.
+
+**Configuración de Netlify:**
+
+- Nos dirigimos a Netlify y creamos una nueva cuenta o iniciamos sesión.
+
+- En Netlify, seleccionamos la opción de importar el proyecto desde GitHub.
+
+- Autorizamos a Netlify para acceder a nuestro repositorio de GitHub.
+
+- Elegimos el repositorio que contiene nuestra landing page y configuramos las opciones de despliegue.
+
+**Despliegue:**
+
+- Netlify se encargará de desplegar automáticamente nuestra landing page.
+
+- Accedemos a la URL proporcionada por Vercel para verificar que nuestra landing page se haya desplegado correctamente.
+
+De este modo, nuestra landing page estará disponible utilizando Vercel y podrá ser visible para cualquier usuario que tenga el enlace. 
+
+**Enlace del landing page:** <https://peaceapp-landing-page.netlify.app/>
 
 
+---
 
 
 
