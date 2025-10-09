@@ -1787,6 +1787,30 @@ Landing page:
 
  ![](assets/Landing4.png)
 
+FrontEnd:
+![](assets/Alertas.png)
+  
+ ![](assets/EnvioReporte.png)
+  
+ ![](assets/InicioSesion.png)
+
+ ![](assets/ListaReportes.png)
+ 
+ ![](assets/NuevoMapa.png)
+  
+ ![](assets/NuevoReporte.png)
+  
+ ![](assets/PreguntasFrecuentes.png)
+
+ ![](assets/TerminosServicio.png)
+
+ Backend:
+ ![](assets/BackendEvidence1.png)
+
+ ![](assets/BackendEvidence2.png)
+
+ ![](assets/BackendEvidence3.png)
+  
 
 #### 5.3.1.5     Microservices Documentation Evidence for Sprint Review
 
