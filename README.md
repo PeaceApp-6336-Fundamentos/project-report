@@ -979,7 +979,7 @@ Enlace del To-Be Scenario Mapping: https://lucid.app/lucidchart/9c2329c4-fd90-47
 | US10                    | Monitoreo de Proximidad a Zonas de Riesgo               | Como ciudadano, quiero que la aplicación monitoree mi ubicación en segundo plano, para detectar automáticamente si me acerco a una zona peligrosa registrada en el mapa de calor.                                                | Escenario 1: Detección de entrada a zona de riesgo<br>Dado que el ciudadano se desplaza con la aplicación activa,<br>Cuando el sistema detecta que su ubicación ha entrado en un radio de alto riesgo,<br>Entonces el sistema interno genera una alerta para ser notificada al usuario.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP03                      |
 | US11                    | Notificación de Alerta de Riesgo Inmediata              | Como ciudadano, quiero recibir una notificación inmediata y clara cuando el sistema detecta que me acerco a una zona de alto riesgo, para poder tomar medidas preventivas.                                                       | Escenario 1: Recepción de alerta en zona de riesgo<br>Dado que el sistema ha generado una alerta de proximidad a zona peligrosa,<br>Cuando el usuario está utilizando el dispositivo,<br>Entonces la aplicación envía una notificación *push* con información sobre el tipo de riesgo y su proximidad.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | EP03                      |
 | US12                    | Selección de Contactos de Monitoreo                     | Como usuario de la aplicación móvil, quiero poder seleccionar y gestionar una lista de contactos de confianza para que puedan recibir mi ubicación, para establecer mi red de seguridad.                                         | Escenario 1: Configuración de contactos de confianza<br>Dado que el usuario está en la sección de configuración de seguridad,<br>Cuando selecciona un contacto para agregarlo a su lista de monitoreo,<br>Entonces el sistema guarda la referencia del contacto para futuras comparticiones de ubicación.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | EP03                      |
-| US13                    | Control de Compartición de Ubicación en Tiempo Real     | Como usuario de la aplicación móvil, quiero poder iniciar y detener la transmisión de mi ubicación a mis contactos seleccionados, para controlar mi privacidad y el monitoreo de mi trayecto.                                    | Escenario 1: Inicio de compartición de ubicación<br>Dado que el usuario ha seleccionado sus contactos de confianza,<br>Cuando activa la funcionalidad de compartir ubicación,<br>Entonces los contactos reciben un enlace o notificación con la ubicación en tiempo real del usuario.<br><br>Escenario 2: Detención de compartición de ubicación<br>Dado que el usuario está compartiendo su ubicación,<br>Cuando desactiva la funcionalidad,<br>Entonces la transmisión de la ubicación se detiene y los contactos reciben una notificación de finalización del monitoreo.                                                                                                                                                                                                                                                                               | EP03                      |
+| US13                    | Control de Compartición de Ubicación en Tiempo Real     | Como usuario de la aplicación móvil, quiero poder iniciar y detener la transmisión de mi ubicación a mis contactos seleccionados, para controlar mi privacidad y el monitoreo de mi trayecto.                                    | Escenario 1: Inicio de compartición de ubicación<br>Dado que el usuario ha seleccionado sus contactos de confianza,<br>Cuando activa la funcionalidad de compartir ubicación,<br>Entonces los contactos reciben un enlace o notificación con la ubicación en tiempo real del usuario.<br>                                                                                                                                                                                                                                                                               | EP03                      |
 | US14                    | Editar Información de Perfil                            | Como usuario, quiero poder editar mi información de perfil, para corregir o actualizar mis datos personales.                                                                                                                     | Escenario 1: Edición de perfil exitosa<br>Dado que el usuario actualiza su información personal (ej. nombre o teléfono) y guarda los cambios,<br>Cuando el sistema procesa la solicitud,<br>Entonces la información actualizada se almacena y se muestra correctamente en la sección de perfil.<br><br>Escenario 2: Error de validación al guardar<br>Dado que el usuario intenta guardar cambios con un campo obligatorio vacío o con un formato incorrecto,<br>Cuando el sistema intenta guardar la información,<br>Entonces el sistema impide el guardado y muestra un mensaje indicando qué datos deben ser corregidos.                                                                                                                                                                                                                               | EP02                      |
 | US15                    | Recuperar Contraseña                                    | Como usuario, quiero poder recuperar mi contraseña si la olvido, para poder acceder nuevamente a mi cuenta.                                                                                                                      | Escenario 1: Solicitud de recuperación exitosa<br>Dado que el usuario ingresa su correo electrónico registrado en la pantalla de recuperación,<br>Cuando el sistema verifica el correo,<br>Entonces el sistema envía un enlace seguro o código de verificación al correo y notifica al usuario que el proceso ha comenzado.<br><br>Escenario 2: Restablecimiento de contraseña completado<br>Dado que el usuario ha accedido al enlace o ingresado el código de verificación,<br>Cuando establece una nueva contraseña válida,<br>Entonces la nueva contraseña es almacenada y el usuario puede iniciar sesión con éxito.                                                                                                                                                                                                                                 | EP02                      |
 | US16                    | Acceder a Mapa con Reportes                             | Como usuario, quiero poder ver un mapa interactivo con los reportes de incidentes en mi área, para tomar decisiones informadas sobre mi seguridad.                                                                               | Escenario 1: Acceso al mapa con reportes<br>Dado que el usuario está en la página principal de la aplicación,<br>Cuando selecciona el mapa,<br>Entonces se muestra un mapa interactivo con marcadores que representan los reportes de incidentes según su ubicación.<br><br>Escenario 2: Mapa sin reportes disponibles<br>Dado que el usuario está en una zona sin reportes registrados,<br>Cuando accede al mapa desde la aplicación,<br>Entonces el sistema muestra el mapa sin marcadores y con un mensaje indicando que no hay reportes disponibles en la zona seleccionada.                                                                                                                                                                                                                                                                          | EP03                      |
@@ -989,11 +989,11 @@ Enlace del To-Be Scenario Mapping: https://lucid.app/lucidchart/9c2329c4-fd90-47
 | US20                    | Acceder a reportes sin duplicados                       | Como usuario, quiero visualizar solo reportes únicos y no repetidos, para evitar confusiones en la información mostrada.                                                                                                         | Escenario 1: Reportes<br>Dado que el usuario accede a la sección de reportes,<br>Cuando el sistema identifica reportes duplicados o similares,<br>Entonces el sistema consolida la información y muestra solo un reporte único en la lista o mapa.<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | EP03                      |
 | US21                    | Evaluar credibilidad                                    | Como usuario, quiero poder validar la credibilidad y detalles de un reporte, para asegurar que la información publicada sea confiable.                                                                                           | Escenario 1: Revisión de la información del reporte<br>Dado que el usuario accede a la sección de reportes,<br>Cuando selecciona uno para revisar,<br>Entonces el sistema muestra los datos existentes del reporte para garantizar confiabilidad.<br><br>Escenario 2: Comprensión de la confiabilidad del reporte<br>Dado que el usuario observa distintos reportes dentro de la aplicación,<br>Cuando identifica diferencias en la descripción o la ubicación,<br>Entonces el usuario puede reconocer los reportes mas confiables.                                                                                                                                                                                                                                                                                                                       | EP03                      |
 | US22                    | Actualización en tiempo real                            | Como usuario, quiero poder ver los reportes y datos del sistema actualizados en tiempo real, para tener información precisa sobre incidentes cercanos.                                                                           | Escenario 1: Consulta de reportes recientes<br>Dado que el usuario abre la vista del mapa o lista de incidentes,<br>Cuando el sistema ya ha actualizado los datos de manera periódica,<br>Entonces el usuario visualiza los reportes más recientes disponibles.<br><br>Escenario 2: Verificación del estado actual de los datos<br>Dado que el usuario revisa los reportes en la aplicación,<br>Cuando observa la fecha o hora de publicación de cada incidente,<br>Entonces puede confirmar que la información corresponde a datos actuales.                                                                                                                                                                                                                                                                                                             | EP03                      |
-| US23                | Formulario de reporte (básico)                      | Como usuario, quiero reportar un incidente indicando categoría, descripción y ubicación.                                                                                                                                         | Escenario 1: Envío exitoso<br>Dado que seleccioné una categoría, ingresé descripción y otorgué ubicación (GPS o pin en mapa),<br>Cuando presiono “Enviar reporte”, <br>Entonces el sistema registra el incidente con lat/lon y muestra confirmación.<br><br>Escenario 2: Falta de ubicación<br>Dado que no autoricé el GPS,<br>Cuando presiono “Enviar”,<br>Entonces el sistema me pide fijar la ubicación manualmente en el mapa antes de continuar.                                                                                                                                                                                                                                                                                                                                                                                                     | EP03                  |
-| US24                | Subir evidencia multimedia                          | Como usuario, quiero adjuntar fotos, videos o audio al reporte.                                                                                                                                                                  | Escenario 1: Carga con URL firmada<br>Dado que adjunto un archivo permitido,<br>Cuando inicio la carga,<br>Entonces el cliente usa URL firmada y muestra progreso y estado “Cargado”.<br><br>Escenario 2: Límite/formatos no permitidos<br>Dado que adjunto un archivo mayor al límite o con formato no permitido,<br>Cuando intento cargarlo,<br>Entonces el sistema rechaza la operación y muestra el motivo.<br><br>Escenario 3: Reintento de carga<br>Dado un fallo temporal durante la carga,<br>Cuando elijo “Reintentar”,<br>Entonces la carga se reintenta y finaliza o informa error definitivo.                                                                                                                                                                                                                                                 | EP03                  |
-| US25                | Validación y errores                                | Como usuario, quiero mensajes claros si falta información o hay entradas inválidas.                                                                                                                                              | Escenario 1: Campos requeridos<br>Dado que algún campo obligatorio está vacío o inválido,<br>Cuando presiono “Enviar”,<br>Entonces el sistema resalta el/los campo(s) y muestra mensaje específico junto al control.<br><br>Escenario 2: Prevención del envío<br>Dado que existen errores de validación,<br>Cuando intento enviar,<br>Entonces el formulario no se envía hasta corregirlos y el botón permanece deshabilitado/mostrando feedback.                                                                                                                                                                                                                                                                                                                                                                                                         | EP03                  |
-| US26                | Actualización del mapa/heatmap                      | Como usuario, quiero ver el mapa actualizado tras enviar un reporte.                                                                                                                                                             | Escenario 1: Aparición en mapa<br>Dado que mi reporte fue aceptado,<br>Cuando regreso al mapa,<br>Entonces veo un marcador del incidente con su categoría en la zona reportada.<br><br>Escenario 2: Actualización del heatmap<br>Dado que se registró el incidente,<br>Cuando el sistema procesa la agregación,<br>Entonces el heatmap refleja el cambio y (si hay canal en tiempo real) recibo el evento sin recargar la página.                                                                                                                                                                                                                                                                                                                                                                                                                         | EP03                  |
-| US27                | Cancelar/guardar borrador                           | Como usuario, quiero cancelar o guardar un borrador del reporte para terminar luego.                                                                                                                                             | Escenario 1: Confirmación de cancelación<br>Dado que presiono “Cancelar”,<br>Cuando aún hay datos en el formulario,<br>Entonces el sistema pide confirmación para descartar o guardar como borrador.<br><br>Escenario 2: Recuperar borrador<br>Dado que existe un borrador guardado localmente,<br>Cuando vuelvo a “Nuevo reporte”,<br>Entonces el sistema me ofrece continuar donde lo dejé o empezar uno nuevo.<br><br>Escenario 3: Limpieza de borrador tras envío<br>Dado que envío el reporte con éxito,<br>Cuando se confirma,<br>Entonces el borrador asociado se elimina.                                                                                                                                                                                                                                                                         | EP03                  |
+| US23                | Formulario de reporte (básico)                      | Como usuario, quiero reportar un incidente indicando categoría, descripción y ubicación, para contribuir al registro de incidentes y mejorar la seguridad ciudadana.                                                                                                                                         | Escenario 1: Envío exitoso<br>Dado que seleccioné una categoría, ingresé descripción y otorgué ubicación (GPS o pin en mapa),<br>Cuando presiono “Enviar reporte”, <br>Entonces el sistema registra el incidente con lat/lon y muestra confirmación.<br><br>Escenario 2: Falta de ubicación<br>Dado que no autoricé el GPS,<br>Cuando presiono “Enviar”,<br>Entonces el sistema me pide fijar la ubicación manualmente en el mapa antes de continuar.                                                                                                                                                                                                                                                                                                                                                                                                     | EP03                  |
+| US24                | Subir evidencia multimedia                          | Como usuario, quiero adjuntar fotos, videos o audio al reporte, para dar mayor credibilidad y detalle al incidente reportado.                                                                                                                                                                | Escenario 1: Carga con URL firmada<br>Dado que adjunto un archivo permitido,<br>Cuando inicio la carga,<br>Entonces el cliente usa URL firmada y muestra progreso y estado “Cargado”.<br><br>Escenario 2: Límite/formatos no permitidos<br>Dado que adjunto un archivo mayor al límite o con formato no permitido,<br>Cuando intento cargarlo,<br>Entonces el sistema rechaza la operación y muestra el motivo.<br><br>Escenario 3: Reintento de carga<br>Dado un fallo temporal durante la carga,<br>Cuando elijo “Reintentar”,<br>Entonces la carga se reintenta y finaliza o informa error definitivo.                                                                                                                                                                                                                                                 | EP03                  |
+| US25                | Validación y errores                                | Como usuario, quiero recibir mensajes claros si falta información o hay entradas inválidas, para comprender fácilmente los errores y corregirlos antes de enviar.                                                                                                                                              | Escenario 1: Campos requeridos<br>Dado que algún campo obligatorio está vacío o inválido,<br>Cuando presiono “Enviar”,<br>Entonces el sistema resalta el/los campo(s) y muestra mensaje específico junto al control.<br><br>Escenario 2: Prevención del envío<br>Dado que existen errores de validación,<br>Cuando intento enviar,<br>Entonces el formulario no se envía hasta corregirlos y el botón permanece deshabilitado/mostrando feedback.                                                                                                                                                                                                                                                                                                                                                                                                         | EP03                  |
+| US26                | Actualización del mapa/heatmap                      | Como usuario, quiero ver el mapa actualizado tras enviar un reporte, para visualizar los incidentes reflejados en tiempo real y conocer las zonas afectadas.                                                                                                                                                             | Escenario 1: Aparición en mapa<br>Dado que mi reporte fue aceptado,<br>Cuando regreso al mapa,<br>Entonces veo un marcador del incidente con su categoría en la zona reportada.<br><br>Escenario 2: Actualización del heatmap<br>Dado que se registró el incidente,<br>Cuando el sistema procesa la agregación,<br>Entonces el heatmap refleja el cambio y (si hay canal en tiempo real) recibo el evento sin recargar la página.                                                                                                                                                                                                                                                                                                                                                                                                                         | EP03                  |
+| US27                | Cancelar/guardar borrador                           | Como usuario, quiero cancelar o guardar un borrador del reporte para terminarlo luego, para no perder mi progreso y poder completarlo en otro momento.                                                                                                                                             | Escenario 1: Confirmación de cancelación<br>Dado que presiono “Cancelar”,<br>Cuando aún hay datos en el formulario,<br>Entonces el sistema pide confirmación para descartar o guardar como borrador.<br><br>Escenario 2: Recuperar borrador<br>Dado que existe un borrador guardado localmente,<br>Cuando vuelvo a “Nuevo reporte”,<br>Entonces el sistema me ofrece continuar donde lo dejé o empezar uno nuevo.<br><br>Escenario 3: Limpieza de borrador tras envío<br>Dado que envío el reporte con éxito,<br>Cuando se confirma,<br>Entonces el borrador asociado se elimina.                                                                                                                                                                                                                                                                         | EP03                  |
 | US28                | Footer informativo                                  | Como visitante, quiero ver en el pie de página los datos de contacto, redes oficiales y avisos legales (Política de Privacidad y Términos), para comunicarme rápidamente y conocer la información legal de PeaceApp. | Escenario 1: Visualización de información y legales<br>Dado que estoy al final de la landing page,<br>Cuando se renderiza el footer,<br>Entonces se muestran el correo de contacto, iconos/enlaces a redes oficiales, y enlaces a Política de Privacidad y Términos de Uso vigentes.<br><br>Escenario 2: Accesibilidad y funcionamiento de enlaces<br>Dado que navego con teclado o lector de pantalla,<br>Cuando foco y activo los elementos del footer,<br>Entonces todos tienen labels/aria adecuados, focus visible, y los enlaces abren correctamente la sección o URL correspondiente.                                                                                                                                                                                                                                      | EP04                  |
 | TS01                    | Autenticación JWT mediante RESTful API                  | Como desarrollador, quiero autenticar a los usuarios a través de un token JWT para que puedan acceder a la plataforma de manera segura.                                                                                          | Escenario 1: Inicio de sesión exitoso<br>Dado que el endpoint /api/v1/login está disponible<br>Cuando se envía un POST request con nombre de usuario y contraseña correctos<br>Entonces se recibe un response con un status 200<br>Y un token JWT es generado y enviado en el body del response.<br><br>Escenario 2: Fallo en inicio de sesión<br>Dado que el endpoint /api/v1/login está disponible<br>Cuando se envía un POST request con credenciales incorrectas<br>Entonces se recibe un response con un status 401<br>Y un mensaje en el body dice "Credenciales incorrectas."                                                                                                                                                                                                                                                                      | No corresponde            |
 | TS02                    | Crear nuevo usuario mediante RESTful API                | Como desarrollador, quiero permitir la creación de nuevos usuarios para que puedan acceder al sistema.                                                                                                                           | Escenario 1: Crear usuario con datos válidos<br>Dado que el endpoint /api/v1/users está disponible<br>Cuando se envía un POST request con nombre, correo y contraseña<br>Entonces se recibe un response con un status 201<br>Y el usuario es creado, y se devuelve un body con el ID del usuario y los datos ingresados.<br><br>Escenario 2: Crear usuario con correo duplicado<br>Dado que el endpoint /api/v1/users está disponible<br>Cuando se envía un POST request con un correo que ya existe<br>Entonces se recibe un response con un status 400<br>Y un mensaje en el body del response dice "El correo ya está en uso."                                                                                                                                                                                                                         | No corresponde            |
@@ -1626,13 +1626,195 @@ El diseño actual cubre satisfactoriamente los drivers seleccionados en esta ite
 
 ## 5.1. Testing Suites & General Patterns
 
+Para esta sección del proyecto se hizo uso de la herramienta Visual Studio Code empleando el lenguaje Gherkin.
+
 ### 5.1.1. Backend Application Core Testing Suite 
 
+Se mostrarán a continuación los Acceptance Test según el enfoque de DDD (Domain Driven Desgin)
 
+- Registro de Usuarios
+
+![](assets/Gherkin1Sprint1.png)
+
+- Iniciar Sesión
+
+![](assets/Gherkin2Sprint1.png)
+
+- Generar Reporte de Incidentes
+
+![](assets/Gherkin3Sprint1.png)
+
+- Subir Evidencia Multimedia
+
+![](assets/Gherkin4Sprint1.png)
+
+- Visualización de Reportes
+
+![](assets/Gherkin6Sprint1.png)
+
+- Monitoreo de Proximidad a Zonas de Riesgo
+
+![](assets/Gherkin7Sprint1.png)
+
+- Notificación de Alerta de Riesgo
+
+![](assets/Gherkin8Sprint1.png)
+
+- Selección de Contactos de Monitoreo
+
+![](assets/Gherkin9Sprint1.png)
+
+- Compartición de Ubicación en Tiempo Real
+
+![](assets/Gherkin10Sprint1.png)
+
+- Editar Perfil
+
+![](assets/Gherkin11Sprint1.png)
+
+- Recuperar Contraseña
+
+![](assets/Gherkin12Sprint1.png)
+
+- Acceder a Mapa con Reportes
+
+![](assets/Gherkin13Sprint1.png)
+
+- Acceder al Perfil
+
+![](assets/Gherkin14Sprint1.png)
+
+- Filtrar Reportes
+
+![](assets/Gherkin15Sprint1.png)
+
+- Buscar Ubicación en el Mapa
+
+![](assets/Gherkin16Sprint1.png)
+
+- Formulario de Reporte
+
+![](assets/Gherkin17Sprint1.png)
+
+- Validación y errores
+
+![](assets/Gherkin19Sprint1.png)
+
+- Actualización del mapa/heatmap
+
+![](assets/Gherkin20Sprint1.png)
+
+- Footer Informativo
+
+![](assets/Gherkin21Sprint1.png)
 
 ### 5.1.2 Pattern Based Backend Application(s)
 
+El backend de PeaceApp ha sido desarrollado en Java con Spring Boot, aplicando los principios de Domain-Driven Design (DDD).
+Cada bounded context se implementa como un microservicio independiente, lo que garantiza una alta cohesión interna y un bajo acoplamiento entre los distintos módulos, promoviendo así la escalabilidad, mantenibilidad y evolución continua del sistema.
 
+---
+
+#### Estructura de la arquitectura DDD
+
+Cada microservicio de PeaceApp sigue una estructura por capas bien definida:
+
+- domain/
+Contiene las entidades del dominio, los objetos de valor y la lógica central del negocio, representando los conceptos fundamentales de la aplicación (como usuarios, alertas y reportes de incidentes).
+
+- application/internal/
+Incluye los casos de uso y servicios de aplicación que orquestan la lógica del dominio.
+Aquí se aplican patrones como Service y Use Case, garantizando una coordinación clara entre las operaciones del dominio y la interacción con otras capas.
+
+- infrastructure/persistence/jpa/repositories/
+Contiene las implementaciones concretas para la persistencia de datos mediante Spring Data JPA, siguiendo el patrón Repository, que separa la lógica de acceso a datos de la lógica del negocio.
+
+- interfaces/rest/
+Expone los endpoints REST de cada microservicio, siguiendo el patrón Controller, que gestiona las solicitudes HTTP de la aplicación móvil y la interfaz web.
+
+---
+
+Aplicación del patrón Controller-Service-Repository (Clean Architecture)
+
+- Controller:
+Recibe y maneja las solicitudes HTTP desde los clientes (aplicación móvil o web), delegando su procesamiento a la capa de servicios.
+
+- Service (Application Layer):
+Contiene la lógica de los casos de uso, coordinando las operaciones de negocio, validaciones y reglas definidas en el dominio.
+
+- Repository (Infrastructure Layer):
+Se encarga de la interacción con la base de datos, aplicando un acceso desacoplado que mantiene la independencia del dominio respecto a la infraestructura.
+
+Esta separación por capas mejora la mantenibilidad, escalabilidad y testabilidad del backend, permitiendo una evolución constante y segura del sistema.
+
+---
+
+Patrones adicionales utilizados
+
+- Singleton:
+Aplicado en componentes que requieren una única instancia, como la configuración de seguridad, la gestión de tokens JWT y el módulo de notificaciones push.
+
+- Factory Method:
+Utilizado para encapsular la creación de entidades complejas del dominio, como reportes de incidentes, alertas de riesgo y evidencias multimedia, asegurando una construcción controlada y flexible.
+
+- API Gateway:
+Todos los microservicios de PeaceApp se exponen mediante un API Gateway, que actúa como punto de entrada único para los clientes.
+Sus principales funciones incluyen:
+  - Enrutamiento inteligente hacia el microservicio correspondiente.
+
+  - Validación de tokens JWT para garantizar autenticación y autorización seguras.
+
+  - Aplicación de políticas de seguridad, incluyendo rate limiting y control de acceso por roles.
+
+---
+
+Beneficios clave de la arquitectura
+
+- Escalabilidad:
+Cada microservicio puede escalarse de forma independiente, respondiendo eficientemente al crecimiento de usuarios o al aumento en la generación de reportes.
+
+- Mantenibilidad:
+La separación clara de responsabilidades facilita la corrección de errores, incorporación de nuevas funcionalidades y mejora continua del sistema.
+
+- Flexibilidad:
+Permite evolucionar o rediseñar cada bounded context (por ejemplo, alertas, usuarios o evidencias) sin afectar el funcionamiento del resto del sistema.
+
+- Pruebas aisladas:
+Cada microservicio puede probarse individualmente, lo que incrementa la calidad del software y facilita la integración continua.
+
+---
+
+Documentación y endpoints
+
+A continuación, se presentan las capturas de Swagger correspondientes a cada microservicio de PeaceApp, que permiten visualizar de forma centralizada todos los endpoints disponibles, sus métodos HTTP y los modelos de datos utilizados en las operaciones principales del sistema.
+
+- Microservicio de Users/Profiles:
+
+![](assets/Swagger1.png)
+
+- Microservicio de IAM (Identity and Access Management):
+
+![](assets/Swagger2.png)
+
+- Microservicio de Reports:
+
+![](assets/Swagger3.png)
+
+- Microservicio de Alerts:
+
+![](assets/Swagger4.png)
+
+- Microservicio de Locations:
+
+![](assets/Swagger5.png)
+
+- Diagrama de Arquitectura de Microservicios
+
+![](assets/Microservices.png)
+
+- API Gateway
+
+![](assets/APIGateway.png)
 
 ### 5.1.3 Pattern Based Custom Software Library
 
@@ -1901,3 +2083,11 @@ URL del diagrama en Lucidchart: <https://lucid.app/lucidchart/64179528-6c6c-4596
 **Anexo N°4: Ciclo de vida de compartir ubicación (Lucidchart)**
 
 URL del diagrama en Lucidchart: <https://lucid.app/lucidchart/aac7a3d3-51ac-45b6-aa28-67994ba8c084/edit?viewport_loc=-74%2C23%2C2416%2C1128%2C0_0&invitationId=inv_6cac7aad-e38e-4be9-b697-77e9b1904c47>
+
+**Anexo N°5: Diagrama de Arquitectura de Microservicios**
+
+URL del diagrama en Lucidchart: <https://lucid.app/lucidchart/34e4eb8b-b641-4eca-9034-407b86b8b818/edit?viewport_loc=-478%2C-194%2C2686%2C1254%2C0_0&invitationId=inv_fc2e40c1-6266-4bba-a512-912fe8765c97>
+
+**Anexo N°6: Diagrama de Enrutamiento de API**
+
+URL del diagrama en Lucidchart: <https://lucid.app/lucidchart/4455a5e9-4a1e-4bdb-bad0-b6ee0125ace4/edit?viewport_loc=-130%2C-153%2C2416%2C1128%2C0_0&invitationId=inv_248d44cc-7486-46f5-8b60-d2a44ec4739c>
