@@ -1792,7 +1792,9 @@ FrontEnd:
   
  ![](assets/EnvioReporte.png)
   
- ![](assets/InicioSesion.png)
+ ![](assets/Login.png)
+
+ ![](assets/Register.png)
 
  ![](assets/ListaReportes.png)
  
@@ -1805,6 +1807,8 @@ FrontEnd:
  ![](assets/TerminosServicio.png)
 
  Backend:
+
+ 
  ![](assets/BackendEvidence1.png)
 
  ![](assets/BackendEvidence2.png)
