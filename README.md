@@ -2055,30 +2055,28 @@ De este modo, nuestra landing page estará disponible utilizando Vercel y podrá
 |--------------------|----------------------|------------------|----------------|------------------------|--------------------|-----------------|-------------|
 | **TS02** | Crear nuevo usuario mediante RESTful API | 1 | Definir entidad `User` | Crear clase de dominio con atributos y validaciones. | 4h | María Pilares | Done |
 |  |  | 2 | Implementar `CreateUserService` | Lógica para registrar usuario y validar duplicados. | 6h | María Pilares | Done |
-|  |  | 3 | Crear `UserRepositoryJpa` | Implementar persistencia con Spring Data JPA. | 4h | María Pilares | Done |
+|  |  | 3 | Crear `UserRepositoryJpa` | Implementar persistencia con Spring Data JPA. | 4h | **Kenyi Ramírez** | Done |
 |  |  | 4 | Endpoint `POST /api/v1/users` | Exponer API para crear usuarios. | 6h | María Pilares | Done |
 |  |  | 5 | Configurar JWT y políticas de seguridad | Añadir autenticación JWT y roles de acceso. | 8h | Anatoly Noriega | Done |
 | **TS03** | Editar perfil de usuario mediante RESTful API | 6 | Actualizar entidad `User` | Agregar métodos para editar datos del usuario. | 4h | Santiago Gordillo | Done |
 |  |  | 7 | Implementar `UpdateUserProfileService` | Lógica de negocio para actualizar perfil. | 6h | Santiago Gordillo | Done |
-|  |  | 8 | Extender `UserRepositoryJpa` | Añadir métodos `findByEmail` y `update`. | 4h | Santiago Gordillo | Done |
+|  |  | 8 | Extender `UserRepositoryJpa` | Añadir métodos `findByEmail` y `update`. | 4h | **Kenyi Ramírez** | Done |
 |  |  | 9 | Endpoint `PUT /api/v1/users/{id}` | Exponer API para editar perfil con JWT. | 6h | Santiago Gordillo | Done |
 | **TS05** | Crear reporte de incidente mediante RESTful API | 10 | Definir entidad `Report` | Crear modelo con tipo, ubicación y usuario. | 4h | Bryan Espejo | Done |
 |  |  | 11 | Implementar `CreateReportService` | Lógica para crear reportes asociados a usuario. | 6h | Bryan Espejo | Done |
-|  |  | 12 | Crear `ReportRepositoryJpa` | Persistencia JPA para reportes. | 4h | Bryan Espejo | Done |
+|  |  | 12 | Crear `ReportRepositoryJpa` | Persistencia JPA para reportes. | 4h | **Kenyi Ramírez** | Done |
 |  |  | 13 | Endpoint `POST /api/v1/reports` | Registrar reporte vía API. | 6h | Bryan Espejo | Done |
 | **TS06** | Obtener lista de reportes mediante RESTful API | 14 | Implementar `GetAllReportsService` | Consultar reportes activos. | 6h | María Pilares | Done |
-|  |  | 15 | Consultas en `ReportRepositoryJpa` | Métodos de filtrado por usuario o fecha. | 4h | María Pilares | Done |
+|  |  | 15 | Consultas en `ReportRepositoryJpa` | Métodos de filtrado por usuario o fecha. | 4h | **Kenyi Ramírez** | Done |
 |  |  | 16 | Endpoint `GET /api/v1/reports` | Exponer lista de reportes. | 4h | María Pilares | Done |
 | **TS08** | Enviar alerta de emergencia mediante RESTful API | 17 | Definir entidad `Alert` | Crear modelo con tipo, coordenadas y usuario. | 4h | Anatoly Noriega | Done |
 |  |  | 18 | Implementar `SendAlertService` | Lógica para enviar alertas y validar usuario. | 6h | Anatoly Noriega | Done |
-|  |  | 19 | Crear `AlertRepositoryJpa` | Persistir alertas en base de datos. | 4h | Anatoly Noriega | Done |
+|  |  | 19 | Crear `AlertRepositoryJpa` | Persistir alertas en base de datos. | 4h | **Kenyi Ramírez** | Done |
 |  |  | 20 | Endpoint `POST /api/v1/alerts` | Exponer API para enviar alertas. | 6h | Anatoly Noriega | Done |
-|  |  | 21 | Integrar RabbitMQ / Kafka | Comunicación asíncrona entre módulos. | 8h | Anatoly Noriega | Done |
-| **TS09** | Obtener lista de alertas enviadas mediante RESTful API | 22 | Implementar `GetUserAlertsService` | Consultar alertas por usuario autenticado. | 4h | Anatoly Noriega | Done |
-|  |  | 23 | Endpoint `GET /api/v1/alerts` | API protegida con JWT. | 4h | Anatoly Noriega | Done |
-| **TS10** | Obtener reporte por ID mediante RESTful API | 24 | Implementar `GetReportByIdService` | Buscar reporte por ID. | 4h | Santiago Gordillo | Done |
-|  |  | 25 | Endpoint `GET /api/v1/reports/{id}` | Exponer detalle de reporte. | 4h | Santiago Gordillo | Done |
----
+| **TS09** | Obtener lista de alertas enviadas mediante RESTful API | 21 | Implementar `GetUserAlertsService` | Consultar alertas por usuario autenticado. | 4h | Anatoly Noriega | Done |
+|  |  | 22 | Endpoint `GET /api/v1/alerts` | API protegida con JWT. | 4h | **Kenyi Ramírez** | Done |
+| **TS10** | Obtener reporte por ID mediante RESTful API | 23 | Implementar `GetReportByIdService` | Buscar reporte por ID. | 4h | Santiago Gordillo | Done |
+|  |  | 24 | Endpoint `GET /api/v1/reports/{id}` | Exponer detalle de reporte. | 4h | **Kenyi Ramírez** | Done |
 
 
 
