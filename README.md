@@ -2158,6 +2158,130 @@ FrontEnd:
 
 #### 5.3.1.5     Microservices Documentation Evidence for Sprint Review
 
+La evidencia presentada a continuación demuestra el cumplimiento total del requisito de implementación y documentación del RESTful API de PeaceApp para el Sprint 1. Se confirma que los microservicios han sido desarrollados, documentados con precisión y el proceso de elaboración es trazable.
+
+### 1. Implementación de Endpoints Funcionales y Cobertura de Alcance
+
+El desarrollo del backend se centró en la implementación de todas las Tareas Técnicas (TS01 a TS13) priorizadas.
+
+El análisis exhaustivo del output de Swagger revela la implementación de 16 Endpoints Funcionales en los microservicios de Authentication, Users, Reports, Alerts, y Locations. Esta implementación cubre la totalidad de las Tareas Técnicas priorizadas, superando el requisito de cubrir al menos el 25% del alcance total para la fase parcial del proyecto.
+
+| Microservicio              | Método   | Endpoint (Ruta)                          | Tarea/Historia Habilitada  | Propósito Principal                                                        |
+|:---------------------------|:---------|:-----------------------------------------|:---------------------------|:---------------------------------------------------------------------------|
+| **Authentication (IAM)**   | `POST`   | `/api/v1/authentication/sign-up`         | **TS02**, US04             | Registro de credenciales de un nuevo usuario.                              |
+| **Authentication (IAM)**   | `POST`   | `/api/v1/authentication/sign-in`         | **TS01**, US05             | Inicio de sesión y generación del **JWT Bearer Token**.                    |
+| **Authentication (IAM)**   | `PUT`    | `/api/v1/authentication/change-password` | US15 (Recuperación)        | Permite actualizar la contraseña del usuario.                              |
+| **Users (Profile)**        | `POST`   | `/api/v1/users`                          | **TS02**, US17             | Crea el registro del perfil de usuario (datos personales).                 |
+| **Users (Profile)**        | `GET`    | `/api/v1/users/{email}`                  | **TS13**                   | Obtiene los datos del perfil usando el correo electrónico.                 |
+| **Users (Profile)**        | `PUT`    | `/api/v1/users/{id}`                     | **TS03**, US14             | Actualiza la información personal del perfil.                              |
+| **Users (Profile)**        | `DELETE` | `/api/v1/users/{id}`                     | US14 (Gestión)             | Permite la eliminación del perfil.                                         |
+| **Reports**                | `POST`   | `/api/v1/reports/`                       | **TS04**, **US06**, US23   | Registra un nuevo reporte de incidente.                                    |
+| **Reports**                | `GET`    | `/api/v1/reports/`                       | **TS05**, US09, US16       | Retorna la lista completa de reportes.                                     |
+| **Reports**                | `GET`    | `/api/v1/reports/{id}`                   | **TS06**, US09             | Obtiene los detalles de un reporte específico.                             |
+| **Reports**                | `GET`    | `/api/v1/reports/user/{userId}`          | **US18** (Filtrar Propios) | Retorna los reportes creados por un usuario.                               |
+| **Reports**                | `DELETE` | `/api/v1/reports/{id}`                   | US06 (CRUD)                | Permite la eliminación de un reporte específico.                           |
+| **Locations**              | `POST`   | `/api/v1/locations/`                     | **TS07**, US06, US23       | Registra las coordenadas de ubicación.                                     |
+| **Locations**              | `GET`    | `/api/v1/locations/dangerous`            | **TS08**, US10, US16       | Obtiene ubicaciones de alto riesgo por umbral de reportes (Mapa de Calor). |
+| **Alerts**                 | `POST`   | `/api/v1/alerts/`                        | **TS09**, US11             | Crea una alerta de emergencia o riesgo.                                    |
+| **Alerts**                 | `GET`    | `/api/v1/alerts/user/{userId}`           | **TS10**, US11             | Retorna la lista de alertas recibidas por un usuario.                      |
+| **Alerts**                 | `GET`    | `/api/v1/alerts/{id}`                    | **TS12**                   | Consulta una alerta específica por su ID.                                  |
+| **Alerts**                 | `DELETE` | `/api/v1/alerts/`                        | **TS11**                   | Elimina todas las alertas (usado para "recargar" la vista).                |
+
+---
+
+### 2. Documentación del RESTful API: Detalle y Convenciones
+
+La documentación del API se generó utilizando OpenAPI 3.0 (a través de **SpringDoc**), cumpliendo con el requisito de utilizar tecnologías y convenciones establecidas.
+
+| Convención                      | Detalle de Cumplimiento                                                                                                         |
+|:--------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| **Tecnología de Documentación** | OpenAPI 3.0 (SpringDoc), garantizando la sincronización con el código fuente.                                                   |
+| **Versionamiento**              | Todas las rutas de *endpoints* utilizan consistentemente `/api/v1/{recurso}`.                                                   |
+| **Seguridad**                   | Implementación de **JWT Bearer Token** (`Authorization: Bearer [JWT]`) para todas las llamadas autenticadas.                    |
+| **Códigos de Respuesta**        | Uso de códigos HTTP semánticos (ej., `201 Created` para POST, `200 OK` para GET, `400 Bad Request` para errores de validación). |
+
+#### **Evidencia: Descripción, Sintaxis y Ejemplo de Request**
+
+La siguiente tabla detalla la documentación clave para una muestra representativa de endpoints funcionales, incluyendo la sintaxis, los parámetros y ejemplos de datos simulados para PeaceApp.
+
+| Endpoint Documentado                 | Verbo    | Propósito Documentado                                              | Parámetros / Tipo de Solicitud                                             | Ejemplo de Request/Path (Datos de Muestra)                                                                                                                                                                      |
+|:-------------------------------------|:---------|:-------------------------------------------------------------------|:---------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **`/api/v1/authentication/sign-in`** | `POST`   | **Inicio de Sesión** y obtención de **JWT**.                       | Requiere **Request Body** con credenciales.                                | `{"username": "carlos.perez@mail.com", "password": "Pass123"}`                                                                                                                                                  |
+| **`/api/v1/reports/`**               | `POST`   | Crea un nuevo **Reporte de Incidente** de seguridad.               | Requiere **Request Body** con detalles, `user_id` y evidencia.             | `{"title": "Vehículo sospechoso", "detail": "Visto auto merodeando el parque de noche.", "type": "Observación", "user_id": 5, **"image": "s3-link/foto_reporte_101.jpg"**, "address": "Av. Los Tulipanes 345"}` |
+| **`/api/v1/locations/`**             | `POST`   | Registra las **Coordenadas** de una ubicación.                     | Requiere **Request Body** con latitud, longitud e `idReport`.              | `{"latitude": "-12.046387", "longitude": "-77.042793", "idReport": 101}`                                                                                                                                        |
+| **`/api/v1/locations/dangerous`**    | `GET`    | Obtiene ubicaciones para el **Mapa de Calor** (zonas de riesgo).   | Requiere **Query Parameter** `quantity_reports`.                           | `/api/v1/locations/dangerous?quantity_reports=3`                                                                                                                            |
+| **`/api/v1/alerts/`**                | `POST`   | **Crea una Alerta** de proximidad o manual.                        | Requiere **Request Body** con datos del incidente, `idUser` y evidencia.   | `{"location": "Cercado de Lima", "type": "Asalto", "description": "Alerta generada automáticamente por cercanía.", "idUser": 5, **"image_url": "s3-link/alerta_99.jpg"**, "idReport": 50}`                      |
+| **`/api/v1/alerts/user/{userId}`**   | `GET`    | Obtiene el historial de **Alertas** recibidas por un usuario.      | Requiere **Path Parameter** `userId`.                                      | `/api/v1/alerts/user/5`                                                                                                                                                                                         |
+| **`/api/v1/users/{id}`**             | `PUT`    | **Actualiza la Información** de Perfil de usuario.                 | Requiere **Path Parameter** `id` y **Request Body**.                       | *Body:* `{"name": "Carlos Antonio", "lastname": "Pérez Robles", "phonenumber": "999888777", **"profile_image": "s3-link/perfil_carlos.png"**}`                                                                  |
+
+---
+
+### 3. Evidencia del Proceso de Elaboración (Sistema de Control de Versiones)
+
+El proceso de elaboración se evidencia mediante el repositorio de GitHub, que forma parte integral del Software Development Configuration.
+
+#### **IAM SERVICE**
+
+**URL del Repositorio de Web Services:**
+https://github.com/PeaceApp-6336-Fundamentos/IAMService
+
+
+- Historial de commits:
+
+![CommitsEvidenceIAMService.png](assets/CommitsEvidenceIAMService.png)
+
+
+- Insights:
+
+![InsightsIAMService.png](assets/InsightsIAMService.png)
+---
+
+#### **User SERVICE**
+
+**URL del Repositorio de Web Services:**
+https://github.com/PeaceApp-6336-Fundamentos/UserService
+
+
+- Historial de commits:
+
+![CommitsEvidenceUserService.png](assets/CommitsEvidenceUserService.png)
+
+
+- Insights:
+
+![InsightsUserService.png](assets/InsightsUserService.png)
+---
+
+#### **Report SERVICE**
+
+**URL del Repositorio de Web Services:**
+https://github.com/PeaceApp-6336-Fundamentos/ReportService
+
+
+- Historial de commits:
+
+![CommitsEvidenceReportService.png](assets/CommitsEvidenceReportService.png)
+
+
+- Insights:
+
+![InsightsReportService.png](assets/InsightsReportService.png)
+---
+
+#### **Location SERVICE**
+
+**URL del Repositorio de Web Services:**
+https://github.com/PeaceApp-6336-Fundamentos/LocationService
+
+
+- Historial de commits:
+
+![CommitsEvidenceLocationService.png](assets/CommitsEvidenceLocationService.png)
+
+
+- Insights:
+
+![InsightsLocationService.png](assets/InsightsLocationService.png)
 ---
 
 
