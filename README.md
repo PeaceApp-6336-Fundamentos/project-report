@@ -2051,23 +2051,35 @@ De este modo, nuestra landing page estará disponible utilizando Vercel y podrá
 
 #### 5.3.1.1     Sprint Backlog 1
 
-
-
-| Sprint \#  |                                                        | Sprint 1       |                                                        |                                                                                                                                                                  |            |             |                                           |
-|------------|--------------------------------------------------------|----------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------|-------------------------------------------|
-| User Story |                                                        | Work-Item/Task |                                                        |                                                                                                                                                                  |            |             |                                           |
-| Id         | Title                                                  | Id             | Title                                                  | Description                                                                                                                                                      | Estimation | Assigned To | Status(To-do /InProcess /To-Review /Done) |
-| TS02       | Crear nuevo usuario mediante RESTful API               | 1              | Creación de un nuevo usuario en la RESTful API         | Como desarrollador, quiero permitir la creación de nuevos usuarios para que puedan acceder al sistema.                                                           | 5          |  Maria Pilares   | Done                                      |
-| TS03       | Editar perfil de usuario mediante RESTful API          | 2              | Modificación de un perfil de usuario en la RESTful API | Como desarrollador, quiero que los usuarios puedan actualizar su información personal para mantener sus perfiles al día.                                         | 3          |  Santiago Gordillo    | Done                                      |
-| TS05       | Crear reporte de incidente mediante RESTful API        | 3              | Creación de un reporte en la RESTful API               | Como desarrollador, quiero que los usuarios puedan crear reportes de incidentes para compartir información sobre zonas peligrosas.                               | 5          |  Bryan Espejo       | Done                                      |
-| TS06       | Obtener lista de reportes mediante RESTful API         | 4              | Obtención de una lista de reportes en la RESTful API   | Como desarrollador, quiero que los usuarios puedan obtener una lista de reportes para ver incidentes recientes en su área.                                       | 3          | Maria Pilares     | Done                                      |
-| TS08       | Enviar alerta de emergencia mediante RESTful API       | 5              | Creación de una alerta en la RESTful API               | Como desarrollador, quiero que los usuarios puedan enviar alertas de emergencia para que reciban ayuda inmediata.                                                | 8          | Anatoly Noriega     | Done                                      |
-| TS09       | Obtener lista de alertas enviadas mediante RESTful API | 6              | Obtención de una lista de alertas en la RESTful API    | Como desarrollador, quiero que los usuarios puedan obtener una lista de las alertas que han enviado previamente para que puedan revisar su historial de alertas. | 3          | Anatoly Noriega     | Done                                      |
-| TS10       | Obtener reporte por ID mediante RESTful API            | 7              | Obtención de un reporte en la RESTful API              | Como desarrollador, quiero que los usuarios puedan obtener los detalles de un solo reporte para consultar información específica sobre un incidente.             | 3          |  Santiago Gordillo    | Done                                      |
-
-
-
+| **User Story ID** | **User Story Title** | **Work-Item ID** | **Task Title** | **Descripción corta** | **Estimation (h)** | **Assigned To** | **Status** |
+|--------------------|----------------------|------------------|----------------|------------------------|--------------------|-----------------|-------------|
+| **TS02** | Crear nuevo usuario mediante RESTful API | 1 | Definir entidad `User` | Crear clase de dominio con atributos y validaciones. | 4h | María Pilares | Done |
+|  |  | 2 | Implementar `CreateUserService` | Lógica para registrar usuario y validar duplicados. | 6h | María Pilares | Done |
+|  |  | 3 | Crear `UserRepositoryJpa` | Implementar persistencia con Spring Data JPA. | 4h | María Pilares | Done |
+|  |  | 4 | Endpoint `POST /api/v1/users` | Exponer API para crear usuarios. | 6h | María Pilares | Done |
+|  |  | 5 | Configurar JWT y políticas de seguridad | Añadir autenticación JWT y roles de acceso. | 8h | Anatoly Noriega | Done |
+| **TS03** | Editar perfil de usuario mediante RESTful API | 6 | Actualizar entidad `User` | Agregar métodos para editar datos del usuario. | 4h | Santiago Gordillo | Done |
+|  |  | 7 | Implementar `UpdateUserProfileService` | Lógica de negocio para actualizar perfil. | 6h | Santiago Gordillo | Done |
+|  |  | 8 | Extender `UserRepositoryJpa` | Añadir métodos `findByEmail` y `update`. | 4h | Santiago Gordillo | Done |
+|  |  | 9 | Endpoint `PUT /api/v1/users/{id}` | Exponer API para editar perfil con JWT. | 6h | Santiago Gordillo | Done |
+| **TS05** | Crear reporte de incidente mediante RESTful API | 10 | Definir entidad `Report` | Crear modelo con tipo, ubicación y usuario. | 4h | Bryan Espejo | Done |
+|  |  | 11 | Implementar `CreateReportService` | Lógica para crear reportes asociados a usuario. | 6h | Bryan Espejo | Done |
+|  |  | 12 | Crear `ReportRepositoryJpa` | Persistencia JPA para reportes. | 4h | Bryan Espejo | Done |
+|  |  | 13 | Endpoint `POST /api/v1/reports` | Registrar reporte vía API. | 6h | Bryan Espejo | Done |
+| **TS06** | Obtener lista de reportes mediante RESTful API | 14 | Implementar `GetAllReportsService` | Consultar reportes activos. | 6h | María Pilares | Done |
+|  |  | 15 | Consultas en `ReportRepositoryJpa` | Métodos de filtrado por usuario o fecha. | 4h | María Pilares | Done |
+|  |  | 16 | Endpoint `GET /api/v1/reports` | Exponer lista de reportes. | 4h | María Pilares | Done |
+| **TS08** | Enviar alerta de emergencia mediante RESTful API | 17 | Definir entidad `Alert` | Crear modelo con tipo, coordenadas y usuario. | 4h | Anatoly Noriega | Done |
+|  |  | 18 | Implementar `SendAlertService` | Lógica para enviar alertas y validar usuario. | 6h | Anatoly Noriega | Done |
+|  |  | 19 | Crear `AlertRepositoryJpa` | Persistir alertas en base de datos. | 4h | Anatoly Noriega | Done |
+|  |  | 20 | Endpoint `POST /api/v1/alerts` | Exponer API para enviar alertas. | 6h | Anatoly Noriega | Done |
+|  |  | 21 | Integrar RabbitMQ / Kafka | Comunicación asíncrona entre módulos. | 8h | Anatoly Noriega | Done |
+| **TS09** | Obtener lista de alertas enviadas mediante RESTful API | 22 | Implementar `GetUserAlertsService` | Consultar alertas por usuario autenticado. | 4h | Anatoly Noriega | Done |
+|  |  | 23 | Endpoint `GET /api/v1/alerts` | API protegida con JWT. | 4h | Anatoly Noriega | Done |
+| **TS10** | Obtener reporte por ID mediante RESTful API | 24 | Implementar `GetReportByIdService` | Buscar reporte por ID. | 4h | Santiago Gordillo | Done |
+|  |  | 25 | Endpoint `GET /api/v1/reports/{id}` | Exponer detalle de reporte. | 4h | Santiago Gordillo | Done |
 ---
+
 
 
 #### 5.3.1.2     Development Evidence for Sprint Review
