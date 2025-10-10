@@ -1819,14 +1819,129 @@ A continuación, se presentan las capturas de Swagger correspondientes a cada mi
 ### 5.1.3 Pattern Based Custom Software Library
 
 
-### 5.1.4 Framework Pattern Driven Refactoring Report
-
-
-
-
-
+En el backend de **PeaceApp**, se han aplicado diversos **patrones de diseño** que fortalecen la modularidad, mantenibilidad y escalabilidad del sistema. Estas decisiones arquitectónicas se alinean con los principios de **Domain-Driven Design (DDD)** y la filosofía **Clean Architecture**, promoviendo un desarrollo desacoplado y orientado al dominio.
 
 ---
+
+## Patrón Resource + Transform
+
+Para mantener una separación clara entre las capas de **presentación (interfaces REST)** y **dominio**, PeaceApp implementa el patrón **Resource + Transform**.
+
+- **Resource:** Define los objetos de transferencia de datos (DTOs) que se exponen externamente a través de la API.  
+  Estos se encuentran en el paquete `interfaces.rest.resources` y representan las estructuras públicas de intercambio.
+
+- **Transform:** Se encarga de convertir las entidades del dominio en objetos `Resource` y viceversa.  
+  Esta lógica se centraliza en los *Assemblers* del paquete `interfaces.rest.transform`, evitando duplicación y acoplamiento dentro de los controladores.
+
+### Ejemplo en PeaceApp
+En el bounded context `user`, las clases `UserResourceFromEntityAssembler`, `CreateUserCommandFromResourceAssembler` y `UpdateUserCommandFromResourceAssembler` manejan estas transformaciones entre las entidades `User` del dominio y los DTOs `UserResource`, `CreateUserResource`, entre otros.
+
+![](assets/ejemplo_user.png)
+
+### Beneficios
+
+- Aísla las entidades del dominio de la capa de presentación, mejorando la seguridad y la claridad del flujo de datos.  
+- Centraliza la conversión de datos, evitando lógica repetida en los controladores.  
+- Facilita la evolución de la API sin afectar la lógica de negocio interna.  
+
+---
+
+## Patrón Repository (Spring Data JPA)
+
+PeaceApp utiliza el patrón **Repository**, implementado a través de **Spring Data JPA**, para manejar el acceso a datos de forma abstracta y desacoplada.  
+Cada agregado del dominio (por ejemplo, `User`, `Location`, `Report`, `Alert`) cuenta con su propio repositorio en el paquete `infrastructure.persistence.jpa`.
+
+### Ejemplo
+`UserRepositoryJpaAdapter` implementa la interfaz `UserRepository` definida en el dominio.  
+Esta clase traduce los objetos `User` del dominio hacia entidades JPA (`UserJpaEntity`), encapsulando completamente la persistencia.  
+Del mismo modo, `SpringDataUserRepository` extiende `JpaRepository`, aprovechando los métodos estándar de Spring Data y permitiendo consultas personalizadas mediante nomenclatura semántica.
+
+### Ventajas
+
+- Encapsula la lógica de acceso a datos, fomentando cohesión y claridad en el dominio.  
+- Reduce el código repetitivo mediante el uso de interfaces genéricas de JPA.  
+- Favorece la mantenibilidad al separar la persistencia de la lógica de negocio.  
+- Facilita las pruebas unitarias y el reemplazo de la infraestructura en el futuro.  
+
+---
+
+## Modelado manual de relaciones
+
+PeaceApp evita dependencias rígidas entre entidades utilizando **identificadores explícitos** en lugar de relaciones directas de JPA (como `@OneToMany` o `@ManyToOne`), especialmente entre bounded contexts como `user`, `report` y `location`.
+
+Por ejemplo, la entidad `Report` puede almacenar el identificador del usuario (`userId`) en lugar de referenciarlo directamente mediante una relación JPA.  
+Este enfoque, inspirado en el **modelado de dominios desacoplados**, mejora la flexibilidad y permite que cada bounded context evolucione de manera independiente.
+
+### Ventajas
+
+- Reduce el acoplamiento entre entidades de distintos módulos.  
+- Permite un mayor control sobre las validaciones y la gestión de relaciones.  
+- Facilita la separación clara entre bounded contexts, garantizando un diseño más modular y escalable.  
+
+---
+
+## Librería personalizada de autenticación JWT
+
+PeaceApp cuenta con una **librería interna de autenticación basada en JWT (JSON Web Tokens)** implementada en el módulo `security.iam`.  
+Esta librería se encarga de gestionar los tokens de autenticación utilizados por los microservicios para proteger los endpoints del sistema.
+
+### Componentes principales
+
+- **Generación de tokens:** A través del servicio `TokenServiceImpl`, los tokens son firmados y emitidos tras una autenticación exitosa.  
+- **Validación de tokens:** El filtro `BearerAuthorizationRequestFilter` intercepta las peticiones entrantes y valida la autenticidad del token.  
+- **Gestión de credenciales:** La clase `UserDetailsServiceImpl` integra la lógica de carga de usuarios autenticados.  
+- **Hashing de contraseñas:** Se utiliza `BCryptHashingService` para la encriptación segura de contraseñas.  
+
+### Ventajas
+
+- Elimina la necesidad de sesiones en el servidor, mejorando la escalabilidad.  
+- Permite que cada microservicio valide tokens de manera independiente.  
+- Promueve la reutilización, ya que la librería JWT es compatible con todos los módulos del sistema.  
+
+---
+
+## Beneficios generales
+
+La adopción de estos patrones en **PeaceApp** ha permitido construir una base sólida, escalable y orientada al dominio, con beneficios directos:
+
+- **Arquitectura modular:** Cada bounded context (`User`, `Location`, `Report`, `Alert`, `IAM`) mantiene independencia funcional y de despliegue.  
+- **Desacoplamiento por capas:** Separa claramente la lógica de negocio, infraestructura y presentación.  
+- **Mantenibilidad elevada:** Las transformaciones centralizadas y repositorios desacoplados facilitan futuras extensiones del sistema.  
+- **Escalabilidad técnica y funcional:** Los módulos pueden evolucionar sin interferir entre sí.  
+- **Alineación con DDD:** La arquitectura refleja los contextos del dominio real de PeaceApp (gestión de usuarios, ubicaciones, alertas y reportes), facilitando la comunicación entre desarrolladores y analistas.  
+
+---
+
+> **Conclusión:**  
+> El uso de patrones como *Resource + Transform*, *Repository* y el modelado desacoplado de relaciones, junto con la autenticación JWT, consolidan a **PeaceApp** como una arquitectura orientada al dominio, flexible y preparada para la evolución continua del sistema.
+
+### 5.1.4 Framework Pattern Driven Refactoring Report
+
+Durante el desarrollo de **PeaceApp**, se aplicaron patrones recomendados por el framework **Spring Boot** con el objetivo de mejorar la estructura, mantenibilidad y eficiencia del sistema.  
+Estas refactorizaciones fueron guiadas por principios de diseño orientados a patrones de arquitectura y se integraron de manera coherente con el modelo **Domain-Driven Design (DDD)** adoptado en el backend.
+
+---
+
+## Patrón Repository
+
+El patrón **Repository** fue implementado mediante **Spring Data JPA**, permitiendo abstraer el acceso a los datos y centralizar las operaciones CRUD a través de interfaces como `JpaRepository`.  
+Esta decisión promovió una arquitectura más limpia y desacoplada, manteniendo la lógica del negocio libre de dependencias hacia la capa de persistencia.
+
+### Implementación en PeaceApp
+
+Cada agregado del dominio cuenta con su propio repositorio dentro de la capa de infraestructura (`infrastructure.persistence.jpa`).  
+Ejemplos representativos son:
+
+- `UserRepositoryJpaAdapter` en el bounded context `user`.  
+- `LocationRepositoryJpaAdapter` en el bounded context `location`.  
+- `ReportRepositoryJpaAdapter` en el bounded context `report`.  
+
+Estos adaptadores implementan las interfaces de dominio (`UserRepository`, `LocationRepository`, `ReportRepository`), encapsulando la lógica de persistencia y transformando entidades JPA a objetos de dominio.
+
+
+
+
+-----
 
 ## 5.2 Software Configuration Management
 
