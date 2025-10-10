@@ -125,6 +125,28 @@
             - [4.3.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces](#4315-instantiate-architectural-elements-allocate-responsibilities-and-define-interfaces)
             - [4.3.1.6 Sketch Views (C4 & UML) and Record Design Decisions](#4316-sketch-views-c4--uml-and-record-design-decisions)
             - [4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)](#4317-analysis-of-current-design-and-review-iteration-goal-kanban-board)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+    - [5.1. Testing Suites & General Patterns](#51-testing-suites--general-patterns)
+        - [5.1.1. Backend Application Core Testing Suite](#511-backend-application-core-testing-suite)
+        - [5.1.2. Pattern Based Backend Application(s)](#512-pattern-based-backend-applications)
+        - [5.1.3. Pattern Based Custom Software Library](#513-pattern-based-custom-software-library)
+        - [5.1.4. Framework Pattern Driven Refactoring Report](#514-framework-pattern-driven-refactoring-report)
+    - [5.2. Software Configuration Management](#52-software-configuration-management)
+        - [5.2.1. Software Development Environment Configuration](#521-software-development-environment-configuration)
+        - [5.2.2. Source Code Management](#522-source-code-management)
+        - [5.2.3. Source Code Style Guide & Conventions](#523-source-code-style-guide--conventions)
+        - [5.2.4. Software Deployment Configuration](#524-software-deployment-configuration)
+    - [5.3. Microservices Implementation](#53-microservices-implementation)
+        - [5.3.1. Sprint 1](#531-sprint-1)
+            - [5.3.1.1. Sprint Backlog 1](#5311-sprint-backlog-1)
+            - [5.3.1.2. Development Evidence for Sprint Review](#5312-development-evidence-for-sprint-review)
+            - [5.3.1.3. Testing Suite Evidence for Sprint Review](#5313-testing-suite-evidence-for-sprint-review)
+            - [5.3.1.4. Execution Evidence for Sprint Review](#5314-execution-evidence-for-sprint-review)
+            - [5.3.1.5. Microservices Documentation Evidence for Sprint Review](#5315-microservices-documentation-evidence-for-sprint-review)
+            - [5.3.1.6. Software Deployment Evidence for Sprint Review](#5316-software-deployment-evidence-for-sprint-review)
+            - [5.3.1.7. Team Collaboration Insights during Sprint](#5317-team-collaboration-insights-during-sprint)
+            - [5.3.1.8. Kanban Board](#5318-kanban-board)
+
 - [Conclusiones](#conclusiones)
 - [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
@@ -2430,7 +2452,7 @@ URL de Location Service: https://github.com/PeaceApp-6336-Fundamentos/LocationSe
 ---
 
 
-#### 5.3.1.8     Kanban Board --> TP1
+#### 5.3.1.8     Kanban Board
 
 Al concluir el sprint, se completó al 100% con las historias de usuario planificadas para el mismo, en la siguiente captura se muestra el Kanban Board de la plataforma Trello.
 
