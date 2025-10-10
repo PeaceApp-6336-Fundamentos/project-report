@@ -2302,6 +2302,32 @@ En el desarrollo de la landing page se emplearon las siguientes tecnologías:
 
 - GitHub Pages: Servicio utilizado para el despliegue de la página, que permite crear sitios web estáticos directamente desde un repositorio Git. Es una solución ideal para landing pages, portfolios y documentación, ofreciendo una integración fluida con GitHub para un flujo de trabajo sin interrupciones.
 
+##### Despliegue Landing Page:
+
+La landing page fue desplegada utilizando Netlify, aprovechando su infraestructura optimizada para aplicaciones web estáticas y su red global de distribución de contenido (CDN), garantizando así un rendimiento rápido y confiable.
+
+![](assets/LandingDespliegue.png)
+
+##### Despliegue Web Application:
+
+La aplicación web fue desplegada en Netlify, aprovechando su infraestructura escalable y su red global de entrega de contenido (CDN), lo que permite una carga rápida, alta disponibilidad y un flujo de despliegue automatizado.
+
+Durante el proceso, se configuraron los entornos de compilación y las variables necesarias para garantizar la integración segura con el backend y las API RESTful (por el momento el Backend se encuentra de manera local). Asimismo, se estableció la automatización de despliegues continuos (Continuous Deployment) vinculando el repositorio del proyecto, de modo que cada actualización en la rama principal genera una nueva versión optimizada de la aplicación.
+![](assets/WebDespliegue.png)
+
+##### Despliegue Web Application:
+
+La aplicación web fue desplegada en Netlify, aprovechando su infraestructura escalable y su red global de entrega de contenido (CDN), lo que permite una carga rápida, alta disponibilidad y un flujo de despliegue automatizado.
+
+Durante el proceso, se configuraron los entornos de compilación y las variables necesarias para garantizar la integración segura con el backend y las API RESTful (por el momento el Backend se encuentra de manera local). Asimismo, se estableció la automatización de despliegues continuos (Continuous Deployment) vinculando el repositorio del proyecto, de modo que cada actualización en la rama principal genera una nueva versión optimizada de la aplicación.
+![](assets/WebDespliegue.png)
+
+##### Despliegue Mobile Application:
+
+La aplicación móvil no cuenta con un despliegue en un servicio externo, ya que fue desarrollada para ejecución local y distribución manual. Sin embargo, el archivo APK puede obtenerse directamente desde el repositorio del proyecto, permitiendo su exportación e instalación en dispositivos Android.
+
+Durante el proceso de desarrollo, se realizaron las configuraciones necesarias para compilar el proyecto y generar el APK con las dependencias actualizadas, garantizando su correcto funcionamiento e integración con el backend y los servicios RESTful.
+![](assets/MobilDespliegue.png)
 
 ---
 
