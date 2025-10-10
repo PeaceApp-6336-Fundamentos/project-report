@@ -55,6 +55,12 @@
     <td> Maria Pilares <br> Kenyi Ramirez <br> Anatoly Noriega <br> Santiago Gordillo <br> Bryan Espejo </td>
     <td> Avanzamos el capítulo 4, desarrollando la arquitectura del sistema, diagramas, drivers y aplicación del método ADD. </td>
   </tr>
+  <tr>
+    <td align="center">TP1</td>
+    <td>10/10/2025</td>
+    <td>Maria Pilares <br> Kenyi Ramirez <br> Anatoly Noriega <br> Santiago Gordillo <br> Bryan Espejo</td>
+    <td>Se desarrolló el capítulo 5, incluyendo la implementación, validación y despliegue del producto, junto con mejoras continuas en la documentación y estructura general del proyecto.</td>
+  </tr>
 </table>
 
 ---
