@@ -1022,6 +1022,7 @@ Se implementa el siguiente producto backlog a partir de las historias de
 usuario elaboradas, evaluándolas en un rango de 1,2,3,5,8 (serie
 Fibonacci), significando el mayor número como el más importante y
 relevante.
+
 | **ID** | **User Story / Technical Story Id** | **Título**                                               | **Descripción**                                                                                                                                                                    | **Story Points (1/2/3/5/8)** |
 |--------|-------------------------------------|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
 | 1      | **US02**                            | Navegar en la Landing Page                               | Como visitante de la Landing Page, quiero encontrar las secciones bien definidas para comprender fácilmente la información mostrada.                                               | 1                            |
