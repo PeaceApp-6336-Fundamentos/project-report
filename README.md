@@ -1917,12 +1917,31 @@ La adopción de estos patrones en **PeaceApp** ha permitido construir una base s
 
 ### 5.1.4 Framework Pattern Driven Refactoring Report
 
-
-
-
-
+Durante el desarrollo de **PeaceApp**, se aplicaron patrones recomendados por el framework **Spring Boot** con el objetivo de mejorar la estructura, mantenibilidad y eficiencia del sistema.  
+Estas refactorizaciones fueron guiadas por principios de diseño orientados a patrones de arquitectura y se integraron de manera coherente con el modelo **Domain-Driven Design (DDD)** adoptado en el backend.
 
 ---
+
+## Patrón Repository
+
+El patrón **Repository** fue implementado mediante **Spring Data JPA**, permitiendo abstraer el acceso a los datos y centralizar las operaciones CRUD a través de interfaces como `JpaRepository`.  
+Esta decisión promovió una arquitectura más limpia y desacoplada, manteniendo la lógica del negocio libre de dependencias hacia la capa de persistencia.
+
+### Implementación en PeaceApp
+
+Cada agregado del dominio cuenta con su propio repositorio dentro de la capa de infraestructura (`infrastructure.persistence.jpa`).  
+Ejemplos representativos son:
+
+- `UserRepositoryJpaAdapter` en el bounded context `user`.  
+- `LocationRepositoryJpaAdapter` en el bounded context `location`.  
+- `ReportRepositoryJpaAdapter` en el bounded context `report`.  
+
+Estos adaptadores implementan las interfaces de dominio (`UserRepository`, `LocationRepository`, `ReportRepository`), encapsulando la lógica de persistencia y transformando entidades JPA a objetos de dominio.
+
+
+
+
+-----
 
 ## 5.2 Software Configuration Management
 
