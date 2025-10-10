@@ -2337,9 +2337,95 @@ Durante el proceso de desarrollo, se realizaron las configuraciones necesarias p
 
 La StartUp PeaceApp realizó el presente sprint utilizando Git y GitHub para el control de versiones, implementando la metodología GitFlow para gestionar el trabajo. Se creó una organización en GitHub bajo el nombre de la StartUp y un repositorio para la Landing page, donde el equipo organizó el trabajo mediante ramas (branches). La rama main se reservó para el despliegue final, develop para fusionar con otras ramas, incluida la main, y las ramas feature se emplearon para desarrollar nuevas funcionalidades, manteniendo el código funcional protegido. Los miembros del equipo podían acceder a las ramas y realizar commits con sus cambios. Para más detalles sobre la metodología, como nomenclaturas y tipos de commits, se puede consultar la Guía disponible en el repositorio.
 
+URL del informe del proyecto: https://github.com/PeaceApp-6336-Fundamentos/project-report
 
-<!--EDITANDO (insertar imagen) -->
+- Insight-pulse
 
+![](assets/ReportEvidence.png)
+
+- Network-Graph
+
+![](assets/ReportGraph.png)
+
+URL del Landing Page: https://github.com/PeaceApp-6336-Fundamentos/PeaceApp-Landing-Page
+
+- Insight-pulse
+
+![](assets/LandingEvidence.png)
+
+- Network-Graph
+
+![](assets/LandingGraph.png)
+
+URL del Web Application: https://github.com/PeaceApp-6336-Fundamentos/PeaceApp-Web
+
+- Insight-pulse
+
+![](assets/WebEvidence.png)
+
+- Network-Graph
+
+![](assets/WebGraph.png)
+
+URL del Mobile Application: https://github.com/PeaceApp-6336-Fundamentos/PeaceApp-Mobile
+
+- Insight-pulse
+
+![](assets/MobileEvidence.png)
+
+- Network-Graph
+
+![](assets/MobileGraph.png)
+
+URL de IAM Service: https://github.com/PeaceApp-6336-Fundamentos/IAMService
+
+- Insight-pulse
+
+![](assets/IAMEvidence.png)
+
+- Network-Graph
+
+![](assets/IAMGraph.png)
+
+URL de User Service: https://github.com/PeaceApp-6336-Fundamentos/UserService
+
+- Insight-pulse
+
+![](assets/UserEvidence.png)
+
+- Network-Graph
+
+![](assets/UserGraph.png)
+
+URL de Report Service: https://github.com/PeaceApp-6336-Fundamentos/ReportService
+
+- Insight-pulse
+
+![](assets/ReportsEvidence.png)
+
+- Network-Graph
+
+![](assets/ReportsGraph.png)
+
+URL de Alert Service: https://github.com/PeaceApp-6336-Fundamentos/AlertService
+
+- Insight-pulse
+
+![](assets/AlertEvidence.png)
+
+- Network-Graph
+
+![](assets/AlertGraph.png)
+
+URL de Location Service: https://github.com/PeaceApp-6336-Fundamentos/LocationService
+
+- Insight-pulse
+
+![](assets/LocationEvidence.png)
+
+- Network-Graph
+
+![](assets/LocationGraph.png)
 
 ---
 
@@ -2349,17 +2435,6 @@ La StartUp PeaceApp realizó el presente sprint utilizando Git y GitHub para el 
 Al concluir el sprint, se completó al 100% con las historias de usuario planificadas para el mismo, en la siguiente captura se muestra el Kanban Board de la plataforma Trello.
 
 ![](assets/Kanban2.png)
-
-
-
-
-
-
-
-
-
-
-
 
 # Conclusiones
 
