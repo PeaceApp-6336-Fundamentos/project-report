@@ -2474,6 +2474,42 @@ Al concluir el sprint, se completó al 100% con las historias de usuario planifi
 
 ![](assets/Kanban2.png)
 
+
+
+### 5.3.2  Sprint 1
+
+#### 5.3.2.1     Sprint Backlog 1
+
+
+
+#### 5.3.2.2     Development Evidence for Sprint Review
+
+#### 5.3.2.3     Testing Suite Evidence for Sprint Review
+#### 5.3.2.4     Execution Evidence for Sprint Review
+  
+
+#### 5.3.2.5     Microservices Documentation Evidence for Sprint Review
+
+
+
+
+#### 5.3.2.6     Software Deployment Evidence for Sprint Review
+
+
+
+#### 5.3.2.7     Team Collaboration Insights during Sprint
+
+
+
+
+#### 5.3.2.8     Kanban Board
+
+En la siguiente captura se muestra el Kanban Board de la plataforma Trello.
+
+![](assets/Kanban2.png)
+
+
+
 # Conclusiones
 
 # Recomendaciones
