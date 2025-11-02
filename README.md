@@ -2511,20 +2511,23 @@ Al concluir el sprint, se completó al 100% con las historias de usuario planifi
 #### 5.3.2.3     Testing Suite Evidence for Sprint Review
 #### 5.3.2.4     Execution Evidence for Sprint Review
   
-
+EVIDENCIAS
 #### 5.3.2.5     Microservices Documentation Evidence for Sprint Review
 
 
-
+EVIDENCIAS
 
 #### 5.3.2.6     Software Deployment Evidence for Sprint Review
 
-
+EVIDENCIAS
 
 #### 5.3.2.7     Team Collaboration Insights during Sprint
 
+La StartUp PeaceApp realizó el presente sprint utilizando Git y GitHub para el control de versiones, implementando la metodología GitFlow para gestionar el trabajo. La rama main se reservó para el despliegue final, develop para fusionar con otras ramas, incluida la main, y las ramas feature se emplearon para desarrollar nuevas funcionalidades, manteniendo el código funcional protegido. Los miembros del equipo podían acceder a las ramas y realizar commits con sus cambios. Para más detalles sobre la metodología, como nomenclaturas y tipos de commits, se puede consultar la Guía disponible en el repositorio.
 
+URL del informe del proyecto: https://github.com/PeaceApp-6336-Fundamentos/project-report
 
+FOTO DE LA GRAFICA DE COLABORACION NOMA
 
 #### 5.3.2.8     Kanban Board
 
