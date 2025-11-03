@@ -2504,22 +2504,96 @@ Al concluir el sprint, se completó al 100% con las historias de usuario planifi
 
 #### 5.3.2.1     Sprint Backlog 2
 
-
-
 #### 5.3.2.2     Development Evidence for Sprint Review
 
 #### 5.3.2.3     Testing Suite Evidence for Sprint Review
+
 #### 5.3.2.4     Execution Evidence for Sprint Review
   
 EVIDENCIAS
 #### 5.3.2.5     Microservices Documentation Evidence for Sprint Review
 
+### 5.3.2.5 Microservices Documentation Evidence for Sprint Review
 
-EVIDENCIAS
+| Microservicio | Método | Endpoint (Ruta) | Tarea/Historia Habilitada | Propósito Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| Authentication (IAM) | POST | `/api/v1/authentication/sign-up` | TS02, US04 | Registro de credenciales de un nuevo usuario. |
+| Authentication (IAM) | POST | `/api/v1/authentication/sign-in` | TS01, US05 | Inicio de sesión y generación del JWT Bearer Token. |
+| Authentication (IAM) | PUT | `/api/v1/authentication/change-password` | US15 (Recuperación) | Permite actualizar la contraseña del usuario. |
+| Users (Profile) | POST | `/api/v1/users` | TS02, US17 | Crea el registro del perfil de usuario (datos personales). |
+| Users (Profile) | GET | `/api/v1/users/{email}` | TS13 | Obtiene los datos del perfil usando el correo electrónico. |
+| Users (Profile) | PUT | `/api/v1/users/{id}` | TS03, US14 | Actualiza la información personal del perfil. |
+| Users (Profile) | DELETE | `/api/v1/users/{id}` | US14 (Gestión) | Permite la eliminación del perfil. |
+| Reports | POST | `/api/v1/reports/` | TS04, US06, US23 | Registra un nuevo reporte de incidente. |
+| Reports | GET | `/api/v1/reports/` | TS05, US09, US18 | Retorna la lista completa de reportes. |
+| Reports | GET | `/api/v1/reports/{id}` | TS06, US09 | Obtiene los detalles de un reporte específico. |
+| Reports | GET | `/api/v1/reports/user/{userId}` | US18 (Filtrar Propios) | Retorna los reportes creados por un usuario. |
+| Reports | DELETE | `/api/v1/reports/{id}` | US06 (CRUD) | Permite la eliminación de un reporte específico. |
+| Locations | POST | `/api/v1/locations/` | TS07, US06, US23 | Registra las coordenadas de ubicación. |
+| Locations | GET | `/api/v1/locations/dangerous` | TS08, US10, US16 | Obtiene ubicaciones de alto riesgo por umbral de reportes (Mapa de Calor). |
+| Alerts | POST | `/api/v1/alerts/` | TS09, US11 | Crea una alerta de emergencia o riesgo. |
+| Alerts | GET | `/api/v1/alerts/user/{userId}` | TS10, US11 | Retorna la lista de alertas recibidas por un usuario. |
+| Alerts | GET | `/api/v1/alerts/{id}` | TS12 | Consulta una alerta específica por su ID. |
+| Alerts | DELETE | `/api/v1/alerts/` | TS11 | Elimina todas las alertas (usado para "recargar" la vista). |
+
+----
+
+### Evidencia: Descripción, Sintaxis y Ejemplo de Request
+
+La siguiente tabla detalla la documentación clave para una muestra representativa de endpoints funcionales, incluyendo la sintaxis, los parámetros y ejemplos de datos simulados para PeaceApp.
+
+| Endpoint Documentado | Verbo | Propósito Documentado | Parámetros / Tipo de Solicitud | Ejemplo de Request/Path (Datos de Muestra) |
+| :--- | :--- | :--- | :--- | :--- |
+| `/api/v1/authentication/sign-in` | POST | Inicio de Sesión y obtención de JWT. | Requiere **Request Body** con credenciales. | `{"username": "ana.rojas@securityapp.net", "password": "NewPass2025"}` |
+| `/api/v1/reports/` | POST | Crea un nuevo **Reporte de Incidente** de seguridad. | Requiere **Request Body** con detalles, `user_id` y evidencia. | `{"title": "Pelea en la calle", "detail": "Dos personas discutiendo a gritos en la esquina.", "type": "Disturbio", "user_id": 8, "image": "s3-link/reporte_calle_202.png", "address": "Calle Las Begonias 120"}` |
+| `/api/v1/locations/` | POST | Registra las **Coordenadas** de una ubicación. | Requiere **Request Body** con latitud, longitud e `idReport`. | `{"latitude": "-12.055800", "longitude": "-77.033500", "idReport": 202}` |
+| `/api/v1/locations/dangerous` | GET | Obtiene ubicaciones para el **Mapa de Calor** (zonas de riesgo). | Requiere **Query Parameter** `quantity_reports`. | `/api/v1/locations/dangerous?quantity_reports=5` |
+| `/api/v1/alerts/` | POST | Crea una **Alerta** de proximidad o manual. | Requiere **Request Body** con datos del incidente, `idUser` y evidencia. | `{"location": "Miraflores", "type": "Robo", "description": "Alerta manual por presencia de sujetos sospechosos.", "idUser": 8, "image_url": "s3-link/alerta_manual_150.jpg", "idReport": 77}` |
+| `/api/v1/alerts/user/{userId}` | GET | Obtiene el **historial de Alertas** recibidas por un usuario. | Requiere **Path Parameter** `userId`. | `/api/v1/alerts/user/8` |
+| `/api/v1/users/{id}` | PUT | Actualiza la **Información de Perfil** de usuario. | Requiere **Path Parameter** `id` y **Request Body**. | **Path**: `/api/v1/users/25` <br> **Body**: `{"name": "Ana Sofía", "lastname": "Rojas Gómez", "phonenumber": "987654321", "profile_image": "s3-link/perfil_ana.jpg"}` |
+
+### Evidencia del Proceso de Elaboración (Sistema de Control de Versiones)
+
+El proceso de elaboración se evidencia mediante el repositorio de GitHub, que forma parte integral del Software Development Configuration.
+
+**IAM SERVICE** URL del Repositorio de Web Services:  
+[https://github.com/PeaceApp-6336-Fundamentos/IAMService](https://github.com/PeaceApp-6336-Fundamentos/IAMService)
+
+**User SERVICE** URL del Repositorio de Web Services:  
+[https://github.com/PeaceApp-6336-Fundamentos/UserService](https://github.com/PeaceApp-6336-Fundamentos/UserService)
+
+**Report SERVICE** URL del Repositorio de Web Services:  
+[https://github.com/PeaceApp-6336-Fundamentos/ReportService](https://github.com/PeaceApp-6336-Fundamentos/ReportService)
+
+**Location SERVICE** URL del Repositorio de Web Services:  
+[https://github.com/PeaceApp-6336-Fundamentos/LocationService](https://github.com/PeaceApp-6336-Fundamentos/LocationService)
+
+**Alert SERVICE** URL del Repositorio de Web Services:  
+[https://github.com/PeaceApp-6336-Fundamentos/AlertService](https://github.com/PeaceApp-6336-Fundamentos/AlertService)
+
 
 #### 5.3.2.6     Software Deployment Evidence for Sprint Review
 
-EVIDENCIAS
+##### Despliegue Web Application:
+
+La aplicación web fue desplegada en Netlify, aprovechando su infraestructura escalable y su red global de entrega de contenido (CDN), lo que permite una carga rápida, alta disponibilidad y un flujo de despliegue automatizado.
+
+Durante el proceso, se configuraron los entornos de compilación y las variables necesarias para garantizar la integración segura con el backend y las API RESTful (por el momento el Backend se encuentra de manera local). Asimismo, se estableció la automatización de despliegues continuos (Continuous Deployment) vinculando el repositorio del proyecto, de modo que cada actualización en la rama principal genera una nueva versión optimizada de la aplicación.
+![](assets/WebDespliegue.png)
+
+##### Despliegue Web Application:
+
+La aplicación web fue desplegada en Netlify, aprovechando su infraestructura escalable y su red global de entrega de contenido (CDN), lo que permite una carga rápida, alta disponibilidad y un flujo de despliegue automatizado.
+
+Durante el proceso, se configuraron los entornos de compilación y las variables necesarias para garantizar la integración segura con el backend y las API RESTful (por el momento el Backend se encuentra de manera local). Asimismo, se estableció la automatización de despliegues continuos (Continuous Deployment) vinculando el repositorio del proyecto, de modo que cada actualización en la rama principal genera una nueva versión optimizada de la aplicación.
+![](assets/WebDespliegue.png)
+
+##### Despliegue Mobile Application:
+
+La aplicación móvil no cuenta con un despliegue en un servicio externo, ya que fue desarrollada para ejecución local y distribución manual. Sin embargo, el archivo APK puede obtenerse directamente desde el repositorio del proyecto, permitiendo su exportación e instalación en dispositivos Android.
+
+Durante el proceso de desarrollo, se realizaron las configuraciones necesarias para compilar el proyecto y generar el APK con las dependencias actualizadas, garantizando su correcto funcionamiento e integración con el backend y los servicios RESTful.
+![](assets/MobilDespliegue.png)
 
 #### 5.3.2.7     Team Collaboration Insights during Sprint
 
