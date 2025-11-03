@@ -2504,7 +2504,30 @@ Al concluir el sprint, se completó al 100% con las historias de usuario planifi
 
 #### 5.3.2.1     Sprint Backlog 2
 
+| User Story | Tarea | Descripción | Horas Estimadas | Asignado a | Estado |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| TS05: Obtener lista de reportes mediante RESTful API | 1 | Implementar GetAllReportsService | 2h | María Pilares | Done |
+| | 2 | Consultas en ReportRepositoryJpa | 2h | Kenyi Ramírez | Done |
+| | 3 | Endpoint GET /api/v1/reports | 2h | María Pilares | Done |
+| TS09: Crear Alerta de emergencia mediante RESTful API | 4 | Definir entidad Alert | 2h | Anatoly Noriega | Done |
+| | 5 | Implementar SaveAlertService | 2h | Anatoly Noriega | Done |
+| | 6 | Endpoint POST /api/v1/alerts | 2h | Anatoly Noriega | Done |
+| TS08: Obtener lista de alertas enviadas mediante RESTful API | 7 | Implementar GetAllAlertsService | 2h | Anatoly Noriega | Done |
+| | 8 | Endpoint GET /api/v1/alerts | 2h | Kenyi Ramírez | Done |
+| TS10: Conocer reporte por ID mediante RESTful API | 9 | Implementar GetReportByIdService | 2h | Santiago Gordillo | Done |
+| | 10 | Crear MESSAGE BROKER | 6h | Anatoly Noriega | Done |
+
 #### 5.3.2.2     Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| PeaceApp-Front End | main | c63def3e62<br>ba7e0c5b7 | refactor:fix stuff | - | |
+| PeaceApp-Back end | main | 01fb80064e<br>82b7e68e432<br>f0aabb7052<br>c04ba11742<br>2d05ee1a9<br>e225227e3cf | feat: added Backend | - | |
+| PeaceApp-AlertService | main | 9c02407ee<br>261d427bb<br>305889666<br>e1beb314bc621 | feat: add message broker for alert service | - | Nov 2, 2025 |
+| PeaceApp-LocationService | main | 3e5755cac<br>e10a7f3a45<br>0bc967565<br>4ebebd9f917d | feat: add message broker for location service | - | Nov 2, 2025 |
+| PeaceApp-ReportService | main | 5a2a16cab<br>b0479679ff<br>844908f07<br>d253c6b563a | feat: add message broker for reports service | - | Nov 2, 2025 |
+| PeaceApp-MessageBroker | main | 978efb9692<br>abd3638ad<br>b0a4e3226f<br>5fdf503ee2e | feat: add message broker | - | Nov 2, 2025 |
+
 
 #### 5.3.2.3     Testing Suite Evidence for Sprint Review
 
@@ -2512,8 +2535,6 @@ Al concluir el sprint, se completó al 100% con las historias de usuario planifi
   
 EVIDENCIAS
 #### 5.3.2.5     Microservices Documentation Evidence for Sprint Review
-
-### 5.3.2.5 Microservices Documentation Evidence for Sprint Review
 
 | Microservicio | Método | Endpoint (Ruta) | Tarea/Historia Habilitada | Propósito Principal |
 | :--- | :--- | :--- | :--- | :--- |
