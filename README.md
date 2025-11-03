@@ -2531,26 +2531,30 @@ Al concluir el sprint, se completó al 100% con las historias de usuario planifi
 
 #### 5.3.2.3     Testing Suite Evidence for Sprint Review
 
-![](assets/Test1.png)
-![](assets/Test2.png)
-
+ ![](assets/Test1.jpg)
+ ![](assets/Test2.jpg)
 
 #### 5.3.2.4     Execution Evidence for Sprint Review
 
 ALERTS:
 
-![](assets/Alert1.png)
-![](assets/Alert2.png)
+![](assets/Alert1.jpg)
+![](assets/Alert2.jpg)
 
 LOCATION:
-![](assets/Location1.png)
-![](assets/Location2.png)
+![](assets/Location1.jpg)
+![](assets/Location2.jpg)
 
 REPORTS:
-![](assets/Report1.png)
-![](assets/Report2.png)
+![](assets/Report1.jpg)
+![](assets/Report2.jpg)
+![](assets/Report3.jpg)
 
-
+MESSAGE BROKER:
+![](assets/Message1.jpg)
+![](assets/Message2.jpg)
+![](assets/Message3.jpg)
+![](assets/Message4.jpg)
   
 #### 5.3.2.5     Microservices Documentation Evidence for Sprint Review
 
